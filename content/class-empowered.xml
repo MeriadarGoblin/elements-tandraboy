@@ -156,7 +156,7 @@
         </description>
         <sheet action="Action">
             <description>
-                <p>whenever you make a Strength check, you can summon up the power that dwells within you to roll an additional d20. You can use this feature after you roll the die, but before the outcome is determined. You choose which of the d20s is used for the check. You can use this feature a number of times equal to your Constitution modifier (a minimum of once). You regain any expended uses when you finish a long rest ({{constitution:modifier}} max).</p>
+                <p>Whenever you make a Strength check, you can summon up the power that dwells within you to roll an additional d20. You can use this feature after you roll the die, but before the outcome is determined. You choose which of the d20s is used for the check. You can use this feature a number of times equal to your Constitution modifier (a minimum of once). You regain any expended uses when you finish a long rest ({{constitution:modifier}} max).</p>
             </description>
         </sheet>
     </element>
@@ -287,7 +287,7 @@
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_CONDUIT_ENERGY_BEAM" />
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_CONDUIT_HAZARD_ZONE" />
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_CONDUIT_BEAM_SCULPTING" />
-            <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_CONDUIT_OVERCHARGE" />
+            <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_CONDUIT_HYPER_BEAM" />
         </description>
         <sheet display="false" />
         <rules>
@@ -295,7 +295,7 @@
             <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_CONDUIT_ENERGY_BEAM" level="3" />
             <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_CONDUIT_HAZARD_ZONE" level="7" />
             <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_CONDUIT_BEAM_SCULPTING" level="13" />
-            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_CONDUIT_OVERCHARGE" level="17" />
+            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_CONDUIT_HYPER_BEAM" level="17" />
         </rules>
     </element>
     <element name="Elemental Infusion" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_CONDUIT_ELEMENTAL_INFUSION">
@@ -368,39 +368,28 @@
             <p>At 13th level, your Energy Beam can now be sculpted into different shapes. As an action on your turn, you can expend a use of Strength Surge to make a separate attack roll with your Energy Beam against each creature within one of the following areas of effect:</p>
             <ul>
                 <li><strong>Energy Blast: </strong>A 15 foot cone in front of you.</li>
-                <li><strong>Energy Missile: </strong>A 10 foot radius sphere located up to 60 feet away from you. </li>
-                <li><strong>Energy Ray: </strong> A line that is 60 foot long and 5 feet wide, projected out from you in any direction.</li>
+                <li><strong>Energy Volley: </strong> A 10 foot radius sphere located up to 100 feet away from you. </li>
+                <li><strong>Energy Ray: </strong> A line that is 100 feet long and 5 feet wide, projected out from you in any direction.</li>
             </ul>
-            <p>Once you sculpt your beam, you must complete a short or long rest before doing so again. </p>
         </description>
         <sheet usage="1/Short or Long Rest">
             <description>
-                <p>When you use your Energy Beam, you can give the beam one of the following areas of effect:</p>
+                <p>As an action on your turn, you can expend a use of Strength Surge to make a separate attack roll with your Energy Beam against each creature within one of the following areas of effect:</p>
                 <ul>
                     <li><strong>Energy Blast: </strong>A 15 foot cone in front of you.</li>
-                    <li><strong>Energy Missile: </strong>A 10 foot radius sphere located up to 60 feet away from you. </li>
-                    <li><strong>Energy Ray: </strong> A line that is 60 foot long and 5 feet wide, projected out from you in any direction.</li>
+                    <li><strong>Energy Volley: </strong> A 10 foot radius sphere located up to 100 feet away from you. </li>
+                    <li><strong>Energy Ray: </strong> A line that is 100 feet long and 5 feet wide, projected out from you in any direction.</li>
                 </ul>
             </description>
         </sheet>
     </element>
-    <element name="Overcharge" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_CONDUIT_OVERCHARGE">
+    <element name="Hyper Beam" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_CONDUIT_HYPER_BEAM">
         <description>
-            <p>At 17th level, once per long rest, you can use this ability at any time on your turn to begin charging your Energy Beam rapidly. You gain the following effects for 1 minute:</p>
-            <ul>
-                <li>When you take infusion damage or use a bonus action to charge your Energy Beam, you gain 2 charges instead of 1. You gain 2 charges for it at the start of each of your turns.</li>
-                <li>Your Hazard Zone range increases to 10 feet.</li>
-                <li>You emit bright light within 10 feet of you, and dim light for another 10 feet.</li>
-            </ul>
+            <p> At 17th level, as an action on your turn, you can unleash a Hyper Beam that is 60 feet long and 5 feet wide, forcing all creatures within range to make a Dexterity saving throw against your power save DC. This saving throw is made with disadvantage if your Energy Beam is charged. Creatures take 12d8 infusion damage on a failed save, or half as much on a successful one. Once you unleash your Hyper Beam, you must complete a long rest before you can use it again. </p>
         </description>
         <sheet usage="1/Long Rest">
             <description>
-                <p>Once per long rest, you can use this ability at any time on your turn to begin charging your Energy Beam rapidly. You gain the following effects for 1 minute:</p>
-                <ul>
-                    <li>When you take infusion damage or use a bonus action to charge your Energy Beam, you gain 2 charges instead of 1. You gain 2 charges for it at the start of each of your turns.</li>
-                    <li>Your Hazard Zone range increases to 10 feet.</li>
-                    <li>You emit bright light within 10 feet of you, and dim light for another 10 feet.</li>
-                </ul>
+                <p>As an action on your turn, you can unleash a Hyper Beam that is 60 feet long and 5 feet wide, forcing all creatures within range to make a Dexterity saving throw against your power save DC. This saving throw is made with disadvantage if your Energy Beam is charged. Creatures take 12d8 infusion damage on a failed save, or half as much on a successful one. Once you unleash your Hyper Beam, you must complete a long rest before you can use it again. </p>
             </description>
         </sheet>
     </element>
@@ -408,7 +397,7 @@
     <element name="Idol" type="Archetype" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_IDOL">
         <supports>Power Manifestation</supports>
         <description>
-            <p>The Idol is a symbol that the people look to for hope and direction. Their abilities usually have been bestowed by a higher power so that they may serve the greater good. But an Idol can be evil depending on who they care about and what they stand for. Their powers are simple and effective.</p>
+            <p>The Idol is a symbol that the people look to for hope and direction. They are usually everyday individuals who have had the responsibility of power thrust upon them. As such, their powers are simple and effective.</p>
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_EVERYMAN" />
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_EXEMPLAR" />
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_EXPERIMENTAL_TRAINING" />
@@ -427,10 +416,17 @@
     <element name="Everyman" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_EVERYMAN">
         <description>
             <p>When you choose this manifestation at 3rd level, you're a humble adventurer, of simple beginnings. You can add half your proficiency bonus, rounded down, to any ability check you make that doesn’t already include your proficiency bonus.</p>
+            <p class="indent">Additionally, you gain one of the following proficiencies:</p>
+            <ul>
+                <li>Proficiency with a language of your choice.</li>
+                <li>Proficiency with a set of artisan's tools of your choice.</li>
+                <li>Proficiency with a weapon of your choice.</li>
+                <li>Proficiency with a skill of your choice.</li>
+            </ul>
         </description>
         <sheet description="false" />
         <rules>
-            <stat name="initiative" value="proficiency:half" bonus="proficiency" />
+            <select type="Archetype Feature" name="Everyman Proficiency" supports="Everyman" />
 			<stat name="acrobatics:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_ACROBATICS"/>
 			<stat name="animal handling:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_ANIMALHANDLING"/>
 			<stat name="arcana:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_ARCANA"/>
@@ -451,9 +447,34 @@
 			<stat name="survival:misc" value="proficiency:half" requirements="!ID_PROFICIENCY_SKILL_SURVIVAL"/>
         </rules>
     </element>
+    <element name="Language (Everyman)" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_EVERYMAN_LANGUAGE">
+        <supports>Everyman</supports>
+        <description></description>
+        <sheet display="false" />
+        <select type="Language" name="Language (Everyman)" supports="ID_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_SUPPLIES|ID_PROFICIENCY_TOOL_PROFICIENCY_BREWERS_SUPPLIES|ID_PROFICIENCY_TOOL_PROFICIENCY_CALLIGRAPHERS_SUPPLIES|ID_PROFICIENCY_TOOL_PROFICIENCY_CARPENTERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_CARTOGRAPHERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_COBBLERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_COOKS_UTENSILS|ID_PROFICIENCY_TOOL_PROFICIENCY_DISGUISE_KIT|ID_PROFICIENCY_TOOL_PROFICIENCY_FORGERY_KIT|ID_PROFICIENCY_TOOL_PROFICIENCY_GLASSBLOWERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_HERBALISM_KIT|ID_PROFICIENCY_TOOL_PROFICIENCY_JEWELERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_LEATHERWORKERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_MASONS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_NAVIGATORS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_PAINTERS_SUPPLIES|ID_PROFICIENCY_TOOL_PROFICIENCY_POISONERS_KIT|ID_PROFICIENCY_TOOL_PROFICIENCY_POTTERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_SMITHS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_TINKERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_WEAVERS_TOOLS|ID_PROFICIENCY_TOOL_PROFICIENCY_WOODCARVERS_TOOLS" />
+    </element>
+    <element name="Artisan Tool (Everyman)" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_EVERYMAN_ARTISAN">
+        <supports>Everyman</supports>
+        <description></description>
+        <sheet display="false" />
+        <select type="Language" name="Language (Everyman)" supports="Standard||Exotic" />
+    </element>
+    <element name="Weapon (Everyman)" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_EVERYMAN_WEAPON">
+        <supports>Everyman</supports>
+        <description></description>
+        <sheet display="false" />
+        <select type="Proficiency" name="Weapon (Everyman)" supports="Weapon,Simple,Martial" />
+    </element>
+    <element name="Skill (Everyman)" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_EVERYMAN_SKILL">
+        <supports>Everyman</supports>
+        <description></description>
+        <sheet display="false" />
+        <select type="Proficiency" name="Skill Proficiency (Everyman)" supports="Skill" />
+    </element>
+
     <element name="Exemplar" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_EXEMPLAR">
         <description>
-            <p>Also at 3rd level, you lead by example. Once per round, if you land an unarmed strike during your turn, you can expend a use of Strength Surge to embolden an ally of your choice within 20 feet of you that can see or hear you.</p>
+            <p>Also at 3rd level, you lead by example. Once per round, if you land an unarmed strike during your turn, you can expend a use of Strength Surge to embolden an ally of your choice within 30 feet of you that can see or hear you.</p>
             <p class="indent">While a creature is emboldened, they can roll your Pure Strength die and add the number rolled to an attack or damage roll it just made. Alternatively, when an attack roll is made against the creature, it can use its reaction to roll your Pure Strength die and add the number rolled to its AC against that attack, after seeing the roll but before knowing whether it hits or misses.</p>
             <p class="indent">The creature ceases to be emboldened after rolling your Pure Strength die. You cannot use this ability on a creature that is currently emboldened.</p>
         </description>
@@ -463,32 +484,30 @@
     </element>
     <element name="Experimental Training" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_EXPERIMENTAL_TRAINING">
         <description>
-            <p>At 7th level, you've put in the time and effort to learn more about your abilities. You learn an additional Astounding Power whose requirements you meet. This power does not count against your number of Powers Known.</p>
+            <p>At 7th level, you learn an additional Astounding Power whose requirements you meet. This power does not count against your number of Powers Known. Additionally, you can now use your Strength Surge a number of times equal to 1 + your Constitution modifier (minimum of twice).</p>
         </description>
-        <sheet display="false" />
+        <sheet>
+            <description>You can now use your Strength Surge a number of times equal to 1 + your Constitution modifier (minimum of twice).</description>
+        </sheet>
         <rules>
             <select type="Class Feature" name="Experimental Training" supports="Astounding Powers" />
         </rules>
     </element>
     <element name="Fearless Leader" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_FEARLESS_LEADER">
         <description>
-            <p>At 13th level, so long as you keep fighting, your allies have your back. When you use the Exemplar ability to embolden a creature, that creature ceases to be charmed or frightened.</p>
-            <p class="indent">Additionally, the maximum number of times you can use Strength Surge is increased by 1.</p>
+            <p>At 13th level, so long as you keep fighting, your allies will stick by you through thick and thin. Whenever you use your Exemplar ability to embolden a creature, you become emboldened as well. Additionally, whenever you use your Exemplar ability to embolden a creature, that creature ceases to be charmed or frightened. </p>
         </description>
         <sheet>
-            <description>When you use the Exemplar ability to embolden a creature, that creature ceases to be charmed or frightened. Additionally, the maximum number of times you can use Strength Surge is increased by 1.</description>
+            <description>Whenever you use your Exemplar ability to embolden a creature, you become emboldened as well. Additionally, whenever you use your Exemplar ability to embolden a creature, that creature ceases to be charmed or frightened.</description>
         </sheet>
     </element>
     <element name="Glorious Purpose" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_GLORIOUS_PURPOSE">
         <description>
-            <p> At 17th level, you don't back away from destiny. You can cast Foresight on yourself without using material components. Once you use this feature, you must complete a long rest to do so again.</p>
+            <p>At 17th level, your sense of purpose gives you the strength to face down your destiny. You can use a bonus action to regain a single use of Strength Surge. For one minute after using this ability, or until you are incapacitated, you regain a use of Strength Surge at the start of each of your turns. Once you use this ability, you must complete a long rest to use it again.</p>
         </description>
-        <sheet>
-            <description>You can cast Foresight on yourself without using material components. Once you use this feature, you must complete a long rest to do so again.</description>
+        <sheet action="Bonus Action">
+            <description>You can use a bonus action to regain a single use of Strength Surge. For one minute after using this ability, or until you are incapacitated, you regain a use of Strength Surge at the start of each of your turns. Once you use this ability, you must complete a long rest to use it again.</description>
         </sheet>
-        <rules>
-            <grant type="Spell" id="ID_PHB_SPELL_FORESIGHT" />
-        </rules>
     </element>
 
     <element name="Mutant" type="Archetype" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_MUTANT" >
@@ -583,27 +602,25 @@
     </element>
     <element name="Accelerate" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_ACCELERATE">
         <description>
-            <p>When you choose this manifestation at 3rd level, your powers allow you to continuously pick up speed.</p>
-            <p class="indent">When you take the Dash action on your turn, you can expend a use of Strength Surge to start accelerating. While accelerating, your walking speed is increased by 10 feet. Add this bonus before calculating how much movement the Dash provides. This bonus increases by 10 each time you Dash on subsequent turns, up to a maximum total bonus of 30.</p>
-            <p class="indent">You stop accelerating once you end a turn without taking the Dash action, or if you are grappled, restrained, or otherwise have your speed reduced to 0.</p>
-            <p class="indent">Once you reach 30 bonus walking speed with this ability, your unarmed strikes push creatures back 5 feet if they are your size or smaller.</p>
+            <p>When you choose this manifestation at 3rd level, your powers grant you supernatural speed. Once at the start of each of your turns, you can expend a use of Strength Surge to activate your Super Speed, which doubles any movement you gain by Dashing until the start of your next turn. </p>
+            <p class="indent">Additionally you can move through spaces occupied by creatures while under the effects of your Super Speed. If you end your turn on an occupied space, you are forced into the nearest unoccupied space. Moving through a creature's space this way disorients them, which imposes disadvantage on the next attack roll or ability check the creature makes before the start of your next turn.</p>
         </description>
         <sheet>
-            <description>When you take the Dash action on your turn, you can expend a use of Strength Surge to start accelerating. While accelerating, your walking speed is increased by 10 feet. Add this bonus before calculating how much movement the Dash provides. This bonus increases by 10 each time you Dash on subsequent turns, up to a maximum total bonus of 30. You stop accelerating once you end a turn without taking the Dash action, or if you are grappled, restrained, or otherwise have your speed reduced to 0. Once you reach 30 bonus walking speed with this ability, your unarmed strikes push creatures back 5 feet if they are your size or smaller.</description>
+            <description>Once at the start of each of your turns, you can expend a use of Strength Surge to activate your Super Speed, which doubles any movement you gain by Dashing until the start of your next turn. Additionally you can move through spaces occupied by creatures while under the effects of your Super Speed. If you end your turn on an occupied space, you are forced into the nearest unoccupied space. Moving through a creature's space this way disorients them, which imposes disadvantage on the next attack roll or ability check the creature makes before the start of your next turn.</description>
         </sheet>
     </element>
     <element name="Athleticisim" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_ATHLETICISM">
         <description>
-            <p>Also at 3rd level, even without accelerating, you are still very quick. While benefiting from Pure Strength, your walking speed increases by 10 feet. This bonus increases to 20 feet at 10th level in this class, and 30 feet at 18th level in this class.</p>
-            <p class="indent">Additionally, you can use your bonus action to take the Dash or Disengage actions on your turn.</p>
+            <p>Also at 3rd level, even without your super speed, you're still pretty quick. You can take the Dash or Disengage actions as a bonus action on your turn. </p>
+            <p class="indent">Additionally, your walking speed is increased by 5 feet. This bonus increases to 10 at 7th level in this class, to 15 at 13th level in this class, and to 20 at 17th level in this class.</p>
         </description>
         <sheet action="Bonus Action">
             <description>You can take Dash or Disengage actions on your turn.</description>
         </sheet>
         <rules>
-            <stat name="innate speed:misc" value="10" bonus="athleticism" level="3" equipped="![armor:heavy],[shield:none]" />
-            <stat name="innate speed:misc" value="20" bonus="athleticism" level="10" equipped="![armor:heavy],[shield:none]" />
-            <stat name="innate speed:misc" value="30" bonus="athleticism" level="18" equipped="![armor:heavy],[shield:none]" />
+            <stat name="innate speed:misc" value="5" bonus="athleticism" level="3" equipped="![armor:heavy],[shield:none]" />
+            <stat name="innate speed:misc" value="10" bonus="athleticism" level="7" equipped="![armor:heavy],[shield:none]" />
+            <stat name="innate speed:misc" value="15" bonus="athleticism" level="13" equipped="![armor:heavy],[shield:none]" />
         </rules>
     </element>
     <element name="Rapid Disarm" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_RAPID_DISARM">
