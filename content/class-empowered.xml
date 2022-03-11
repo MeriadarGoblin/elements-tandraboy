@@ -393,6 +393,76 @@
             </description>
         </sheet>
     </element>
+
+    <element name="Hybrid" type="Archetype" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_HYBRID">
+        <supports>Power Manifestation</supports>
+        <description>
+            <p>While druids serve the land voluntarily, nature has singled you out to be its champion. Your powers have turned you into something wild, untamed, and dangerous.</p>
+            <div element="" />
+            <div element="" />
+            <div element="" />
+            <div element="" />
+            <div element="" />
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Archetype Feature" id="" level="3" />
+            <grant type="Archetype Feature" id="" level="3" />
+            <grant type="Archetype Feature" id="" level="7" />
+            <grant type="Archetype Feature" id="" level="13" />
+            <grant type="Archetype Feature" id="" level="17" />
+        </rules>
+    </element>
+    <element name="Nature's Chosen" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_HYBRID_NATURES_CHOSEN">
+        <description>
+            <p>When you choose this manifestation at 3rd level, your creature type changes to beast and your unarmed strikes can deal slashing damage. Additionally, you have advantage on Wisdom (Perception) checks that rely on hearing or smell.</p>
+        </description>
+        <sheet>
+            <description>Your creature type changes to beast and your unarmed strikes can deal slashing damage. Additionally, you have advantage on Wisdom (Perception) checks that rely on hearing or smell.</description>
+        </sheet>
+    </element>
+    <element name="Feral Enhancements" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_HYBRID_FERAL_ENHANCEMENTS">
+        <description>
+            <p>Also at 3rd level, your body has transformed to have several animalistic traits, granting you the following features.</p>
+            <ul>
+                <li>Crawler. You can crawl while prone without expending extra movement. While prone, you can stand up by spending 5 feet of movement, rather than half your speed.</li>
+                <li>Prehensile Tail. You grow a 10 foot long tail you can use to grab objects or attempt to grapple or shove creatures. If your race already has a tail, you can either keep your existing tail or alter your existing tail's appearance.</li>
+                <li>Saber Tooth. Whenever you attempt to grapple a creature within 5 feet of you, you can choose to do so using your fangs. If this grapple is successful, the creature takes piercing damage equal to your Strength modifier.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description>Your body has transformed to have several animalistic traits such as Crawler. You can crawl while prone without expending extra movement. While prone, you can stand up by spending 5 feet of movement, rather than half your speed. Prehensile Tail. You grow a 10 foot long tail you can use to grab objects or attempt to grapple or shove creatures, Saber Tooth. Whenever you attempt to grapple a creature within 5 feet of you, you can choose to do so using your fangs. If this grapple is successful, the creature takes piercing damage equal to your Strength modifier.</description>
+        </sheet>
+    </element>
+    <element name="Pounce" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_HYBRID_POUNCE">
+        <description>
+            <p>At 7th level, whenever you land on or impact a creature as part of a long or high jump, you can immediately attempt to grapple the creature as part of the jump. If this grapple succeeds, the creature is knocked prone as well. Additionally, you can make long and high jumps while you are prone.</p>
+        </description>
+        <sheet>
+            <description>Whenever you land on or impact a creature as part of a long or high jump, you can immediately attempt to grapple the creature as part of the jump. If this grapple succeeds, the creature is knocked prone as well. Additionally, you can make long and high jumps while you are prone.</description>
+        </sheet>
+    </element>
+    <element name="Apex Predator" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_HYBRID_APEX_PREDATOR">
+        <description>
+            <p>Starting at 13th level, you've adapted to your animal form quite well. You gain the following improvements for your Feral Enhancements.</p>
+            <ul>
+                <li>Crawler. You no longer gain disadvantage on attack rolls due to being prone, and creatures on longer gain advantage on attack rolls against you due to being within 5 feet of you while you are prone.</li>
+                <li>Prehensile Tail. Your tail can now be used to make unarmed strikes using Pure Strength against creatures within 10 feet of you.</li>
+                <li>Saber Tooth. While you are grappling a creature with your fangs, you automatically succeed on attempts to shove them.</li>
+            </ul>
+        </description>
+        <sheet>
+            <description> You gain improvements to your feral enhancements. Crawler. You no longer gain disadvantage on attack rolls due to being prone, and creatures on longer gain advantage on attack rolls against you due to being within 5 feet of you while you are prone. Prehensile Tail. Your tail can now be used to make unarmed strikes using Pure Strength against creatures within 10 feet of you. Saber Tooth. While you are grappling a creature with your fangs, you automatically succeed on attempts to shove them.</description>
+        </sheet>
+    </element>
+    <element name="Venom" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_HYBRID_VENOM">
+        <description>
+            <p>At 17th level, you can inject a powerful venom into your foes. While you are grappling a creature with your fangs or your tail, you can expend a use of Strength Surge as an action to force them to make a Constitution saving throw against your power save DC. The creature takes 4d12 poison damage on a failed save, or half as much on a successful one. Also on a failed save, the creature becomes poisoned for 1 minute. While poisoned, the creature can reattempt the saving throw for this feature at the end of each of its turns, ending their poisoned condition on a successful save.</p>
+        </description>
+        <sheet action="Action">
+            <description>While you are grappling a creature with your fangs or your tail, you can expend a use of Strength Surge as an action to force them to make a Constitution saving throw against your power save DC. The creature takes 4d12 poison damage on a failed save, or half as much on a successful one. Also on a failed save, the creature becomes poisoned for 1 minute. While poisoned, the creature can reattempt the saving throw for this feature at the end of each of its turns, ending their poisoned condition on a successful save.</description>
+        </sheet>
+    </element>
     
     <element name="Idol" type="Archetype" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_IDOL">
         <supports>Power Manifestation</supports>
@@ -513,9 +583,9 @@
     <element name="Mutant" type="Archetype" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_MUTANT" >
         <supports>Power Manifestation</supports>
         <description>
-            <p>You walk the line between what is natural and what is monstrous. Your physiology has been permanently altered. Perhaps you were born this way, or maybe you survived a horrible experiment. You have to live with what you are.</p>
+            <p>You walk the line between what is natural and what is monstrous. Your physiology has been permanently altered, and now you have to live with what you are.</p>
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_BIO_WEAPON" />
-            <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_DISGUISE_CATALOG" />
+            <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_CHAMELEON" />
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_MONSTROUS_IMITATION" />
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_FASCIMILE" />
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_DUAL_BIO_WEAPONS" />
@@ -523,7 +593,7 @@
         <sheet display="false" />
         <rules>
             <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_BIO_WEAPON" level="3" />
-            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_DISGUISE_CATALOG" level="3" />
+            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_CHAMELEON" level="3" />
             <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_MONSTROUS_IMITATION" level="7" />
             <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_FASCIMILE" level="13" />
             <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_DUAL_BIO_WEAPONS" level="17" />
@@ -531,24 +601,24 @@
     </element>
     <element name="Bio-Weapon" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_BIO_WEAPON">
         <description>
-            <p>When you choose this manifestation at 3rd level, you can morph your limbs into weapons. As a bonus action, choose one of the following properties to give your unarmed strike:</p>
+            <p>When you choose this manifestation at 3rd level, your creature type changes to monstrosity, and you gain the ability to morph your limbs into weapons. As a bonus action, you can grants yourself one of the following benefits:</p>
             <ul>
-                <li><strong>Bio-Sword:</strong> Your unarmed strike deals slashing damage. When you score a critical hit against a creature with an unarmed strike using Pure Strength, the creature is poisoned until the start of your next turn.</li>
-                <li><strong>Bio-Spear:</strong> Your unarmed strike deals piercing damage, and has the reach property.</li>
-                <li><strong>Bio-Hammer:</strong> When you hit a creature with an unarmed strike, they cannot take reactions until the start of your next turn.</li>
+                <li><strong>Bio-Sword:</strong> Your unarmed strike deals slashing damage. Once per turn when you roll damage for an unarmed strike using Pure Strength, you can reroll the strike’s damage dice and use either total.</li>
+                <li><strong>Bio-Whip:</strong> Your unarmed strike deals slashing damage and has the reach property. Using this Bio-Weapon increases your movement speed by 10 feet.</li>
+                <li><strong>Bio-Shield:</strong> One of your forearms grows into a barrier that grants you +2 AC.</li>
             </ul>
-            <p>Your unarmed strike retains the chosen property until you use a bonus action to either choose a new property or return your body to its normal shape.</p>
+            <p>You retain the chosen benefit until you use a bonus action to either choose a new benefit or return your body to its normal shape.</p>
         </description>
         <sheet action="Bonus Action">
-            <description> As a bonus action, choose one of the following properties for your unarmed strike: (a)Sword, strikes deal slashing damage, and crits with Pure Strength becomes poisoned until the start of your next turn, (b)your unarmed strikes deal piercing and have the reach property, or (c)attacked with unarmed attacks on a creature cannot take reactions til the start of their next turn. </description>
+            <description>You creature type changes to monstrosity. As a bonus action, choose one of the following properties for your unarmed strike: (a)Sword, once per turn you can reroll the damage for an unarmed strike using Pure Strength and use either total, (b)Whip, deals slashing damage and has the reach property. Using this Bio-Weapon increases your movement speed by 10 feet., or (c)Shield, one of your forearms grows into a barrier that grants you +2 AC. </description>
         </sheet>
     </element>
-    <element name="Disguise Catalog" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_DISGUISE_CATALOG">
+    <element name="Chameleon" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_CHAMELEON">
         <description>
-            <p>Also at 3rd level, your Bio-Weapon can absorb a fragment of your target's identity. You can cast Disguise Self at will, but only to assume the form of medium sized humanoid creatures that you have killed using your Bio-Weapon. When you kill a humanoid creature using your Bio-Weapon, you learn their name, age, occupation, and alignment.</p>
+            <p>Also at 3rd level, if you touch a humanoid creature that has died within the last minute, you can absorb a fragment of their identity. You learn the creature's name, age, occupation, and alignment. Once you have absorbed a creature's identity, you can cast Disguise Self at will to assume their form. While disguised as them, you perfectly imitate their voice.</p>
         </description>
         <sheet>
-            <description>You can cast Disguise Self at will, but only to assume the form of medium sized humanoid creatures that you have killed using your Bio-Weapon. When you kill a humanoid creature using your Bio-Weapon, you learn their name, age, occupation, and alignment.</description>
+            <description>If you touch a humanoid creature that has died within the last minute, you can absorb a fragment of their identity. You learn the creature's name, age, occupation, and alignment. Once you have absorbed a creature's identity, you can cast Disguise Self at will to assume their form. While disguised as them, you perfectly imitate their voice.</description>
         </sheet>
         <rules>
             <grant type="Spell" id="ID_PHB_SPELL_DISGUISE_SELF" />
@@ -556,28 +626,27 @@
     </element>
     <element name="Monstrous Imitation" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_MONSTROUS_IMITATION">
         <description>
-            <p>At 7th level, while grappling a hostile creature, you can use your action to adopt some of their physical properties. For 1 minute, you gain any unique senses, resistances, or immunities that the creature has. This does not work for senses, resistances, or immunities granted by items.</p>
-            <p class="indent">Once you use this feature, you cannot use it again until you complete a short or long rest.</p>
+            <p>At 7th level, while grappling a hostile creature, you can use your action to adopt some of their physical properties. For 1 hour, you gain any unique senses or resistances that the creature has. This does not work for senses or resistances granted by items. Once you use this feature, you cannot use it again until you complete a short or long rest. </p>
         </description>
-        <sheet action="Action" usage="1/Short or Long Rest">
+        <sheet action="Action" usage="Short/Long Rest">
             <description>While grappling a hostile creature, you can use your action to adopt some of their physical properties. For 1 minute, you gain any unique senses, resistances, or immunities that the creature has. This does not work for senses, resistances, or immunities granted by items.</description>
         </sheet>
     </element>
     <element name="Facsimile" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_FASCIMILE">
         <description>
-            <p>At 13th level, your shapeshifting abilities are fine-tuned. As an action on your turn, you can expend a use of a Strength Surge to assume the shape of an inanimate object you have seen that weighs no more than 100 pounds and takes up no more space than a 5 foot cube. You can maintain this shape for up to 10 minutes while you maintain concentration (as if concentrating on a spell).</p>
-            <p class="indent">You cannot move or take normal actions while shapeshifted. The only action you can take is to return to your normal form. You assume the shape of the object, but not its texture or temperature. Creatures can tell that something is off with you if they touch you, as you will still feel organic.</p>
+            <p>At 13th level, your shapeshifting abilities are fine-tuned. As an action on your turn, you can expend a use of Strength Surge to assume the shape of an inanimate object you have seen that weighs no more than 100 pounds and takes up no more space than a 5 foot cube. You can maintain this shape for up to 10 minutes while you maintain concentration (as if concentrating on a spell). </p>
+            <p class="indent">You cannot move or take normal actions while shapeshifted. The only action you can take is to return to your normal form. You assume the shape of the object, but not its texture or temperature. If a creature accidentally touches you while you are morphed, you can use a reaction to return to your normal form and grapple them instantly.</p>
         </description>
         <sheet action="Action">
-            <description>As an action on your turn, you can expend a use of a Strength Surge to assume the shape of an inanimate object you have seen that weighs no more than 100 pounds and takes up no more space than a 5 foot cube. You can maintain this shape for up to 10 minutes while you maintain concentration. You cannot move or take normal actions while shapeshifted. The only action you can take is to return to your normal form. You assume the shape of the object, but not its texture or temperature. Creatures can tell that something is off with you if they touch you, as you will still feel organic.</description>
+            <description>As an action on your turn, you can expend a use of a Strength Surge to assume the shape of an inanimate object you have seen that weighs no more than 100 pounds and takes up no more space than a 5 foot cube. You can maintain this shape for up to 10 minutes while you maintain concentration (as if concentrating on a spell). You cannot move or take normal actions while shapeshifted. You cannot move or take normal actions while shapeshifted. The only action you can take is to return to your normal form. You assume the shape of the object, but not its texture or temperature. If a creature accidentally touches you while you are morphed, you can use a reaction to return to your normal form and grapple them instantly.</description>
         </sheet>
     </element>
     <element name="Dual Bio-Weapons" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_DUAL_BIO_WEAPONS">
         <description>
-            <p>At 17th level, you can shapeshift one limb into one weapon, and another limb into a different weapon. When you use a bonus action to manifest a Bio-Weapon, you can choose 2 properties for your unarmed strike instead of 1.</p>
+            <p>At 17th level, you can now manifest two different Bio-Weapons at once. Whenever you use a bonus action to manifest a Bio-Weapon, you can choose 2 different properties to grant your unarmed strike instead of 1.</p>
         </description>
         <sheet action="Bonus Action">
-            <description>You can shapeshift one limb into one weapon, and another limb into a different weapon. When you use a bonus action to manifest a Bio-Weapon, you can choose 2 properties for your unarmed strike instead of 1.</description>
+            <description>You can now manifest two different Bio-Weapons at once. Whenever you use a bonus action to manifest a Bio-Weapon, you can choose 2 different properties to grant your unarmed strike instead of 1.</description>
         </sheet>
     </element>
 
@@ -587,16 +656,16 @@
             <p>You're fast. Very fast. Your powers allow you to move at a breakneck pace. You might be infused with the power of light, or favored by a god of speed. Either way, you leave everyoneelse in the dust.</p>
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_ACCELERATE" />
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_ATHLETICISM" />
-            <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_RAPID_DISARM" />
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_UNTOUCHABLE" />
+            <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_PURE_AGILITY" />
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_TIME_IN_A_BOTTLE" />
         </description>
         <sheet display="false" />
         <rules>
             <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_ACCELERATE" level="3" />
             <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_ATHLETICISM" level="3" />
-            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_RAPID_DISARM" level="7" />
-            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_UNTOUCHABLE" level="13" />
+            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_UNTOUCHABLE" level="7" />
+            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_PURE_AGILITY" level="13" />
             <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_TIME_IN_A_BOTTLE" level="17" />
         </rules>
     </element>
@@ -623,31 +692,30 @@
             <stat name="innate speed:misc" value="15" bonus="athleticism" level="13" equipped="![armor:heavy],[shield:none]" />
         </rules>
     </element>
-    <element name="Rapid Disarm" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_RAPID_DISARM">
-        <description>
-            <p>At 7th level, when you hit a creature with an unarmed strike, you can expend a use of Strength Surge to attempt to disarm the target. The target must make a Dexterity saving throw against your power save DC in order to keep their grip on their weapon.</p>
-            <p class="indent">On a failed save, you take the creature's weapon from their hand. If you are holding an item in your other hand when you succeed with this ability, you can swap that item into the creature's hand as part of the same bonus action.</p>
-            <p class="indent">You must have at least one free hand to use this ability.</p>
-        </description>
-        <sheet>
-            <description>When you hit a creature with an unarmed strike, you can expend a use of Strength Surge to attempt to disarm the target. The target must make a Dexterity saving throw against your power save DC ({{power:dc}} in order to keep their grip on their weapon. On a failed save, you take the creature's weapon from their hand. If you are holding an item in your other hand when you succeed with this ability, you can swap that item into the creature's hand as part of the same bonus action. You must have at least one free hand to use this ability.</description>
-        </sheet>
-    </element>
     <element name="Untouchable" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_UNTOUCHABLE">
         <description>
-            <p>At 13th level, once you reach top speed, it's incredibly hard to pin you down. Once you reach +30 speed with your Accelerate ability, you do not provoke opportunity attacks, and attack rolls against you are made with disadvantage while you continue to maintain top speed. </p>
+            <p>Starting at 7th level, even while you are standing in place, it's hard to pin you down. You can begin concentrating on this ability as a bonus action on your turn (as if concentrating on a spell). For up to 1 minute while you maintain concentration, you do not provoke opportunity attacks, and attack rolls against you are made with disadvantage. Once you use this ability, you must complete a short or long rest to use it again. </p>
         </description>
         <sheet>
-            <description>At 13th level, once you reach top speed, it's incredibly hard to pin you down. Once you reach +30 speed with your Accelerate ability, you do not provoke opportunity attacks, and attack rolls against you are made with disadvantage while you continue to maintain top speed. </description>
+            <description>You can begin concentrating on this ability as a bonus action on your turn (as if concentrating on a spell). For up to 1 minute while you maintain concentration, you do not provoke opportunity attacks, and attack rolls against you are made with disadvantage. Once you use this ability, you must complete a short or long rest to use it again. </description>
+        </sheet>
+    </element>
+    <element name="Pure Agility" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_PURE_AGILITY">
+        <description>
+            <p>At 13th level, your unbridled speed allows you to traverse any area with ease. While under the effects of your Super Speed, you ignore the effects of difficult terrain, and you cannot be paralyzed, restrained, or otherwise have your speed reduced by spells or magical effects. </p>
+            <p class="indent">Additionally, whenever you disorient a creature with your Super Speed, you can force the creature to make a Dexterity saving throw against your power save DC if they are no more than one size larger than you. On a failed save, the creature is knocked prone.</p>
+        </description>
+        <sheet usage="Short/Long Rest">
+            <description>While under the effects of your Super Speed, you ignore the effects of difficult terrain, and you cannot be paralyzed, restrained, or otherwise have your speed reduced by spells or magical effects. Additionally, whenever you disorient a creature with your Super Speed, you can force the creature to make a Dexterity saving throw against your power save DC if they are no more than one size larger than you. On a failed save, the creature is knocked prone.</description>
         </sheet>
     </element>
     <element name="Time in a Bottle" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_TIME_IN_A_BOTTLE">
         <description>
-            <p>At 17th level, you can summon all of your energy to move faster than light. You can cast Time Stop as an action on your turn. Once you use this feature, you cannot use it again until you finish a long rest.</p>
-            <p class="indent">When you cast Time Stop this way, you can attempt to shove creatures and use your Rapid Disarm without resuming time, and your attempts to do either succeed automatically. Creatures that you shove while time is stopped will only begin to move once time resumes. If a creature is knocked prone or pushed into an obstacle once time resumes, they take 3d10 bludgeoning damage. </p>
+            <p>At 17th level, you can summon all of your energy to move faster than light. You can cast Time Stop as an action on your turn. When you cast Time Stop this way, you can grapple or shove creatures without resuming time, and your attempts to do either succeed automatically. Moving a creature you are grappling also does not resume time.</p>
+            <p class="indent"> Creatures that you shove while time is stopped will only begin to move once time resumes. If a creature is knocked prone or pushed into an obstacle once time resumes, they take 3d10 bludgeoning damage. Once you use this feature, you cannot use it again until you finish a long rest. </p>
         </description>
         <sheet>
-            <description>You can cast Time Stop as an action on your turn. Once you use this feature, you cannot use it again until you finish a long rest. When you cast Time Stop this way, you can attempt to shove creatures and use your Rapid Disarm without resuming time, and your attempts to do either succeed automatically. Creatures that you shove while time is stopped will only begin to move once time resumes. If a creature is knocked prone or pushed into an obstacle once time resumes, they take 3d10 bludgeoning damage.</description>
+            <description>You can cast Time Stop as an action on your turn. When you cast Time Stop this way, you can grapple or shove creatures without resuming time, and your attempts to do either succeed automatically. Moving a creature you are grappling also does not resume time. Creatures that you shove while time is stopped will only begin to move once time resumes. If a creature is knocked prone or pushed into an obstacle once time resumes, they take 3d10 bludgeoning damage. Once you use this feature, you cannot use it again until you finish a long rest. </description>
         </sheet>
         <rules>
             <grant type="Spell" id="ID_PHB_SPELL_TIME_STOP" />
@@ -658,250 +726,389 @@
         <supports>Power Manifestation</supports>
         <description>
             <p>You discovered your powers during a time of strife, and carried them with you into battle. Learning how to wield your powers and a weapon at the same time wasn't easy. Now that you're acquainted with both, your training shines through.</p>
-            <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_WEAPON_OF_WAR" />
-            <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_EMPOWERED_FIGHTING_STYLE" />
-            <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_STAND_YOUR_GROUND" />
-            <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_SOLDIER_ON" />
+            <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_BATTLE_READY" />
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_GUARDIAN_OF_STEEL" />
+            <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_SHIELD_OF_WAR" />
+            <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_SOLDIER_ON" />
+            <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_OFFENSIVE_PARRY" />
         </description>
         <sheet display="false" />
         <rules>
-            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_WEAPON_OF_WAR" level="3" />
-            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_EMPOWERED_FIGHTING_STYLE" level="3" />
-            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_STAND_YOUR_GROUND" level="7" />
+            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_BATTLE_READY" level="3" />
+            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_GUARDIAN_OF_STEEL" level="3" />
+            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_SHIELD_OF_WAR" level="7" />
             <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_SOLDIER_ON" level="13" />
-            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_GUARDIAN_OF_STEEL" level="17" />
+            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_OFFENSIVE_PARRY" level="17" />
         </rules>
     </element>
-    <element name="Weapon of War" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_WEAPON_OF_WAR">
+    <element name="Battle Ready" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_BATTLE_READY">
         <description>
-            <p>When you choose this manifestation at 3rd level, you combine your sheer might with military expertise.</p>
-            <p class="indent">You gain proficiency with battleaxes, warhammers, and longswords if you did not have them already, and can use your Pure Strength while wielding these weapons. These weapons are referred to as weapons of war.</p>
-            <p class="indent">An attack with a weapon of war counts as an unarmed strike for you.</p>
+            <p>When you choose this manifestation at 3rd level, your wartime training allows you to combine combat expertise with sheer might. You gain the following benefits.</p>
+            <p class="indent"><strong>Weapons of War.</strong> Choose two types of weapons to be your weapons of war. Each of these weapons can be any simple or martial weapon that lacks the reach and special properties. You gain proficiency with these weapons if you don’t already have them, and you can benefit from your Pure Strength while you are wielding them. If an empowered ability applies to unarmed strikes you make using Pure Strength, it also applies to attacks you make using a weapon of war. You can choose an additional weapon of war when you reach 7th, 13th, and 17th level in this class.</p>
         </description>
         <sheet>
-            <description>You can use Pure Strength when using battleaxes, warhammers, and longswords(weapons of war). An attack with these weapons count as an unarmed strike for you.</description>
+            <description>You can benefit from your Pure Strength while you are wielding weapons of war. If an empowered ability applies to unarmed strikes you make using Pure Strength, it also applies to attacks you make using a weapon of war.<strong>Parrying Stance.</strong> You can wield any melee weapon of war with two hands, and you gain +1 AC while doing so. <strong>Power Shot.</strong> You can use Strength instead of Dexterity for the attack and damage rolls of your attacks with ranged weapons of war. You weapons of war are:</description>
         </sheet>
+        <select type="Archetype Feature" name="Weapons of War" supports="WoW" number="2" />
+        <select type="Archetype Feature" name="Weapons of War" supports="WoW" level="7" />
+        <select type="Archetype Feature" name="Weapons of War" supports="WoW" level="13" />
+        <select type="Archetype Feature" name="Weapons of War" supports="WoW" level="17" />
+    </element>
+    <!-- Weapons of War - SIMPLE -->
+    <element name="Club" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_CLUB">
+        <supports>WoW</supports>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CLUB" />
+        </rules>
+    </element>
+    <element name="Dagger" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_DAGGER">
+        <supports>WoW</supports>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" />
+        </rules>
+    </element>
+    <element name="Greatclub" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_GREATCLUB">
+        <supports>WoW</supports>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATCLUB" />
+        </rules>
+    </element>
+    <element name="Handaxe" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_HANDAXE">
+        <supports>WoW</supports>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HANDAXE" />
+        </rules>
+    </element>
+    <element name="Javelin" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_JAVELIN">
+        <supports>WoW</supports>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_JAVELIN" />
+        </rules>
+    </element>
+    <element name="Light Hammer" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_LIGHT_HAMMER">
+        <supports>WoW</supports>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LIGHT_HAMMER" />
+        </rules>
+    </element>
+    <element name="Mace" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_MACE">
+        <supports>WoW</supports>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MACE" />
+        </rules>
+    </element>
+    <element name="Quarterstaff" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_QUARTERSTAFF">
+        <supports>WoW</supports>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF" />
+        </rules>
+    </element>
+    <element name="Sickle" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_SICKLE">
+        <supports>WoW</supports>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SICKLE" />
+        </rules>
+    </element>
+    <element name="Spear" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_SPEAR">
+        <supports>WoW</supports>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR" />
+        </rules>
+    </element>
+    <element name="Crossbow, Light" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_LIGHT_CROSSBOW">
+        <supports>WoW</supports>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_LIGHT" />
+        </rules>
+    </element>
+    <element name="Dart" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_DART">
+        <supports>WoW</supports>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART" />
+        </rules>
+    </element>
+    <element name="Shortbow" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_SHORTBOW">
+        <supports>WoW</supports>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTBOW" />
+        </rules>
+    </element>
+    <element name="Sling" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_SLING">
+        <supports>WoW</supports>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SLING" />
+        </rules>
+    </element>
+    <!-- MARTIAL -->
+    <element name="Battleaxe" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_BATTLEAXE">
+        <supports>WoW</supports>
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BATTLEAXE" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WARHAMMER" />
+        </rules>
+    </element>
+    <element name="Flail" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_FLAIL">
+        <supports>WoW</supports>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_FLAIL" />
+        </rules>
+    </element>
+    <element name="Greataxe" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_GREATAXE">
+        <supports>WoW</supports>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATAXE" />
+        </rules>
+    </element>
+    <element name="Greatsword" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_GREATSWORD">
+        <supports>WoW</supports>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATSWORD" />
+        </rules>
+    </element>
+    <element name="Longsword" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_LONGSWORD">
+        <supports>WoW</supports>
+        <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD" />
         </rules>
     </element>
-    <element name="Empowered Fighting Style" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_EMPOWERED_FIGHTING_STYLE">
-        <description>
-            <p>Also at 3rd level, you learn a fighting style uniquely tailored to your enhanced abilities. You can choose to change your Empowered Fighting Style whenever you gain a new feature for this manifestation.</p>
-            <h5 class="caption">Air Strike</h5>
-            <p>If you target a creature with an unarmed strike using Pure Strength immediately after making a long jump, you gain a +2 bonus to the attack roll.</p>
-            <h5 class="caption">Armored Fighting</h5>
-            <p>While you are wearing armor, you gain a +1 bonus to all saving throws.</p>
-            <h5 class="caption">Versatile Combat</h5>
-            <p>While you are wielding a versatile weapon with both hands, you gain +1 AC.</p>
-        </description>
+    <element name="Maul" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_MAUL">
+        <supports>WoW</supports>
         <rules>
-            <select type="Class Feature" name="Empowered Fighting Style" supports="Empowered Fighting Style" level="3" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MAUL" />
         </rules>
     </element>
-    <!-- Empowered Fighting Styles -->
-    <element name="Air Strike" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_EMPOWERED_AIR_STRIKE">
-        <supports>Empowered Fighting Style</supports>
-        <description>
-            <p>If you target a creature with an unarmed strike using Pure Strength immediately after making a long jump, you gain a +2 bonus to the attack roll.</p>
-        </description>
-        <sheet>
-            <description>If you target a creature with an unarmed strike using Pure Strength immediately after making a long jump, you gain a +2 bonus to the attack roll.</description>
-        </sheet>
-    </element>
-    <element name="Armored Fighting" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_EMPOWERED_ARMORED_FIGHTING">
-        <supports>Empowered Fighting Style</supports>
-        <description>
-            <p>While you are wearing armor, you gain a +1 bonus to all saving throws.</p>
-        </description>
-        <sheet>
-            <description>While you are wearing armor, you gain a +1 bonus to all saving throws.</description>
-        </sheet>
+    <element name="Morningstar" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_MORNINGSTAR">
+        <supports>WoW</supports>
         <rules>
-            <stat name="strength:save:misc" value="1" equipped="[armor:any]"/>
-            <stat name="dexterity:save:misc" value="1" equipped="[armor:any]" />
-            <stat name="constitution:save:misc" value="1" equipped="[armor:any]" />
-            <stat name="wisdom:save:misc" value="1" equipped="[armor:any]" />
-            <stat name="intelligence:save:misc" value="1" equipped="[armor:any]" />
-            <stat name="charisma:save:misc" value="1" equipped="[armor:any]" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MORNINGSTAR" />
         </rules>
     </element>
-    <element name="Versatile Combat" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_EMPOWERED_VERSATILE_COMBAT">
-        <supports>Empowered Fighting Style</supports>
-        <description>
-            <p>While you are wielding a versatile weapon with both hands, you gain +1 AC.</p>
-        </description>
-        <sheet>
-            <description>While you are wielding a versatile weapon with both hands, you gain +1 AC.</description>
-        </sheet>
+    <element name="Rapier" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_RAPIER">
+        <supports>WoW</supports>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER" />
+        </rules>
     </element>
-    <element name="Stand Your Ground" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_STAND_YOUR_GROUND">
-        <description>
-            <p>At 7th level, you stand firm against the tide of battle. If you have not moved on your turn and you are holding a weapon of war, you can use your bonus action to assume a defensive stance with the weapon. You gain a +2 bonus to your AC until the end of your next turn while you are holding the weapon of war and you aren’t incapacitated. Once you use this ability, your speed is 0 until the end of your next turn.</p>
-        </description>
-        <sheet action="Bonus Action">
-            <description>If you have not moved on your turn and you are holding a weapon of war, you can use your bonus action to gain a +2 bonus to your AC until the end of your next turn, and you aren't incapacitated. Once you use this ability, your speed is 0 until the end of your next turn.</description>
-        </sheet>
+    <element name="Scimitar" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_SCIMITAR">
+        <supports>WoW</supports>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SCIMITAR" />
+        </rules>
     </element>
-    <element name="Soldier On" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_SOLDIER_ON">
-        <description>
-            <p>At 13th level, you can summon up the strength to keep on fighting. Whenever you receive healing, you can add a roll of your Pure Strength die to the number of hit points restored. You automatically regain hit points equal to a roll of your Pure Strength die whenever you take a short rest.</p>
-        </description>
-        <sheet>
-            <description>Whenever you receive healing, you can add a roll of your Pure Strength die to the number of hit points restored. You automatically regain hit points equal to a roll of your Pure Strength die whenever you take a short rest.</description>
-        </sheet>
+    <element name="Shortsword" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_SHORTSWORD">
+        <supports>WoW</supports>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" />
+        </rules>
     </element>
+    <element name="Trident" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_TRIDENT">
+        <supports>WoW</supports>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_TRIDENT" />
+        </rules>
+    </element>
+    <element name="War Pick" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_PICK">
+        <supports>WoW</supports>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WAR_PICK" />
+        </rules>
+    </element>
+    <element name="Warhammer" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WARHAMMER">
+        <supports>WoW</supports>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WARHAMMER" />
+        </rules>
+    </element>
+    <element name="Blowgun" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_BLOWGUN">
+        <supports>WoW</supports>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BLOWGUN" />
+        </rules>
+    </element>
+    <element name="Crossbow, Hand" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_CROSSBOW_HAND">
+        <supports>WoW</supports>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HAND" />
+        </rules>
+    </element>
+    <element name="Crossbow, Heavy" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_CROSSBOW_HEAVY">
+        <supports>WoW</supports>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HEAVY" />
+        </rules>
+    </element>
+    <element name="Longbow" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_LONGBOW">
+        <supports>WoW</supports>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW" />
+        </rules>
+    </element>
+
     <element name="Guardian of Steel" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_GUARDIAN_OF_STEEL">
         <description>
-            <p>At 17th level, you gain proficiency with heavy armor and shields if you did not have them already. You can gain the benefits of your Pure Strength while wearing heavy armor or wielding a shield. If an astounding power requires you not to be wearing heavy armor or wielding a shield, you can ignore the requirement.</p>
-            <p class="indent">Additionally, you gain proficiency with greataxes, greatswords, and mauls if you did not have them already, and can treat these weapons as weapons of war.</p>
+            <p>Also at 3rd level, you can wear a full suit of armor and still wield the full might of your powers. You gain proficiency with heavy armor. While you are wearing heavy armor, you can gain the benefits of your Pure Strength, and you count as three-quarters cover for creatures that are not hostile to you.</p>
         </description>
         <sheet>
-            <description>You can gain the benefits of your Pure Strength while wearing heavy armor or wielding a shield. If an astounding power requires you not to be wearing heavy armor or wielding a shield, you can ignore the requirement. Greataxes, greatswords, and mauls are now weapons of war.</description>
+            <description>While you are wearing heavy armor, you can gain the benefits of your Pure Strength, and you count as three-quarters cover for creatures that are not hostile to you.</description>
         </sheet>
         <rules>
-            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATAXE" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATSWORD" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MAUL" />
             <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" />
         </rules>
+    </element>
+    <element name="Shield of War" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_SHIELD_OF_WAR">
+        <description>
+            <p>At 7th level, you know that the best offense is a good defense. You gain proficiency with shields, can don or doff shields with the Use an Object action, and can gain the benefits of your Pure Strength while wielding a shield. You can also use shields to make unarmed strikes using Pure Strength.</p>
+            <p class="indent">Additionally, you can treat shields as if they had the thrown property, with a normal range of 60 feet and a long range of 180 feet. On a successful thrown hit, your shield will bounce off of the target and return to your hand. This thrown attack counts as an unarmed strike using Pure Strength for you.</p>
+            <p class="indent">Finally, while you are wearing heavy armor and wielding a shield, you count as full cover for creatures that are not hostile to you.</p>
+        </description>
+        <sheet>
+            <description>You can don or doff shields with the Use an Object action, and can gain the benefits of your Pure Strength while wielding a shield. You can also use shields to make unarmed strikes using Pure Strength. Additionally, you can treat shields as if they had the thrown property, with a normal range of 60 feet and a long range of 180 feet. On a successful thrown hit, your shield will bounce off of the target and return to your hand. This thrown attack counts as an unarmed strike using Pure Strength for you. Finally, while you are wearing heavy armor and wielding a shield, you count as full cover for creatures that are not hostile to you.</description>
+        </sheet>
+    </element>
+
+    <element name="Soldier On" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_SOLDIER_ON">
+        <description>
+            <p>At 13th level, you can summon up the strength to keep on fighting. Whenever you receive healing from others, you can add a roll of your Pure Strength die to the number of hit points restored. You automatically regain hit points equal to a roll of your Pure Strength die whenever you take a short rest.</p>
+        </description>
+        <sheet usage="Short Rest">
+            <description>Whenever you receive healing from others, you can add a roll of your Pure Strength die to the number of hit points restored. You automatically regain hit points equal to a roll of your Pure Strength die whenever you take a short rest.</description>
+        </sheet>
+    </element>
+    <element name="Offensive Parry" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_OFFENSIVE_PARRY">
+        <description>
+            <p>At 17th level, whenever a creature within 5 feet of you targets you with a melee attack, you can use a reaction to target them with a melee attack with a weapon of war in response. If your attack hits, the creature's attack misses. </p>
+        </description>
+        <sheet>
+            <description>Whenever a creature within 5 feet of you targets you with a melee attack, you can use a reaction to target them with a melee attack with a weapon of war in response. If your attack hits, the creature's attack misses.</description>
+        </sheet>
     </element>
     
     <element name="Titan" type="Archetype" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_TITAN">
         <supports>Power Manifestation</supports>
         <description>
-            <p>When the power inside you simmers over, you transform dramatically, unleashing your true strength for a short time. Some become large, hulking monstrosities, while others find that their hair changes color and they begin radiating energy.</p>
+            <p>Your power is so wild and vibrant that you often struggle to contain it. When this energy simmers over, you transform dramatically, unleashing your true strength for a short time.</p>
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_TRUE_FORM" />
-            <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_CRUSHING_GRIP" />
-            <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_IMPACT_DAMAGE" />
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_LIVING_WEAPON" />
+            <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_CRUSHING_GRIP" />
+            <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_DEAFENING_ROAR" />
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_SEISMIC_SLAM" />
         </description>
         <sheet display="false" />
         <rules>
             <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_TRUE_FORM" level="3" />
-            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_CRUSHING_GRIP" level="3" />
-            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_IMPACT_DAMAGE" level="7" />
-            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_LIVING_WEAPON" level="13" />
+            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_LIVING_WEAPON" level="3" />
+            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_CRUSHING_GRIP" level="7" />
+            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_DEAFENING_ROAR" level="13" />
             <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_SEISMIC_SLAM" level="17" />
         </rules>
     </element>
     <element name="True Form" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_TRUE_FORM">
         <description>
-            <p>When you choose this manifestation at 3rd level, you can use a bonus action to assume your True Form for 1 minute, provided that you aren’t wearing armor or wielding a shield. You exit this form early if you are charmed or knocked unconscious, or if you don armor or a shield. You gain the following benefits while in your True Form:</p>
+            <p>When you choose this manifestation at 3rd level, you can use a bonus action to assume your True Form for 1 minute. You exit this form early if you use a bonus action to end it, or if you are charmed, frightened, or knocked unconscious. You gain the following benefits while in your True Form:</p>
             <ul>
-                <li>You are considered one size larger, though you do not physically grow in size.</li>
-                <li>When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can use Strength instead.</li>
-                <li>You can use a reaction when taking damage to reduce the damage dealt to you by a roll of your Pure Strength die plus your Constitution modifier.</li>
+                <li>You become one size larger, along with anything you are wearing. If you lack the room to grow, your physical size doesn’t change but you are still considered one size larger.</li>
+                <li>When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can make a Strength saving throw instead.</li>
+                <li>When you successfully shove a creature, they take bludgeoning damage equal to your Strength modifier if they impact an obstacle or are knocked prone.</li>
             </ul>
-            <p class="indent">You can use this feature a number of times equal to your proficiency bonus. You regain any expended uses when you finish a long rest. You can exit your True Form early as a bonus action.</p>
+            <p class="indent">You can use this feature a number of times equal to your proficiency bonus, and regain any expended uses when you finish a long rest.</p>
         </description>
         <sheet action="Bonus Action" usage="{{proficiency}}/Long Rest">
-            <description>As a Bonus Action, you assume your True Form for 1 minute, provided that you aren't wearing armor or wielding a shield. You exit this form early if you are charmed or knocked unconscious, or if you don armor or a shield. You gain the following benefits while in your True Form: You are considered one size larger, though you do not physically grow in size, when you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can use Strength instead, and you can use a reaction when taking damage to reduce the damage dealt to you by a roll of your Pure Strength die plus your Constitution modifier. </description>
-        </sheet>
-    </element>
-    <element name="Crushing Grip" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_CRUSHING_GRIP">
-        <description>
-            <p>Also at 3rd level, you can break bones with a firm handshake. If you are grappling a creature, that creature takes bludgeoning damage equal to a roll of your Pure Strength die at the start of each of its turns.</p>
-        </description>
-        <sheet>
-            <description>If you are grappling a creature, that creature takes bludgeoning damage equal to {{pure strength:dice}} at the start of each of its turns.</description>
-        </sheet>
-    </element>
-    <element name="Impact Damage" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_IMPACT_DAMAGE">
-        <description>
-            <p>At 7th level, when shoving a creature, the creature moves an additional 5 feet when pushed, and takes bludgeoning damage equal to your Strength modifier if they impact an obstacle or are knocked prone.</p>
-        </description>
-        <sheet>
-            <description>When shoving a creature, the creature moves an additional 5 feet when pushed, and takes bludgeoning damage equal to your Strength modifier if they impact an obstacle or are knocked prone.</description>
+            <description>As a Bonus Action, you assume your True Form for 1 minute. You exit this form early if you are charmed, frightened, or knocked unconscious. You gain the following benefits while in your True Form: You are considered one size larger, though you do not physically grow in size, when you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can use Strength instead, and when you successfully shove a creature, they take bludgeoning damage equal to your Strength modifier if they impact an obstacle or are knocked prone. </description>
         </sheet>
     </element>
     <element name="Living Weapon" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_LIVING_WEAPON">
         <description>
-            <p>At 13th level, while you are grappling a creature that is your size or smaller, you can use them to make an unarmed strike against another creature. On a successful hit, the grappled and target creatures each take half of the strike's damage, and the target creature is pushed back 5 feet.</p>
+            <p>Also at 3rd level, you gain the ability to hit one creature with another. While you are grappling a creature that is your size or smaller, you can use them to make an unarmed strike against another creature. If you hit the target creature, they take the unarmed strike's damage as normal, and the grappled creature takes bludgeoning damage equal to a roll of your Pure Strength die.</p>
         </description>
         <sheet>
-            <description>While you are grappling a creature that is your size or smaller, you can use them to make an unarmed strike against another creature. On a successful hit, the grappled and target creatures each take half of the strike's damage, and the target creature is pushed back 5 feet.</description>
+            <description>While you are grappling a creature that is your size or smaller, you can use them to make an unarmed strike against another creature. If you hit the target creature, they take the unarmed strike's damage as normal, and the grappled creature takes bludgeoning damage equal to a roll of your Pure Strength die.</description>
         </sheet>
     </element>
-    <element name="Seismic Slam" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_SEISMIC_SLAM">
+    <element name="Crushing Grip" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_CRUSHING_GRIP">
         <description>
-            <p>At 17th level, other creatures feel small in your hands. If you are grappling a creature that is your size or smaller, you can use an action on your turn to repeatedly slam the creature into the ground in a fit of rage. Once you use this ability, you must complete a long rest before using it again.</p>
-            <p class="indent">When you use this ability, the grappled creature must make a Strength or Dexterity saving throw against your power save DC, the target chooses the ability to use for the throw. On a failed save, the creature takes 8d10 bludgeoning damage, is knocked prone, and is stunned until the end of your next turn. On a successful save, the creature takes half as much damage and is not stunned.</p>
-            <p class="indent">You stop grappling the creature after using this ability.</p>
+            <p>At 7th level, if you are grappling a creature, that creature takes bludgeoning damage equal to a roll of your Pure Strength die at the start of each of its turns.</p>
         </description>
-        <sheet action="Action">
-            <description>If you are grappling a creature that is your size or smaller, you can use an action on your turn to repeatedly slam the creature into the ground in a fit of rage. Once you use this ability, you must complete a long rest before using it again. the grappled creature must make a Strength or Dexterity saving throw against your power save DC, the target chooses the ability to use for the throw. On a failed save, the creature takes 8d10 bludgeoning damage, is knocked prone, and is stunned until the end of your next turn. On a successful save, the creature takes half as much damage and is not stunned. You stop grappling the creature after using this ability.</description>
+        <sheet>
+            <description>If you are grappling a creature, that creature takes bludgeoning damage equal to a roll of your Pure Strength die at the start of each of its turns.</description>
         </sheet>
     </element>
+    <element name="Deafening Roar" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_DEAFENING_ROAR">
+        <description>
+            <p>By 13th level, you can expend a use of Strength Surge as a bonus action to let out an ear-splitting roar. Each creature of your choice within 15 feet of you must make a Constitution saving throw against your power save DC. On a failed save, creatures are knocked prone and deafened until the end of your next turn. </p>
+        </description>
+        <sheet action="Bonus Action">
+            <description>you can expend a use of Strength Surge as a bonus action to let out an ear-splitting roar. Each creature of your choice within 15 feet of you must make a Constitution saving throw against your power save DC. On a failed save, creatures are knocked prone and deafened until the end of your next turn. </description>
+        </sheet>
+    </element>
+    <elemental name="Seismic Slam" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_SEISMIC_SLAM">
+        <description>
+            <p>At 17th level, if you are grappling a creature that is your size or smaller, you can use an action on your turn to repeatedly slam the creature into the ground in a fit of rage. When you use this ability, the grappled creature must make a Strength or Dexterity saving throw against your power save DC, the target chooses the ability to use for the throw. On a failed save, the creature takes 10d10 bludgeoning damage, is knocked prone, and is stunned until the end of your next turn. On a successful save, the creature takes half as much damage and is not stunned. You stop grappling the creature after using this ability. Once you use this ability, you must complete a long rest before using it again.</p>
+        </description>
+        <sheet action="Action" usage="Long Rest">
+            <description>You can use an action on your turn to repeatedly slam the creature into the ground in a fit of rage. When you use this ability, the grappled creature must make a Strength or Dexterity saving throw against your power save DC, the target chooses the ability to use for the throw. On a failed save, the creature takes 10d10 bludgeoning damage, is knocked prone, and is stunned until the end of your next turn. On a successful save, the creature takes half as much damage and is not stunned. You stop grappling the creature after using this ability. Once you use this ability, you must complete a long rest before using it again.</description>
+        </sheet>
+    </elemental>
 
     <element name="Vigilante" type="Archetype" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_VIGILANTE">
         <supports>Power Manifestation</supports>
         <description>
             <p>In the dead of night, you give your enemies something to be scared of. You don't fight fair, and you might not even fight for what's right. All that matters to you is enacting your own sense of justice. To that end, you work in the dark.</p>
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_PROWLER" />
-            <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_OMINOUS_PRESENCE" />
+            <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_SUCKER_PUNCH" />
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_NO_ESCAPE" />
-            <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_DISAPPEARING_ACT" />
-            <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_DREADFUL_STARE" />
+            <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_OMINOUS_STARE" />
+            <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_NO_MERCY" />
         </description>
         <sheet display="false" />
         <rules>
             <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_PROWLER" level="3" />
-            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_OMINOUS_PRESENCE" level="3" />
+            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_SUCKER_PUNCH" level="3" />
             <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_NO_ESCAPE" level="7" />
-            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_DISAPPEARING_ACT" level="13" />
-            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_DREADFUL_STARE" level="17" />
+            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_OMINOUS_STARE" level="13" />
+            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_NO_MERCY" level="17" />
         </rules>
     </element>
     <element name="Prowler" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_PROWLER">
         <description>
-            <p>When you choose this manifestation at 3rd level, you prefer to stalk your foes. You can use your bonus action to take the Hide action on your turn.</p>
-            <p class="indent">Once on each of your turns while you are hidden, you can choose a creature you can see within 30 feet of you as an action to plot your next move against them. Once you do so, you have advantage on your next attempt to grapple or shove the creature.</p>
-            <p class="indent">If you apply this effect to a new creature, the effect ends on the previous target.</p>
+            <p>When you choose this manifestation at 3rd level, you prefer to stalk your foes. You can use your bonus action to take the Hide action on your turn. While you are hidden from a creature, you have advantage on attempts to grapple them, and can do so without you or the creature creating any noise that would alert others. </p>
+            <p class="indent">Additionally, whenever you make a Dexterity (Stealth) check, you can expend a use of Strength Surge to roll an additional d20. You can use this feature after you roll the die, but before the outcome is determined. You choose which of the d20s is used for the check.</p>
         </description>
-        <sheet action="Bonus Action/Action">
-            <description>You can use your bonus action to take the Hide action on your turn. Once on each of your turns while you are hidden, you can choose a creature you can see within 30 feet of you as an action to plot your next move against them. Once you do so, you have advantage on your next attempt to grapple or shove the creature. If you apply this effect to a new creature, the effect ends on the previous target.</description>
+        <sheet action="Bonus Action">
+            <description>You can use your bonus action to take the Hide action on your turn. While you are hidden from a creature, you have advantage on attempts to grapple them, and can do so without you or the creature creating any noise that would alert others. Additionally, whenever you make a Dexterity (Stealth) check, you can expend a use of Strength Surge to roll an additional d20. You can use this feature after you roll the die, but before the outcome is determined. You choose which of the d20s is used for the check.</description>
         </sheet>
     </element>
-    <element name="Ominous Presence" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_OMINOUS_PRESENCE">
+    <element name="Sucker Punch" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_SUCKER_PUNCH">
         <description>
-            <p>Also at 3rd level, you sow fear amongst your enemies. When a creature that you can see within 20 feet of you makes an attack roll, an ability check, or a damage roll, you can expend a use of Strength Surge as a reaction to roll your Pure Strength die and subtract the number rolled from the creature’s roll.</p>
-            <p class="indent">You can choose to use this feature after the creature makes its roll, but before the DM determines whether the attack roll or ability check succeeds or fails, or before the creature deals its damage. The creature is immune if it can’t see you or is immune to being frightened.</p>
+            <p>Also at 3rd level, you aren't above fighting dirty if need be. Once per turn, you can deal extra damage equal to a roll of your Pure Strength die to one creature you hit with an unarmed strike using Pure Strength if you have advantage on the attack roll. </p>
+            <p class="indent">Provided that you do not have disadvantage on the attack roll, you do not need advantage on the attack roll to deal this damage if you are grappling the target, or if another enemy of the target is within 5 feet of it, and that enemy is not incapacitated.</p>
         </description>
-        <sheet action="Reaction">
-            <description>When a creature that you can see within 20 feet of you makes an attack roll, an ability check, or a damage roll, you can expend a use of Strength Surge as a reaction to roll your Pure Strength die and subtract the number rolled from the creature’s roll. You can choose to use this feature after the creature makes its roll, but before the DM determines whether the attack roll or ability check succeeds or fails. The creature is immune if it can’t see you or is immune to being frightened.</description>
+        <sheet>
+            <description>Once per turn, you can deal extra damage equal to a roll of your Pure Strength die to one creature you hit with an unarmed strike using Pure Strength if you have advantage on the attack roll. Provided that you do not have disadvantage on the attack roll, you do not need advantage on the attack roll to deal this damage if you are grappling the target, or if another enemy of the target is within 5 feet of it, and that enemy is not incapacitated.</description>
         </sheet>
     </element>
     <element name="No Escape" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_NO_ESCAPE">
         <description>
-            <p>At 7th level, you've had enough of your enemies trying to run. When a creature within 15 feet of you starts moving away from you on their turn, you can use a reaction to try to catch them. You can use half of your movement speed to go directly to the creature and attempt to grapple them without provoking opportunity attacks.</p>
+            <p>At 7th level, you've had enough of your enemies trying to run. When a creature within 15 feet of you starts moving away from you on their turn, you can use a reaction to try to catch them. You can use half of your movement speed to go directly to the creature and attempt to grapple or shove them without provoking opportunity attacks. </p>
             <p class="indent">You can use any type of movement to get to the creature, but you must be able to sense the creature's presence and have a direct, unobstructed path to them to use this feature.</p>
         </description>
         <sheet action="Reaction">
-            <description>When a creature within 15 feet of you starts moving away from you on their turn, you can use a reaction to try to catch them. You can use half of your movement speed to go directly to the creature and attempt to grapple them without provoking opportunity attacks. You can use any type of movement to get to the creature, but you must be able to sense the creature's presence and have a direct, unobstructed path to them to use this feature.</description>
+            <description>When a creature within 15 feet of you starts moving away from you on their turn, you can use a reaction to try to catch them. You can use half of your movement speed to go directly to the creature and attempt to grapple or shove them without provoking opportunity attacks. Provided that you do not have disadvantage on the attack roll, you do not need advantage on the attack roll to deal this damage if you are grappling the target, or if another enemy of the target is within 5 feet of it, and that enemy is not incapacitated.</description>
         </sheet>
     </element>
-    <element name="Disappearing Act" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_DISAPPEARING_ACT">
+    <element name="Ominous Stare" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_OMINOUS_STARE">
         <description>
-            <p>At 13th level, you can vanish without a trace. When you are in an area of dim light or darkness, you can use your action to become invisible until the start of your next turn.</p>
-            <p class="indent">While you are invisible this way, you can move across difficult terrain without expending extra movement, and you cannot be detected by Tremorsense or Blindsight.</p>
+            <p>At 13th level, you can strike fear into the hearts of your foes. As an action on your turn, you can force a creature you can see to make a Wisdom saving throw against your power save DC. The creature must be within 60 feet of you and able to see you. On a failed save, the creature is frightened by you for the next minute Once you use this feature to successfully frighten a creature, you must complete a short or long rest before using it again. </p>
+            <p class="indent">Additionally, you can use your Sucker Punch against creatures if they are frightened by you and you do not have disadvantage on the attack roll.</p>
         </description>
         <sheet action="Action">
-            <description>When you are in an area of dim light or darkness, you can use your action to become invisible until the start of your next turn. hile you are invisible this way, you can move across difficult terrain without expending extra movement, and you cannot be detected by Tremorsense or Blindsight.</description>
+            <description>As an action on your turn, you can force a creature you can see to make a Wisdom saving throw against your power save DC. The creature must be within 60 feet of you and able to see you. On a failed save, the creature is frightened by you for the next minute Once you use this feature to successfully frighten a creature, you must complete a short or long rest before using it again. Additionally, you can use your Sucker Punch against creatures if they are frightened by you and you do not have disadvantage on the attack roll.</description>
         </sheet>
     </element>
-    <element name="Dreadful Stare" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_DREADFUL_STARE">
+    <element name="No Mercy" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_DREADFUL_STARE">
         <description>
-            <p>At 17th level, you can become your enemy's worst nightmare. You can use an action to terrify a creature you are grappling, leaving them frozen in fear. If the target has 150 hit points or fewer, it is stunned. Otherwise, the creature is frightened by you until the end of your next turn.</p>
-            <p class="indent">The stunned creature must make a Wisdom saving throw against your power save DC at the end of each of its turns. On a successful save, this stunning effect ends.</p>
-            <p class="indent">Once you use this ability, you must complete a long rest to use it again.</p>
+            <p>At 17th level, you are absolutely relentless. Once per turn when you successfully grapple or shove a creature, you can immediately target the creature with a single unarmed strike using Pure Strength as part of the grapple or shove. </p>
         </description>
-        <sheet action="Action" usage="Long Rest">
-            <description>You can use an action to terrify a creature you are grappling, leaving them frozen in fear. If the target has 150 hit points or fewer, it is stunned. Otherwise, the creature is frightened by you until the end of your next turn. The stunned creature must make a Wisdom saving throw against your power save DC at the end of each of its turns. On a successful save, this stunning effect ends. Once you use this ability, you must complete a long rest to use it again.</description>
+        <sheet>
+            <description>Once per turn when you successfully grapple or shove a creature, you can immediately target the creature with a single unarmed strike using Pure Strength as part of the grapple or shove.</description>
         </sheet>
     </element>
 
@@ -956,8 +1163,6 @@
     </element>
     <element name="Arcane Synthesia" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_ARCANE_SYNTHESIA">
         <supports>Astounding Powers</supports>
-        <prerequisite>3rd level, Conduit Manifestation</prerequisite>
-        <requirements>[level:3], ID_TANDRABOY_ARCHETYPE_CONDUIT</requirements>
         <description>
             <p>You can cast Detect Magic at will, without using components.</p>
             <div class="reference">
@@ -971,37 +1176,27 @@
             <grant type="Spell" id="ID_PHB_SPELL_DETECT_MAGIC" />
         </rules>
     </element>
-    <element name="Atomize" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_ATOMIZE">
-        <supports>Astounding Powers</supports>
-        <prerequisite>18th level</prerequisite>
-        <requirements>[level:18]</requirements>
-        <description>
-            <p>You can now use Strength Surge on non-legendary magic items. Each time you do so, you gain a point of exhaustion.</p>
-        </description>
-        <sheet>
-            <description>You can now use Strength Surge on non-legendary magic items. Each time you do so, you gain a point of exhaustion.</description>
-        </sheet>
-    </element>
     <element name="Barehanded Block" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_BAREHANDED_BLOCK">
         <supports>Astounding Powers</supports>
         <description>
-            <p>When you are hit with a melee attack, you can expend a use of Strength Surge as a reaction to add a roll of your Pure Strength die to your AC for that attack, potentially blocking it.</p>
+            <p>If a creature hits you with a melee attack while you are unarmed, unarmored, and are not wielding a shield, you can use your reaction to add your proficiency bonus to your AC for that attack, potentially causing the attack to miss you.</p>
         </description>
         <sheet action="Reaction">
-            <description>When you are hit with a melee attack, you can expend a use of Strength Surge as a reaction to add a roll of your Pure Strength die to your AC for that attack, potentially blocking it.</description>
+            <description>If a creature hits you with a melee attack while you are unarmed, unarmored, and are not wielding a shield, you can use your reaction to add your proficiency bonus to your AC for that attack, potentially causing the attack to miss you.</description>
         </sheet>
     </element>
     <element name="Boring Monologue" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_BORING_MONOLOGUE">
         <supports>Astounding Powers</supports>
+        <prerequisite>at least 12 charisma</prerequisite>
+        <requirements>[cha:12]</requirements>
         <description>
-            <p>You can cast Charm Person as a 1st level spell, using Charisma as your spellcasting ability. Once you use this power, you must complete a short or long rest to use it again.</p>
-            <p class="indent">Rather than viewing you as a friendly acquaintance on a failed save, the target will admit that they are swayed by your reasonable line of thinking.</p>
+            <p>You can cast Charm Person as a 1st level spell, using Charisma as your spellcasting ability. Rather than viewing you as a friendly acquaintance on a failed save, the target will admit that they are swayed by your reasonable line of thinking. Once you use this power, you must complete a short or long rest to use it again. </p>
             <div class="reference">
                 <div element="ID_PHB_SPELL_CHARM_PERSON" />
             </div>
         </description>
         <sheet>
-            <description>You can cast Charm Person as a 1st level spell, using Charisma as your spellcasting ability. Once you use this power, you must complete a short or long rest to use it again. Rather than viewing you as a friendly acquaintance on a failed save, the target will admit that they are swayed by your reasonable line of thinking.</description>
+            <description>You can cast Charm Person as a 1st level spell, using Charisma as your spellcasting ability. Rather than viewing you as a friendly acquaintance on a failed save, the target will admit that they are swayed by your reasonable line of thinking. Once you use this power, you must complete a short or long rest to use it again.</description>
         </sheet>
         <rules>
             <grant type="Spell" id="ID_PHB_SPELL_CHARM_PERSON" />
@@ -1009,11 +1204,13 @@
     </element>
     <element name="Bullet-Time" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_BULLET_TIME">
         <supports>Astounding Powers</supports>
+        <prerequisite>7 level, Speed Demon Manifestation</prerequisite>
+        <requirements>[level:7],ID_TANDRABOY_ARCHETYPE_SPEED_DEMON </requirements>
         <description>
-            <p>You can expend a use of Strength Surge to take the Dodge action as a bonus action on your turn.</p>
+            <p>Using your Super Speed causes ranged attacks targeting you to be made with disadvantage until the start of your next turn.</p>
         </description>
         <sheet action="Bonus">
-            <p>You can expend a use of Strength Surge to take the Dodge action as a bonus action on your turn.</p>
+            <p>Using your Super Speed causes ranged attacks targeting you to be made with disadvantage until the start of your next turn.</p>
         </sheet>
     </element>
     <element name="Cling Grip" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_CLING_GRIP">
@@ -1021,10 +1218,10 @@
         <prerequisite>5th level</prerequisite>
         <requirements>[level:5]</requirements>
         <description>
-            <p>While you are not wearing armor, you gain 30 feet of climbing speed. You also gain the ability to move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free.</p>
+            <p>While you are not wearing heavy armor, you gain 30 feet of climbing speed. You also gain the ability to move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free.</p>
         </description>
         <sheet>
-            <description>While you are not wearing armor, you gain 30 feet of climbing speed. You also gain the ability to move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free.</description>
+            <description>While you are not wearing heavy armor, you gain 30 feet of climbing speed. You also gain the ability to move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free.</description>
         </sheet>
         <rules>
             <stat name="innate speed:climb" value="30" bonus="base" />
@@ -1032,24 +1229,31 @@
     </element>
     <element name="Clothesline" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_CLOTHESLINE">
         <supports>Astounding Powers</supports>
-        <prerequisite>15th level</prerequisite>
-        <requirements>[level:15]</requirements>
+        <prerequisite>12th level</prerequisite>
+        <requirements>[level:12]</requirements>
         <description>
-            <p>If a creature within 5 feet of you misses you with a melee attack, you can expend a use of Strength Surge as a reaction to attempt to shove them.</p>
+            <p>If a creature within 5 feet of you misses you with an attack, you can use a reaction to attempt to grapple or shove them</p>
         </description>
         <sheet action="Reaction">
-            <description>If a creature within 5 feet of you misses you with a melee attack, you can expend a use of Strength Surge as a reaction to attempt to shove them.</description>
+            <description>If a creature within 5 feet of you misses you with an attack, you can use a reaction to attempt to grapple or shove them</description>
+        </sheet>
+    </element>
+    <element name="Collateral Damage" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_COLLATERAL_DAMAGE">
+        <supports>Astounding Powers</supports>
+        <description>
+            <p>You are proficient in the use of improvised weapons, and deal damage equal to a roll of your Pure Strength die when you hit a creature with an improvised weapon. When you throw objects as improvised weapons, they have a short range of 60 feet and a long range of 180 feet.</p>
+        </description>
+        <sheet>
+            <description>You are proficient in the use of improvised weapons, and deal damage equal to a roll of your Pure Strength die when you hit a creature with an improvised weapon. When you throw objects as improvised weapons, they have a short range of 60 feet and a long range of 180 feet.</description>
         </sheet>
     </element>
     <element name="Courage" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_COURAGE">
         <supports>Astounding Powers</supports>
-        <prerequisite>5th level</prerequisite>
-        <requirements>[level:5]</requirements>
         <description>
-            <p>You regain a use of Strength Surge when you score a critical hit with an unarmed strike against a creature that is at least one size larger than you.</p>
+            <p>You regain a use of Strength Surge when you score a critical hit with an unarmed strike using Pure Strength against a conscious creature that is at least large in size.</p>
         </description>
         <sheet>
-            <description>You regain a use of Strength Surge when you score a critical hit with an unarmed strike against a creature that is at least one size larger than you.</description>
+            <description>You regain a use of Strength Surge when you score a critical hit with an unarmed strike using Pure Strength against a conscious creature that is at least large in size.</description>
         </sheet>
     </element>
     <element name="Destiny" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_DESTINY">
@@ -1067,26 +1271,15 @@
             <grant type="Spell" id="ID_PHB_SPELL_AUGURY" />
         </rules>
     </element>
-    <element name="Detective Persona" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_DETECTIVE_PERSONA">
-        <supports>Astounding Powers</supports>
-        <prerequisite>You have no other Persona powers</prerequisite>
-        <requirements>!ID_TANDRABOY_ASTOUNDING_POWERS_DRAMATIC_PERSONA, !ID_TANDRABOY_ASTOUNDING_POWERS_VILLAINOUS_PERSONA, !ID_TANDRABOY_ASTOUNDING_POWERS_HEROIC_PERSONA</requirements>
-        <description>
-            <p>You gain proficiency in the Investigation and Perception skills.</p>
-        </description>
-        <sheet display="false" />
-        <rules>
-            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INVESTIGATION" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
-        </rules>
-    </element>
     <element name="Daredevil" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_DAREDEVIL">
         <supports>Astounding Powers</supports>
+        <prerequisite>at least 12 Wisdom</prerequisite>
+        <requirements>[level:12]</requirements>
         <description>
-            <p>You gain 20 feet of Tremorsense, and 10 feet of Blindsight.</p>
+            <p>You gain 15 feet of Tremorsense, and 5 feet of Blindsight.</p>
         </description>
         <sheet>
-            <description>You have 20ft of Tremorsense and 10ft of Blindsight.</description>
+            <description>You gain 15 feet of Tremorsense, and 5 feet of Blindsight.</description>
         </sheet>
         <rules>
             <grant type="Vision" id="ID_VISION_BLINDSIGHT" />
@@ -1094,38 +1287,28 @@
     </element>
     <element name="Dormant Energy" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_DORMANT_ENERGY">
         <supports>Astounding Powers</supports>
-        <prerequisite>9th level, Conduit Manifestation</prerequisite>
-        <requirements>[level:9], ID_TANDRABOY_ARCHETYPE_CONDUIT</requirements>
+        <prerequisite>7th level, Conduit Manifestation</prerequisite>
+        <requirements>[level:7], ID_TANDRABOY_ARCHETYPE_CONDUIT</requirements>
         <description>
-            <p>Instead of losing all charges for your Energy Beam after 1 minute without firing it, your charge count is reduced until you have 1 or fewer charges remaining.</p>
+            <p>Whenever you roll for initiative, your Energy Beam automatically becomes charged.</p>
         </description>
         <sheet>
-            <description>Instead of losing all charges for your Energy Beam after 1 minute without firing it, your charge count is reduced until you have 1 or fewer charges remaining.</description>
+            <description>Whenever you roll for initiative, your Energy Beam automatically becomes charged.</description>
         </sheet>
     </element> 
-    <element name="Dramatic Persona" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_DRAMATIC_PERSONA">
-        <supports>Astounding Powers</supports>
-        <prerequisite>You have no other Persona powers</prerequisite>
-        <requirements>!ID_TANDRABOY_ASTOUNDING_POWERS_DETECTIVE_PERSONA, !ID_TANDRABOY_ASTOUNDING_POWERS_VILLAINOUS_PERSONA, !ID_TANDRABOY_ASTOUNDING_POWERS_HEROIC_PERSONA</requirements>
-        <description>
-            <p>You can cast the Thaumaturgy cantrip, and gain proficiency in Performance.</p>
-        </description>
-        <sheet display="false" />
-        <rules>
-            <grant type="Spell" id="ID_PHB_SPELL_THAUMATURGY" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERFORMANCE" />
-        </rules>
-    </element>
     <element name="Equipment Expert" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_EQUIPMENT_EXPERT">
         <supports>Astounding Powers</supports>
-        <prerequisite>3rd level, Vigilate Manifestation</prerequisite>
-        <requirements>[level:3], ID_TANDRABOY_ARCHETYPE_VIGILANTE</requirements>
+        <prerequisite>5th level, Vigilate Manifestation</prerequisite>
+        <requirements>[level:5], ID_TANDRABOY_ARCHETYPE_VIGILANTE</requirements>
         <description>
             <p>You gain proficiency with Thieves's Tools if you don't have it already, and your proficiency bonus is doubled for any ability check you make with them.</p>
         </description>
         <sheet>
             <description>Your proficiency bonus is doubled for any ability check you make with thieves' tools.</description>
         </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_THIEVES_TOOLS" />
+        </rules>
     </element>
     <element name="Fanclub" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_FANCLUB">
         <supports>Astounding Powers</supports>
@@ -1141,65 +1324,38 @@
         <prerequisite>9th level</prerequisite>
         <requirements>[level:9]</requirements>
         <description>
-            <p>You can choose a creature within 30 feet of you as a bonus action. For 1 minute, so long as you do not damage creatures other than the target, you resist bludgeoning, slashing, and piercing damage from the target. Once you use this ability, you must complete a short or long rest before using it again.</p>
+            <p>You can fixate your willful intent on a creature you can see within 30 feet of you as a bonus action. For 1 minute, so long as you do not damage creatures other than the target, you resist bludgeoning, slashing, and piercing damage from the target. Once you use this power, you must complete a short or long rest to use it again.</p>
         </description>
         <sheet action="Bonus Action" usage="Short/Long Rest">
-            <description>You can choose a creature within 30 feet of you as a bonus action. For 1 minute, so long as you do not damage creatures other than the target, you resist bludgeoning, slashing, and piercing damage from the target. Once you use this ability, you must complete a short or long rest before using it again.</description>
+            <description>You can fixate your willful intent on a creature you can see within 30 feet of you as a bonus action. For 1 minute, so long as you do not damage creatures other than the target, you resist bludgeoning, slashing, and piercing damage from the target. Once you use this power, you must complete a short or long rest to use it again.</description>
         </sheet>
     </element>
     <element name="Flight" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_FLIGHT">
         <supports>Astounding Powers</supports>
-        <prerequisite>9th level</prerequisite>
-        <requirements>[level:9]</requirements>
+        <prerequisite>7th level</prerequisite>
+        <requirements>[level:7]</requirements>
         <description>
-            <p>While you are not wearing heavy armor, you gain 30 feet of flying speed, and can hover.</p>
-            <p class="indent">You choose how this ability works when you gain this power: you can have wings, levitate naturally, shoot energy out of your feet or palms, or any other innate way to fly.</p>
+            <p>As a bonus action, you can give yourself a flying speed of 30 feet and the ability to hover for 10 minutes. You can use this power a number of times equal to your proficiency bonus, and regain all expended uses on a long rest. </p>
         </description>
-        <sheet>
-            <description>While you are not wearing heavy armor, you gain 30 feet of flying speed, and can hover.</description>
-        </sheet>
-        <rules>
-            <stat name="innate speed:fly" value="30" bonus="base" equipped="![armor:heavy]" />
-        </rules>
-    </element>
-    <element name="Gadget Guy" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_GADGET_GUY">
-        <supports>Astounding Powers</supports>
-        <prerequisite>5th level</prerequisite>
-        <requirements>[level:5]</requirements>
-        <description>
-            <p>You gain an additional attunement slot.</p>
-        </description>
-        <sheet>
-            <description>You have an additional attunement slot.</description>
-        </sheet>
-    </element>
-    <element name="Gradual Recovery" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_GRADUAL_RECOVERY">
-        <supports>Astounding Powers</supports>
-        <prerequisite>12th level</prerequisite>
-        <requirements>[level:12]</requirements>
-        <description>
-            <p>So long as you have 1 hit point, you regain hit points equal to a roll of your Pure Strength die at the end of every hour that you spend outside of combat.</p>
-            <p class="indent">Additionally, if you lose a body part, it will grow back and return to full functionality after 1d6 + 1 days if you have at least 1 hit point the whole time.</p>
-        </description>
-        <sheet>
-            <description>So long as you have 1 hit point, you regain hit points equal to a roll of your Pure Strength die at the end of every hour that you spend outside of combat. Additionally, if you lose a body part, it will grow back and return to full functionality after 1d6 + 1 days if you have at least 1 hit point the whole time.</description>
+        <sheet action="Bonus Action">
+            <description>As a bonus action, you can give yourself a flying speed of 30 feet and the ability to hover for 10 minutes. You can use this power a number of times equal to your proficiency bonus, and regain all expended uses on a long rest.</description>
         </sheet>
     </element>
     <element name="Grotesque" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_GROTESQUE">
         <supports>Astounding Powers</supports>
-        <prerequisite>9th level, Mutant Manifestation</prerequisite>
-        <requirements>[level:9], ID_TANDRABOY_ARCHETYPE_MUTANT</requirements>
+        <prerequisite>12th level, Mutant Manifestation</prerequisite>
+        <requirements>[level:12], ID_TANDRABOY_ARCHETYPE_MUTANT</requirements>
         <description>
-            <p>When you use your Monstrous Imitation, the creature you are imitating must make a Wisdom saving throw against your power save DC. On a failed save, the creature is frightened by you until the start of your next turn.</p>
+            <p>When you use your Monstrous Imitation on a creature, they must make a Wisdom saving throw against your power save DC. On a failed save, the creature is frightened by you for 1 minute. On a successful save, they are frightened by you until the end of your next turn.</p>
         </description>
         <sheet>
-            <description>When you use your Monstrous Imitation, the creature you are imitating must make a Wisdom saving throw against your power save DC. On a failed save, the creature is frightened by you until the start of your next turn.</description>
+            <description>When you use your Monstrous Imitation on a creature, they must make a Wisdom saving throw against your power save DC. On a failed save, the creature is frightened by you for 1 minute. On a successful save, they are frightened by you until the end of your next turn.</description>
         </sheet>
     </element>
     <element name="Guiding Hand" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_GUIDING_HAND">
         <supports>Astounding Powers</supports>
-        <prerequisite>3rd level, Idol Manifestation</prerequisite>
-        <requirements>[level:3], ID_TANDRABOY_ARCHETYPE_IDOL</requirements>
+        <prerequisite>5th level, Idol Manifestation</prerequisite>
+        <requirements>[level:5], ID_TANDRABOY_ARCHETYPE_IDOL</requirements>
         <description>
             <p>You can cast Guidance and Resistance without using material components, but only on targets other than yourself.</p>
             <div class="reference">
@@ -1220,29 +1376,25 @@
             <description>You can see normally in darkness, both magical and non-magical, to a distance of 120 feet.</description>
         </sheet>
     </element>
-    <element name="Heroic Persona" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_HEROIC_PERSONA">
+    <element name="Healing Factor" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_HEALING_FACTOR">
         <supports>Astounding Powers</supports>
-        <prerequisite>You have no other Persona powers</prerequisite>
-        <requirements>!ID_TANDRABOY_ASTOUNDING_POWERS_DETECTIVE_PERSONA, !ID_TANDRABOY_ASTOUNDING_POWERS_DRAMATIC_PERSONA, !ID_TANDRABOY_ASTOUNDING_POWERS_VILLAINOUS_PERSONA</requirements>
+        <prerequisite>12th level</prerequisite>
+        <requirements>[level:12]</requirements>
         <description>
-            <p>You gain proficiency in the Insight and Persuasion skills.</p>
+            <p>So long as you have 1 hit point, you regain hit points equal to a roll of your Pure Strength die at the end of every hour that you spend outside of combat.</p>
+            <p class="indent">Additionally, if you lose a body part, it will grow back and return to full functionality after 1d6 + 1 days if you have at least 1 hit point the whole time.</p>
         </description>
         <sheet>
-            <description>You gain proficiency in the Insight and Persuasion skills.</description>
+            <description>So long as you have 1 hit point, you regain hit points equal to a roll of your Pure Strength die at the end of every hour that you spend outside of combat. Additionally, if you lose a body part, it will grow back and return to full functionality after 1d6 + 1 days if you have at least 1 hit point the whole time.</description>
         </sheet>
-        <rules>
-            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
-        </rules>
     </element>
     <element name="Immortal Spirit" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_IMMORTAL_SPIRIT">
         <supports>Astounding Powers</supports>
         <description>
-            <p>When you dream or meditate, you can access the memories of empowered beings that came before you. The DM rolls a d20 to determine the quality of the visions you receive, ranging from vague symbolism on a roll of 1, to crucial information on a roll of 20.</p>
-            <p class="indent">At the DM's discretion, you might receive visions from one empowered being in particular, and that being might even speak to you directly.</p>
+            <p>When you dream or meditate, you can access the memories of empowered beings that came before you. The DM rolls a d20 to determine the quality of the visions you receive, ranging from vague symbolism on a roll of 1, to crucial information on a roll of 20. At the DM's discretion, you might receive visions from one empowered being in particular, and that being might even speak to you directly. </p>
         </description>
         <sheet>
-            <description>When you dream or meditate, you can access the memories of empowered beings that came before you. The DM rolls a d20 to determine the quality of the visions you receive, ranging from vague symbolism on a roll of 1, to crucial information on a roll of 20.</description>
+            <description>When you dream or meditate, you can access the memories of empowered beings that came before you. The DM rolls a d20 to determine the quality of the visions you receive, ranging from vague symbolism on a roll of 1, to crucial information on a roll of 20. At the DM's discretion, you might receive visions from one empowered being in particular, and that being might even speak to you directly.</description>
         </sheet>
     </element>
     <element name="Immovable Object" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_IMMOVABLE_OBJECT">
@@ -1258,54 +1410,30 @@
     </element>
     <element name="Instinctive Reflexes" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_INSTINCTIVE_REFLEXES">
         <supports>Astounding Powers</supports>
+        <prerequisite>7th level, Hybrid Manifestation</prerequisite>
+        <requirements>[level:7], ID_TANDRABOY_ARCHETYPE_HYBRID</requirements>
         <description>
-            <p>Other creatures don’t gain advantage on attack rolls against you as a result of being unseen by you. Additionally, you can cast Find Traps. Once you use this power, you must complete a long rest to do so again.</p>
+            <p>Other creatures don’t gain advantage on attack rolls against you as a result of being unseen by you. Additionally, you can cast Find Traps. Once you use this power to cast Find Traps, you must complete a short or long rest to do so again.</p>
             <div class="reference">
                 <div element="ID_PHB_SPELL_FIND_TRAPS" />
             </div>
         </description>
-        <sheet>
-            <description>Other creatures don’t gain advantage on attack rolls against you as a result of being unseen by you. Additionally, you can cast Find Traps. Once you use this power, you must complete a long rest to do so again.</description>
+        <sheet usage="Short/Long Rest">
+            <description>Other creatures don’t gain advantage on attack rolls against you as a result of being unseen by you. Additionally, you can cast Find Traps. Once you use this power to cast Find Traps, you must complete a short or long rest to do so again.</description>
         </sheet>
         <rules>
             <grant type="Spell" id="ID_PHB_SPELL_FIND_TRAPS" />
         </rules>
     </element>
-    <element name="It's Up To You Now" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_ITS_UP_TO_YOU_NOW">
-        <supports>Astounding Powers</supports>
-        <prerequisite>9th level, Idol Manifestation</prerequisite>
-        <requirements>[level:9], ID_TANDRABOY_ARCHETYPE_IDOL</requirements>
-        <description>
-            <p>You can cast Enhance Ability on other creatures without using material components. Once you use this power, you must complete a long rest to do so again.</p>
-            <div class="reference">
-                <div element="ID_PHB_SPELL_ENHANCE_ABILITY" />
-            </div>
-        </description>
-        <sheet>
-            <description>You can cast Enhance Ability on other creatures without using material components. Once you use this power, you must complete a long rest to do so again.</description>
-        </sheet>
-        <rules>
-            <grant type="Spell" id="ID_PHB_SPELL_ENHANCE_ABILITY"/>
-        </rules>
-    </element>
     <element name="Juggernaut" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_JUGGERNAUT">
         <supports>Astounding Powers</supports>
-        <prerequisite>3rd level, Titan Manifestation</prerequisite>
-        <requirements>[leve:3], ID_TANDRABOY_ARCHETYPE_TITAN</requirements>
+        <prerequisite>5th level, Titan Manifestation</prerequisite>
+        <requirements>[leve:5], ID_TANDRABOY_ARCHETYPE_TITAN</requirements>
         <description>
             <p>You count as a mount while you are in your True Form, allowing your allies to ride on your back.</p>
         </description>
         <sheet>
             <description>You count as a mount while you are in your True Form, allowing your allies to ride on your back.</description>
-        </sheet>
-    </element>
-    <element name="Judgement" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_JUDGEMENT">
-        <supports>Astounding Powers</supports>
-        <description>
-            <p>You can tell a creature's alignment just by looking at them.</p>
-        </description>
-        <sheet>
-            <description>You can tell a creature's alignment just by looking at them.</description>
         </sheet>
     </element>
     <element name="Keen Vision" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_KEEN_VISION">
@@ -1319,13 +1447,14 @@
     </element>
     <element name="Kilojoule" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_KILOJOULE">
         <supports>Astounding Powers</supports>
-        <prerequisite>15th level, Conduit Manifestation</prerequisite>
-        <requirements>[level:15], ID_TANDRABOY_ARCHETYPE_CONDUIT</requirements>
+        <prerequisite>12th level, Conduit Manifestation</prerequisite>
+        <requirements>[level:12], ID_TANDRABOY_ARCHETYPE_CONDUIT</requirements>
         <description>
-            <p>When dealing infusion damage, you can choose an alternate damage type. If your infusion damage is fire, you can deal radiant damage instead. If your infusion damage is cold, you can deal necrotic damage instead. If your infusion damage is lightning, you can deal thunder damage instead.</p>
+            <p>You gain an additional infusion damage type. If your infusion damage is fire, this new damage type is radiant damage. If your infusion damage is cold, this new damage type is necrotic damage. If your infusion damage is lightning, this new damage type is thunder damage.</p>
+            <p class="indent">Alternatively, you can choose an additional one of the three base infusion damage types (fire, cold, or lightning) to be your second infusion damage type.</p>
         </description>
         <sheet>
-            <description>When dealing infusion damage, you can choose an alternate damage type. If your infusion damage is fire, you can deal radiant damage instead. If your infusion damage is cold, you can deal necrotic damage instead. If your infusion damage is lightning, you can deal thunder damage instead.</description>
+            <description>When dealing infusion damage, you can choose an alternate damage type. If your infusion damage is fire, you can deal radiant damage instead. If your infusion damage is cold, you can deal necrotic damage instead. If your infusion damage is lightning, you can deal thunder damage instead. Alternatively, you can choose an additional one of the three base infusion damage types (fire, cold, or lightning) to be your second infusion damage type.</description>
         </sheet>
     </element>
     <element name="Laser Eyes" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_LASER_EYES">
@@ -1333,10 +1462,10 @@
         <prerequisite>5th level</prerequisite>
         <requirements>[level:5]</requirements>
         <description>
-            <p>You can cast Scorching Ray from your eyes using Constitution as your spellcasting ability and without using components. The spell's level is equal to your proficiency bonus. The spell deals infusion damage if you chose the Conduit Manifestation. Once you use this power, you must complete a long rest to do so again.</p>
+            <p>You can cast Scorching Ray from your eyes using Constitution as your spellcasting ability and without using components. The spell's level is equal to your proficiency bonus. The spell deals infusion damage if you chose the Conduit Manifestation. Once you use this power, you must complete a long rest to use it again.</p>
         </description>
         <sheet>
-            <description>You can cast Scorching Ray from your eyes using Constitution as your spellcasting ability and without using components. The spell's level is equal to your proficiency bonus. The spell deals infusion damage if you chose the Conduit Manifestation. Once you use this power, you must complete a long rest to do so again.</description>
+            <description>You can cast Scorching Ray from your eyes using Constitution as your spellcasting ability and without using components. The spell's level is equal to your proficiency bonus. The spell deals infusion damage if you chose the Conduit Manifestation. Once you use this power, you must complete a long rest to use it again.</description>
         </sheet>
     </element>
     <element name="Launching Maneuver" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_LAUNCHING_MANEUVER">
@@ -1344,17 +1473,16 @@
         <prerequisite>7th level</prerequisite>
         <requirements>[level:7]</requirements>
         <description>
-            <p>You can expend a use of Strength Surge as a bonus action to propel yourself a number of feet equal to 10 times your proficiency bonus in any direction, leaving a small crater where you were standing.</p>
-            <p class="indent">This movement ends early if you impact an obstruction. If the obstruction you impact is a creature, you can attempt to grapple or shove them as part of the same bonus action.</p>
+            <p>You can expend a use of Strength Surge as a bonus action to propel yourself a number of feet equal to 10 times your proficiency bonus in any direction, leaving a small crater where you were standing. This movement ends early if you impact an obstruction. If you impact a creature, you can attempt to grapple them as part of the same bonus action. </p>
         </description>
         <sheet action="Bonus Action">
-            <description>You can expend a use of Strength Surge as a bonus action to propel yourself a number of feet equal to 10 times your proficiency bonus in any direction, leaving a small crater where you were standing. This movement ends early if you impact an obstruction. If the obstruction you impact is a creature, you can attempt to grapple or shove them as part of the same bonus action.</description>
+            <description>You can expend a use of Strength Surge as a bonus action to propel yourself a number of feet equal to 10 times your proficiency bonus in any direction, leaving a small crater where you were standing. This movement ends early if you impact an obstruction. If you impact a creature, you can attempt to grapple them as part of the same bonus action.</description>
         </sheet>
     </element>
     <element name="Lighter Than Air" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_LIGHTER_THAN_AIR">
         <supports>Astounding Powers</supports>
-        <prerequisite>7th level, Speed Demon Manifestation</prerequisite>
-        <requirements>[level:7], ID_TANDRABOY_ARHCETYPE_SPEED_DEMON</requirements>
+        <prerequisite>9th level, Speed Demon Manifestation</prerequisite>
+        <requirements>[level:9], ID_TANDRABOY_ARHCETYPE_SPEED_DEMON</requirements>
         <description>
             <p>You gain the ability to move along vertical surfaces and across liquids on your turn without falling during your move.</p>
         </description>
@@ -1367,14 +1495,14 @@
         <prerequisite>15th level</prerequisite>
         <requirements>[level:15]</requirements>
         <description>
-            <p>You can cast either Telepathy or Telekinesis without using material components. Once you use this power, you must complete a long rest to do so again.</p>
+            <p>You can cast either Telepathy or Telekinesis without using material components. Once you use this power, you must complete a long rest to use it again.</p>
             <div class="reference">
                 <div element="ID_PHB_SPELL_TELEPATHY" />
                 <div element="ID_PHB_SPELL_TELEKINESIS" />
             </div>
         </description>
         <sheet usage="Long Rest">
-            <description>You can cast either Telepathy or Telekinesis without using material components. Once you use this power, you must complete a long rest to do so again.</description>
+            <description>You can cast either Telepathy or Telekinesis without using material components. Once you use this power, you must complete a long rest to use it again.</description>
         </sheet>
         <rules>
             <grant type="Spell" id="ID_PHB_SPELL_TELEPATHY" />
@@ -1383,11 +1511,13 @@
     </element>
     <element name="Maximum Effort" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_MAXIMUM_EFFORT">
         <supports>Astounding Powers</supports>
+        <prerequisite>12th level</prerequisite>
+        <requirements>[level:12]</requirements>
         <description>
-            <p>You can expend a use of Strength Surge to gain advantage on any Strength (Athletics) check or contest.</p>
+            <p>When you expend your last use of Strength Surge, you can make a DC 10 Strength saving throw. On a successful save, you regain a use of Strength Surge. Each time you use this feature after the first, the DC increases by 5. When you finish a short or long rest, the DC resets to 10.</p>
         </description>
         <sheet>
-            <description>You can expend a use of Strength Surge to gain advantage on any Strength (Athletics) check or contest.</description>
+            <description>When you expend your last use of Strength Surge, you can make a DC 10 Strength saving throw. On a successful save, you regain a use of Strength Surge. Each time you use this feature after the first, the DC increases by 5. When you finish a short or long rest, the DC resets to 10.</description>
         </sheet>
     </element>
     <element name="Minor Mentalist" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_MINOR_MENTALIST">
@@ -1419,50 +1549,41 @@
     <element name="Nameless" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_NAMELESS">
         <supports>Astounding Powers</supports>
         <description>
-            <p>When you gain this power, you toss your old identity aside, allowing you to choose a new name and alignment. The old you is presumed dead by those who are not adventuring with you. Perhaps they've built statues in your honor. At least you won't be hunted down for crimes the old you committed.</p>
+            <p>When you gain this power, you toss your old identity aside, allowing you to choose a new name and alignment. The old you is presumed dead by those who are not adventuring with you, and you won't be hunted down for crimes the old you committed. If a creature that used to know you discovers that you are not dead, they become stunned until the end of your next turn. You revert to your old identity permanently if you swap this power out for a new one.</p>
         </description>
         <sheet>
-            <description>When you gain this power, you toss your old identity aside, allowing you to choose a new name and alignment. The old you is presumed dead by those who are not adventuring with you. Perhaps they've built statues in your honor. At least you won't be hunted down for crimes the old you committed.</description>
+            <description>When you gain this power, you toss your old identity aside, allowing you to choose a new name and alignment. The old you is presumed dead by those who are not adventuring with you, and you won't be hunted down for crimes the old you committed. If a creature that used to know you discovers that you are not dead, they become stunned until the end of your next turn. You revert to your old identity permanently if you swap this power out for a new one.</description>
         </sheet>
     </element>
-    <element name="No Holding Back" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_NO_HOLDING_BACK">
+    <element name="Ninjutsu" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_NINJUTSU">
         <supports>Astounding Powers</supports>
-        <prerequisite>5th level, Idol Manifestation</prerequisite>
-        <requirements>[level:5], ID_TANDRABOY_ARCHETYPE_IDOL</requirements>
+        <prerequisite>7th level, Vigilante Manifestation</prerequisite>
+        <requirements>[level:7], ID_TANDRABOY_ARCHETYPE_VIGILANTE</requirements>
         <description>
-            <p>You can cast Bless as a 1st level spell without using material components, but only to target creatures other than yourself. Once you use this power, you must complete a long rest to do so again.</p>
-            <div class="reference">
-                <div element="ID_PHB_SPELL_BLESS" />
-            </div>
+            <p>Empowered abilities that apply to your unarmed strikes made using Pure Strength also apply to any attack you make with a quarterstaff or dagger, so long as you use Strength as the ability modifier for the attack.</p>
         </description>
         <sheet>
-            <description>You can cast Bless as a 1st level spell without using material components, but only to target creatures other than yourself. Once you use this power, you must complete a long rest to do so again.</description>
+            <description>Empowered abilities that apply to your unarmed strikes made using Pure Strength also apply to any attack you make with a quarterstaff or dagger, so long as you use Strength as the ability modifier for the attack.</description>
         </sheet>
-        <rules>
-            <grant type="Spell" id="ID_PHB_SPELL_BLESS" />
-        </rules>
     </element>
-    <element name="Old Soldier" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_OLD_SOLDIER">
+    <element name="Noble Sacrifice" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_NOBLE_SACRIFICE">
         <supports>Astounding Powers</supports>
-        <prerequisite>12th level, Super Soldier Manifestation</prerequisite>
-        <requirements>[level:12], ID_TANDRABOY_ARCHETYPE_SUPER_SOLDIER</requirements>
+        <prerequisite>9th level</prerequisite>
+        <requirements>[level:9]</requirements>
         <description>
-            <p>You can't be surprised while you are conscious.</p>
+            <p>Whenever you start your turn with 0 hit points, you can choose a creature that can see you within 30 feet of you. That creature gains Inspiration. Once you use this power, you must complete a long rest to use it again.</p>
         </description>
-        <sheet>
-            <description>You can't be surprised while you are conscious.</description>
-        </sheet>
     </element>
     <element name="Orbital Toss" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_ORBITAL_POWERS">
         <supports>Astounding Powers</supports>
         <prerequisite>5th level</prerequisite>
         <requirements>[level:5]</requirements>
         <description>
-            <p>While grappling a creature that is your size or smaller, you can expend a use of Strength Surge as an action to throw the creature in any direction. The creature moves a number of feet equal to 10 times your proficiency bonus.</p>
-            <p class="indent">If the creature impacts an obstacle, they take 1d6 bludgeoning damage for every 10 feet thrown. If the obstacle is another creature, this damage is shared between the two creatures equally. If the creature is in the air after being thrown, they begin to fall normally.</p>
+            <p>While you are grappling a creature that is your size or smaller, you can expend a use of Strength Surge as an action to throw the creature in any direction. The creature moves a number of feet equal to 10 times your proficiency bonus.</p>
+            <p class="indent">If the creature impacts an obstacle, they take 1d6 bludgeoning damage for every 10 feet that they were thrown. If the obstacle is another creature, this damage is shared between the two creatures equally. If the creature is in the air after being thrown, they begin to fall normally.</p>
         </description>
         <sheet action="Action">
-            <description>While grappling a creature that is your size or smaller, you can expend a use of Strength Surge as an action to throw the creature in any direction. The creature moves a number of feet equal to 10 times your proficiency bonus. If the creature impacts an obstacle, they take 1d6 bludgeoning damage for every 10 feet thrown. If the obstacle is another creature, this damage is shared between the two creatures equally. If the creature is in the air after being thrown, they begin to fall normally.</description>
+            <description>While you are grappling a creature that is your size or smaller, you can expend a use of Strength Surge as an action to throw the creature in any direction. The creature moves a number of feet equal to 10 times your proficiency bonus. If the creature impacts an obstacle, they take 1d6 bludgeoning damage for every 10 feet that they were thrown. If the obstacle is another creature, this damage is shared between the two creatures equally. If the creature is in the air after being thrown, they begin to fall normally.</description>
         </sheet>
     </element>
     <element name="Perfect Landing" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_PERFECT_LANDING">
@@ -1470,48 +1591,96 @@
         <prerequisite>7th level</prerequisite>
         <requirements>[level:7]</requirements>
         <description>
-            <p>You can use your reaction when you fall to reduce any falling damage you take by an amount equal to five times your empowered level. You can expend a use of Strength Surge when you use this power to cause creatures within 5 feet of where you land to take bludgeoning damage equal to a roll of your Pure Strength die.</p>
+            <p>YYou can use your reaction when you fall to reduce any falling damage you take by an amount equal to five times your empowered level.</p>
         </description>
         <sheet action="Reaction">
-            <description>You can use your reaction when you fall to reduce any falling damage you take by an amount equal to five times your empowered level. You can expend a use of Strength Surge when you use this power to cause creatures within 5 feet of where you land to take bludgeoning damage equal to a roll of your Pure Strength die.</description>
+            <description>You can use your reaction when you fall to reduce any falling damage you take by an amount equal to five times your empowered level.</description>
         </sheet>
     </element>
-    <element name="Photographic Memory" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_PHOTOGRAPHIC_MEMORY">
+    <element name="Persona" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_PERSONA">
         <supports>Astounding Powers</supports>
         <description>
-            <p>You can perfectly remember the layouts of places you have seen, making it extremely difficult for you to get lost. You have advantage on Wisdom (Perception) checks to notice that a location has been altered since you last visited.</p>
+            <p>You gain one of the following personas of your choice:</p>
+            <ul>
+                <li>Detective. You gain proficiency in the Investigation and Perception skills.</li>
+                <li>Dramatic. You can cast the Thaumaturgy cantrip, and gain proficiency in Performance.</li>
+                <li>Heroic. You gain proficiency in the Insight and Persuasion skills.</li>
+                <li>Mysterious. You gain proficiency in the Stealth and Survival skills.</li>
+                <li>Villainous. You gain proficiency in the Deception and Intimidation skills.</li>
+            </ul>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Class Feature" name="Persona" supports="Persona" />
+        </rules>
+    </element>
+    <element name="Detective Persona" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_DETECTIVE_PERSONA">
+        <supports>Persona</supports>
+        <description>
+            <p>You gain proficiency in the Investigation and Perception skills.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INVESTIGATION" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
+        </rules>
+    </element>
+    <element name="Dramatic Persona" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_DRAMATIC_PERSONA">
+        <supports>Persona</supports>
+        <description>
+            <p>You can cast the Thaumaturgy cantrip, and gain proficiency in Performance.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_THAUMATURGY" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERFORMANCE" />
+        </rules>
+    </element>
+    <element name="Heroic Persona" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_HEROIC_PERSONA">
+        <supports>Persona</supports>
+        <description>
+            <p>You gain proficiency in the Insight and Persuasion skills.</p>
         </description>
         <sheet>
-            <description>You can perfectly remember the layouts of places you have seen, making it extremely difficult for you to get lost. You have advantage on Wisdom (Perception) checks to notice that a location has been altered since you last visited.</description>
+            <description>You gain proficiency in the Insight and Persuasion skills.</description>
         </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INSIGHT" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION" />
+        </rules>
+    </element>
+    <element name="Mysterious Persona" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_MYSTERIOUS_PERSONA">
+        <supports>Astounding Powers</supports>
+        <description>
+            <p>You gain proficiency in the Stealth and Deception skills.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_STEALTH" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" />
+        </rules>
+    </element>
+    <element name="Villainous Persona" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_VILLAINOUS_PERSONA">
+        <supports>Persona</supports>
+        <description>
+            <p>You gain proficiency in the Deception and Intimidation skills.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
+        </rules>
     </element>
     <element name="Plot Armor" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_PLOT_ARMOR">
         <supports>Astounding Powers</supports>
         <description>
-            <p>When you roll a 1 on a d20 for an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll. Unless the new roll is a 20, once you use this power, you must complete a long rest to use it again.</p>
+            <p>When you roll a 1 on a d20 for an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll. Once you use this power, you must complete a short or long rest to use it again.</p>
         </description>
         <sheet>
-            <description>When you roll a 1 on a d20 for an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll. Unless the new roll is a 20, once you use this power, you must complete a long rest to use it again.</description>
+            <description>When you roll a 1 on a d20 for an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll. Once you use this power, you must complete a short or long rest to use it again.</description>
         </sheet>
     </element>
-    <element name="Power Pitch" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_POWER_PITCH">
-        <supports>Astounding Powers</supports>
-        <prerequisite>5th level</prerequisite>
-        <requirements>[level:5]</requirements>
-        <description>
-            <p>You can cast Catapult on an object you can grasp within 5 feet of you using Strength as your spellcasting ability. The spell's level equals your proficiency bonus. Once you use this power, you must complete a long rest to do so again.</p>
-            <div class="reference">
-                <div element="ID_XGTE_SPELL_CATAPULT" />
-            </div>
-        </description>
-        <sheet>
-            <description>You can cast Catapult on an object you can grasp within 5 feet of you using Strength as your spellcasting ability. The spell's level equals your proficiency bonus. Once you use this power, you must complete a long rest to do so again.</description>
-        </sheet>
-        <rules>
-            <grant type="Spell" id="ID_XGTE_SPELL_CATAPULT" />
-        </rules>
-    </element>
-    <element name="Pure of Heart" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_PURE_OF_HEART">
+   <element name="Pure of Heart" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_PURE_OF_HEART">
         <supports>Astounding Powers</supports>
         <prerequisite>You do not have the Valiant Soul power</prerequisite>
         <requirements>!ID_TANDRABOY_ASTOUNDING_POWERS_VALIANT_SOUL</requirements>
@@ -1522,8 +1691,21 @@
             <description>You are immune to the charmed condition.</description>
         </sheet>
     </element>
+    <element name="Pure Smite" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_PURE_SMITE">
+        <supports>Astounding Powers</supports>
+        <prerequisite>12th level</prerequisite>
+        <requirements>[level:12]</requirements>
+        <description>
+            <p>Whenever you land an unarmed strike using Pure Strength, you can expend as many uses of Strength Surge as you like, with each expended use increasing the strike's damage by one roll of your Pure Strength die.</p>
+        </description>
+        <sheet>
+            <description>Whenever you land an unarmed strike using Pure Strength, you can expend as many uses of Strength Surge as you like, with each expended use increasing the strike's damage by one roll of your Pure Strength die.</description>
+        </sheet>
+    </element>
     <element name="Quipping Expertise" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_QUIPPING_EXPERTISE">
         <supports>Astounding Powers</supports>
+        <prerequisite>At least 12 charisma</prerequisite>
+        <requirements>[cha:12]</requirements>
         <description>
             <p>You can cast Vicious Mockery, using Charisma as your spellcasting ability. When a creature fails the saving throw you impose with this spell, it has disadvantage on the next saving throw it makes before the end of its next turn.</p>
             <div class="reference">
@@ -1540,10 +1722,10 @@
     <element name="Rending Strength" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_RENDING_STRENGTH">
         <supports>Astounding Powers</supports>
         <description>
-            <p>When you successfully grapple a creature, you can expend a use of Strength Surge to bend, crush, or break a piece of the armor that the creature is wearing. Once you do so, the creature has -1 AC. You cannot use this ability on the same creature again unless they don a new set of armor, or get their armor repaired.</p>
+            <p>You can expend a use of Strength Surge as an action to crush, bend, or break an inanimate object within your reach that is made of non-magical materials and is not being worn or carried. For larger objects, the area of the object that is bent, broken, or crushed is no larger than a 3-foot cube.</p>
         </description>
         <sheet>
-            <description>When you successfully grapple a creature, you can expend a use of Strength Surge to bend, crush, or break a piece of the armor that the creature is wearing. Once you do so, the creature has -1 AC. You cannot use this ability on the same creature again unless they don a new set of armor, or get their armor repaired.</description>
+            <description>You can expend a use of Strength Surge as an action to crush, bend, or break an inanimate object within your reach that is made of non-magical materials and is not being worn or carried. For larger objects, the area of the object that is bent, broken, or crushed is no larger than a 3-foot cube.</description>
         </sheet>
     </element>
     <element name="Rotten Shell" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_ROTTEN_SHELL">
@@ -1551,17 +1733,21 @@
         <prerequisite>9th level, Mutant Mutation</prerequisite>
         <requirements>[level:9], ID_TANDRABOY_ARCHETYPE_MUTANT</requirements>
         <description>
-            <p>When making an unarmed strike using your Bio-Weapons, you can choose to have the strike deal necrotic damage instead of bludgeoning damage.</p>
+            <p>Your unarmed strike can deal acid, poison, or necrotic damage instead of its normal damage type.</p>
         </description>
         <sheet>
-            <description>When making an unarmed strike using your Bio-Weapons, you can choose to have the strike deal necrotic damage instead of bludgeoning damage.</description>
+            <description>Your unarmed strike can deal acid, poison, or necrotic damage instead of its normal damage type.</description>
         </sheet>
     </element>
     <element name="Secret Identity" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_SECRET_IDENTITY">
         <supports>Astounding Powers</supports>
         <description>
-            <p>You have an alter ego: a more mundane identity that you use outside of your adventuring life. Your alter ego has a separate name, home, occupation, and perhaps even a family or a place amongst high society. You can adopt this alternate identity as a disguise, and other creatures believe you to be that person until given an obvious reason not to.</p>
-            <p class="indent"></p>
+            <p>You have an alter ego: a more mundane identity that you use outside of your adventuring life. Your alter ego has a separate name, home, occupation, and perhaps even a family or a place amongst high society. You can adopt this alternate identity as a disguise, and other creatures believe you to be that person until given an obvious reason not to. </p>
+            <p class="indent">Inexplicably, you can don or doff your alter ego in the blink of an eye, but only when no one is watching.</p>
+            <div class="sidebar">
+                <h5>You Look Familiar...</h5>
+                <p>Members of your Fan Club cannot recognize you while you are using your Secret Identity. However, they can still recognize you even if you have the Nameless power, as they have been theorizing that your death was a hoax.</p>
+            </div>
         </description>
         <sheet>
             <description>You have an alter ego: a more mundane identity that you use outside of your adventuring life. Your alter ego has a separate name, home, occupation, and perhaps even a family or a place amongst high society. You can adopt this alternate identity as a disguise, and other creatures believe you to be that person until given an obvious reason not to. Inexplicably, you can don or doff your alter ego in the blink of an eye, but only when no one is watching.</description>
@@ -1572,21 +1758,22 @@
         <prerequisite>5th level</prerequisite>
         <requirements>[level:5]</requirements>
         <description>
-            <p>You can expend a use of Strength Surge as an action to create a shockwave in front of you by punching the air. Creatures in a 15 foot cone in front of you must make a Dexterity saving throw against your power save DC to avoid being knocked prone. You must have at least one free hand to use this power.</p>
+            <p>As an action on your turn, you can create a shockwave in front of you by punching the air. Creatures in a 15 foot cone in front of you must make a Dexterity saving throw against your power save DC to avoid being knocked prone.</p>
         </description>
         <sheet>
-            <description>You can expend a use of Strength Surge as an action to create a shockwave in front of you by punching the air. Creatures in a 15 foot cone in front of you must make a Dexterity saving throw against your power save DC to avoid being knocked prone. You must have at least one free hand to use this power.</description>
+            <description>As an action on your turn, you can create a shockwave in front of you by punching the air. Creatures in a 15 foot cone in front of you must make a Dexterity saving throw against your power save DC to avoid being knocked prone.</description>
         </sheet>
     </element>
     <element name="Sidekick" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_SIDEKICK">
         <supports>Astounding Powers</supports>
-        <prerequisite>7th level</prerequisite>
-        <requirements>[level:7]</requirements>
+        <prerequisite>at least 12 Charisma</prerequisite>
+        <requirements>[cha:12]</requirements>
         <description>
-            <p>As an action, you can designate one friendly creature as your sidekick. While you and your sidekick are within 10 feet of one another, each of you can use a reaction to take half of an instance of damage dealt to the other. You can only have one sidekick. Once you choose your sidekick, you cannot choose a new one until you complete a long rest.</p>
+            <p>As an action, you can designate one friendly creature as your sidekick. While you and your sidekick are within 10 feet of one another, each of you can use a reaction to take half of an instance of damage dealt to the other.</p>
+            <p class="indent">Once you choose your sidekick, you cannot choose a new one until you complete a long rest. You can only have one sidekick at a time, so choosing a new sidekick removes the effects of this power from your previous sidekick.</p>
         </description>
         <sheet action="Action" usage="Long Rest">
-            <description>As an action, you can designate one friendly creature as your sidekick. While you and your sidekick are within 10 feet of one another, each of you can use a reaction to take half of an instance of damage dealt to the other. You can only have one sidekick. Once you choose your sidekick, you cannot choose a new one until you complete a long rest.</description>
+            <description>As an action, you can designate one friendly creature as your sidekick. While you and your sidekick are within 10 feet of one another, each of you can use a reaction to take half of an instance of damage dealt to the other. Once you choose your sidekick, you cannot choose a new one until you complete a long rest. You can only have one sidekick at a time, so choosing a new sidekick removes the effects of this power from your previous sidekick.</description>
         </sheet>
     </element>
     <element name="Stopping Power" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_STOPPING_POWERS">
@@ -1594,10 +1781,19 @@
         <prerequisite>9th level</prerequisite>
         <requirements>[level:9]</requirements>
         <description>
-            <p>You can expend a use of Strength Surge as a bonus action to become able to grapple or shove creatures of any size for 1 minute. You cannot move while grappling a creature two or more sizes larger than you.</p>
+            <p>You can expend a use of Strength Surge as a bonus action to become able to grapple or shove creatures of any size for 1 minute. You cannot move while grappling a creature that is two or more sizes larger than you.</p>
         </description>
         <sheet action="Bonus Action">
-            <description>You can expend a use of Strength Surge as a bonus action to become able to grapple or shove creatures of any size for 1 minute. You cannot move while grappling a creature two or more sizes larger than you.</description>
+            <description>You can expend a use of Strength Surge as a bonus action to become able to grapple or shove creatures of any size for 1 minute. You cannot move while grappling a creature that is two or more sizes larger than you.</description>
+        </sheet>
+    </element>
+    <element name="Suplex" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_SUPLEX">
+        <supports>Astounding Powers</supports>
+        <description>
+            <p>When you hit a creature you are grappling with an unarmed strike using Pure Strength, you can move them to the space directly behind you if it is unoccupied, and knock them prone. The creature receives the strike's damage after they are knocked prone.</p>
+        </description>
+        <sheet>
+            <description>When you hit a creature you are grappling with an unarmed strike using Pure Strength, you can move them to the space directly behind you if it is unoccupied, and knock them prone. The creature receives the strike's damage after they are knocked prone.</description>
         </sheet>
     </element>
     <element name="Tantrum" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_TANTRUM">
@@ -1605,10 +1801,20 @@
         <prerequisite>12th level, Titan Manifestation</prerequisite>
         <requirements>[level:12], ID_TANDRABOY_ARCHETYPE_TITAN</requirements>
         <description>
-            <p>If your True Form is about to end, you can use a bonus action to make a DC 10 Wisdom saving throw. On a successful save, you stay in your True Form for 1 more turn. The DC for this saving throw increases by 5 each time you succeed, and resets to 10 once you exit your True Form.</p>
+            <p>If you enter your True Form with no uses of Strength Surge remaining, you regain a single use of Strength Surge.</p>
         </description>
-        <sheet action="Bonus Action">
-            <description>If your True Form is about to end, you can use a bonus action to make a DC 10 Wisdom saving throw. On a successful save, you stay in your True Form for 1 more turn. The DC for this saving throw increases by 5 each time you succeed, and resets to 10 once you exit your True Form.</description>
+        <sheet>
+            <description>If you enter your True Form with no uses of Strength Surge remaining, you regain a single use of Strength Surge.</description>
+        </sheet>
+    </element>
+    <element name="Thousand-Yard Stare" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_THOUSAND_YARD_STARE">
+        <supports>Astounding Powers</supports>
+        <prerequisite>12th level, Super Soldier Manifestation</prerequisite>
+        <description>
+            <p>You can't be surprised while you are conscious. Additionally, if a creature knows what you want from them, you can make a Charisma (Intimidation) check against them with advantage simply by maintaining prolonged eye-contact with them.</p>
+        </description>
+        <sheet>
+            <description>You can't be surprised while you are conscious. Additionally, if a creature knows what you want from them, you can make a Charisma (Intimidation) check against them with advantage simply by maintaining prolonged eye-contact with them.</description>
         </sheet>
     </element>
     <element name="Thrill of Battle" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_THRILL_OF_BATTLE">
@@ -1624,19 +1830,30 @@
     </element>
     <element name="Tireless" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_TIRELESS">
         <supports>Astounding Powers</supports>
-        <prerequisite>5th level</prerequisite>
-        <requirements>[level:5]</requirements>
+        <prerequisite>9th level</prerequisite>
+        <requirements>[level:9]</requirements>
         <description>
-            <p>You cannot gain more than 3 levels of exhaustion.</p>
+            <p>Whenever you finish a short rest, your exhaustion level, if any, is decreased by 1.</p>
         </description>
         <sheet>
-            <description>You cannot gain more than 3 levels of exhaustion.</description>
+            <description>Whenever you finish a short rest, your exhaustion level, if any, is decreased by 1.</description>
+        </sheet>
+    </element>
+    <element name="Tunneler" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_TUNNELER">
+        <supports>Astounding Powers</supports>
+        <prerequisite>9th level, Hybrid Manifestation</prerequisite>
+        <requirements>[level:9], ID_TANDRABOY_ARCHETYPE_HYBRID</requirements>
+        <description>
+            <p>You gain 5 feet of burrowing speed, allowing you to dig 5 foot diameter tunnels through sand, earth, mud, or ice. You can't burrow through solid rock or metal.</p>
+        </description>
+        <sheet>
+            <description>You gain 5 feet of burrowing speed, allowing you to dig 5 foot diameter tunnels through sand, earth, mud, or ice. You can't burrow through solid rock or metal.</description>
         </sheet>
     </element>
     <element name="Unbreakable" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_UNBREAKABLE">
         <supports>Astounding Powers</supports>
-        <prerequisite>9th level</prerequisite>
-        <requirements>[level:9]</requirements>
+        <prerequisite>12th level</prerequisite>
+        <requirements>[level:12]</requirements>
         <description>
             <p>You gain resistance to one damage type of your choice.</p>
         </description>
@@ -1760,11 +1977,30 @@
         <requirements>[level:12]</requirements>
         <description>
             <p>You can expend a use of Strength Surge to concentrate on this power as an action (as if concentrating on a spell). While you maintain concentration, your movement speed cannot be reduced unless you are incapacitated or killed.</p>
-            <p class="indent">Concentrating on this power does not allow you to walk through obvious obstructions, but it does allow you to push creatures no more than one size larger than you 5 feet away just by walking into them. It also prevents you from being grappled, restrained, or affected by difficult terrain. You can only push the same creature once during each of your turns with this power.</p>
+            <p class="indent">This power does not allow you to walk through obvious obstructions, but it does allow you to push creatures no more than one size larger than you 5 feet away just by walking into them. It also prevents you from being grappled, restrained, or affected by difficult terrain. You can only push the same creature once during each of your turns with this power.</p>
+            <div class="sidebar">
+                <h5>The Pushpoint Paradox</h5>
+                <p>When an Empowered using Unstoppable Force pushes an empowered being that is using Immovable Object, both lose concentration and they both take 8d8 force damage.</p>
+            </div>
         </description>
         <sheet action="Action">
-            <description>You can expend a use of Strength Surge to concentrate on this power as an action (as if concentrating on a spell). While you maintain concentration, your movement speed cannot be reduced unless you are incapacitated or killed. Allows you to push creatures no more than one size larger than you 5 feet away just by walking into them. It also prevents you from being grappled, restrained, or affected by difficult terrain. You can only push the same creature once during each of your turns with this power.</description>
+            <description>You can expend a use of Strength Surge to concentrate on this power as an action (as if concentrating on a spell). While you maintain concentration, your movement speed cannot be reduced unless you are incapacitated or killed. This power does not allow you to walk through obvious obstructions, but it does allow you to push creatures no more than one size larger than you 5 feet away just by walking into them. It also prevents you from being grappled, restrained, or affected by difficult terrain. You can only push the same creature once during each of your turns with this power.</description>
         </sheet>
+    </element>
+    <element name="Unyielding" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_UNYIELDING">
+        <supports>Astounding Powers</supports>
+        <description>
+            <p>You can cast the Heroism spell on yourself without using components, using Constitution as your spellcasting ability. Once you use this power, you must complete a long rest to use it again.</p>
+            <div class="reference">
+                <div element="ID_PHB_SPELL_HEROISM" />
+            </div>
+        </description>
+        <sheet>
+            <description>You can cast the Heroism spell on yourself without using components, using Constitution as your spellcasting ability. Once you use this power, you must complete a long rest to use it again.</description>
+        </sheet>
+        <rules>
+            <grant type="Spell" id="ID_PHB_SPELL_HEROISM" />
+        </rules>
     </element>
     <element name="Valiant Soul" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_VALIANT_SOUL">
         <supports>Astounding Powers</supports>
@@ -1777,37 +2013,46 @@
             <description>You are immune to the frightened condition.</description>
         </sheet>
     </element>
-    <element name="Villainous Persona" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_VILLAINOUS_PERSONA">
+    <element name="Violence" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_VIOLENCE">
         <supports>Astounding Powers</supports>
-        <prerequisite>You have no other Persona powers</prerequisite>
-        <requirements>!ID_TANDRABOY_ASTOUNDING_POWERS_DRAMATIC_PERSONA, !ID_TANDRABOY_ASTOUNDING_POWERS_DETECTIVE_PERSONA, !ID_TANDRABOY_ASTOUNDING_POWERS_HEROIC_PERSONA</requirements>
+        <prerequisite>5th level</prerequisite>
+        <requirements>[level:5]</requirements>
         <description>
-            <p>You gain proficiency in the Deception and Intimidation skills.</p>
+            <p>Whenever you roll a 1 or 2 on your Pure Strength die, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2.</p>
         </description>
-        <sheet display="false" />
-        <rules>
-            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_DECEPTION" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION" />
-        </rules>
+        <sheet>
+            <description>Whenever you roll a 1 or 2 on your Pure Strength die, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2.</description>
+        </sheet>
+    </element>
+    <element name="Virteous Form" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_VIOLENCE">
+        <supports>Astounding Powers</supports>
+        <prerequisite>7th level</prerequisite>
+        <requirements>[level:7]</requirements>
+        <description>
+            <p>When you are in an area of dim light or darkness, you can use your action to become invisible until you move or take an action or a reaction</p>
+        </description>
+        <sheet action="Action">
+            <description>When you are in an area of dim light or darkness, you can use your action to become invisible until you move or take an action or a reaction</description>
+        </sheet>
     </element>
     <element name="Wham!" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_WHAM">
         <supports>Astounding Powers</supports>
-        <prerequisite>12th level</prerequisite>
-        <requirements>[level:12]</requirements>
         <description>
-            <p>When you score a critical hit with an unarmed strike using Pure Strength, and the target is not grappled or prone, you can expend a use of Strength Surge to push the creature back 10 feet and knock them prone.</p>
+            <p>When you score a critical hit with an unarmed strike using Pure Strength, and the target is not prone, you can push the creature back 15 feet and knock them prone.</p>
         </description>
         <sheet>
-            <description>When you score a critical hit with an unarmed strike using Pure Strength, and the target is not grappled or prone, you can expend a use of Strength Surge to push the creature back 10 feet and knock them prone.</description>
+            <description>When you score a critical hit with an unarmed strike using Pure Strength, and the target is not prone, you can push the creature back 15 feet and knock them prone.</description>
         </sheet>
     </element>
     <element name="Wild Leap" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_WILD_LEAP">
         <supports>Astounding Powers</supports>
+        <prerequisite>at least 12 dexterity</prerequisite>
+        <requirements>[dex:12]</requirements>
         <description>
-            <p>Your jump distance is increased by 5 feet, and you no longer need to move at least 10 feet on foot immediately before jumping to perform a long or high jump.</p>
+            <p>Your jump distance is increased by 5 feet when you make a running long or high jump. You only need to run 5 feet to make a running long or high jump.</p>
         </description>
         <sheet>
-            <description>Your jump distance is increased by 5 feet, and you no longer need to move at least 10 feet on foot immediately before jumping to perform a long or high jump.</description>
+            <description>Your jump distance is increased by 5 feet when you make a running long or high jump. You only need to run 5 feet to make a running long or high jump.</description>
         </sheet>
     </element>
     <element name="Wolven Claw" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_WOLVEN_CLAW">
@@ -1815,10 +2060,10 @@
         <prerequisite>5th level</prerequisite>
         <requirements>[level:5]</requirements>
         <description>
-            <p>You can grow claws from your fingertips or between your knuckles as a bonus action. For 1 minute, you gain a bonus to damage rolls for your unarmed strikes equal to half of your proficiency bonus, rounded down, and your unarmed strike deals slashing damage. Once you use this power, you must complete a short rest to use it again.</p>
+            <p>You can grow claws from your fingertips or between your knuckles as a bonus action. For 1 minute, you gain a bonus to damage rolls for your unarmed strikes made using Pure Strength equal to your proficiency bonus, and your unarmed strikes deal slashing damage. Once you use this power, you must complete a short or long rest to use it again.</p>
         </description>
         <sheet action="Bonus Action">
-            <description>You can grow claws from your fingertips or between your knuckles as a bonus action. For 1 minute, you gain a bonus to damage rolls for your unarmed strikes equal to half of your proficiency bonus, rounded down, and your unarmed strike deals slashing damage. Once you use this power, you must complete a short rest to use it again.</description>
+            <description>You can grow claws from your fingertips or between your knuckles as a bonus action. For 1 minute, you gain a bonus to damage rolls for your unarmed strikes made using Pure Strength equal to your proficiency bonus, and your unarmed strikes deal slashing damage. Once you use this power, you must complete a short or long rest to use it again.</description>
         </sheet>
     </element>
     <element name="X-Ray Vision" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_XRAY_VISION">
@@ -1826,14 +2071,16 @@
         <prerequisite>7th level</prerequisite>
         <requirements>[level:7]</requirements>
         <description>
-            <p>As an action, you gain the ability to see through solid object to a range of 30 feet. Within that range, you have darkvision if you don’t already have it. This special sight lasts for 1 minute or until your concentration ends (as if you were concentrating on a spell). During that time, you perceive objects as ghostly, transparent images. Once you use this power, you can’t use it again until you finish a short or long rest.</p>
+            <p>As an action, you gain the ability to see through solid objects to a range of 30 feet. Within that range, you have darkvision if you don’t already have it. This special sight lasts for 1 minute or until your concentration ends (as if you were concentrating on a spell). During that time, you perceive objects as ghostly, transparent images. Once you use this power, you can’t use it again until you finish a short or long rest.</p>
         </description>
         <sheet action="Action">
-            <description>you gain the ability to see through solid object to a range of 30 feet. Within that range, you have darkvision if you don’t already have it. This special sight lasts for 1 minute or until your concentration ends (as if you were concentrating on a spell). During that time, you perceive objects as ghostly, transparent images. Once you use this power, you can’t use it again until you finish a short or long rest.</description>
+            <description>As an action, you gain the ability to see through solid objects to a range of 30 feet. Within that range, you have darkvision if you don’t already have it. This special sight lasts for 1 minute or until your concentration ends (as if you were concentrating on a spell). During that time, you perceive objects as ghostly, transparent images. Once you use this power, you can’t use it again until you finish a short or long rest.</description>
         </sheet>
     </element>
     <element name="Yield" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_YIELD">
         <supports>Astounding Powers</supports>
+        <prerequisite>at least 12 Charisma</prerequisite>
+        <requirements>[level:12]</requirements>
         <description>
             <p>You can cast Command as a 1st level spell, using Charisma as your spellcasting ability. Once you use this power, you cannot use it again until you complete a short or long rest.</p>
             <div class="reference">
@@ -1847,15 +2094,26 @@
             <grant type="Spell" id="ID_PHB_SPELL_COMMAND" />
         </rules>
     </element>
-    <element name="Zephyr Ray" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_ZEPHYR_RAY">
+    <element name="Zeal" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_ZEAL">
         <supports>Astounding Powers</supports>
-        <prerequisite>5th level, Conduit Manifestation</prerequisite>
-        <requirements>[level:5], ID_TANDRABOY_ARCHETYPE_CONDUIT</requirements>
+        <prerequisite>9th level, Idol Manifestation</prerequisite>
+        <requirements>[level:9],ID_TANDRABOY_ARCHETYPE_IDOL</requirements>
         <description>
-            <p>You gain 1 charge for your Energy Beam when you use it to reduce a creature's hit points to 0. This increases to 2 charges at 11th empowered level.</p>
+            <p>Whenever you embolden a creature with your Exemplar ability, they gain temporary hit points equal to a roll of your Pure Strength die.</p>
         </description>
         <sheet>
-            <description>You gain 1 charge for your Energy Beam when you use it to reduce a creature's hit points to 0. This increases to 2 charges at 11th empowered level.</description>
+            <description>Whenever you embolden a creature with your Exemplar ability, they gain temporary hit points equal to a roll of your Pure Strength die.</description>
+        </sheet>
+    </element>
+    <element name="Zephyr Ray" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_ZEPHYR_RAY">
+        <supports>Astounding Powers</supports>
+        <prerequisite>9th level, Conduit Manifestation</prerequisite>
+        <requirements>[level:9], ID_TANDRABOY_ARCHETYPE_CONDUIT</requirements>
+        <description>
+            <p>Your Energy Beam ignores resistance to your infusion damage type. In addition, when you roll damage for your Energy Beam, you can treat any 1 on a damage die as a 2. This also affects your Hyper Beam once you reach 17th level in this class.</p>
+        </description>
+        <sheet>
+            <description>Your Energy Beam ignores resistance to your infusion damage type. In addition, when you roll damage for your Energy Beam, you can treat any 1 on a damage die as a 2. This also affects your Hyper Beam once you reach 17th level in this class.</description>
         </sheet>
     </element>
     
