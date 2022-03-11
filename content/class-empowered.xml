@@ -131,7 +131,7 @@
             </description>
         </sheet>
         <rules>
-            <stat name="pure strength:unarmed" value="8" bonus="base" />
+            <stat name="pure strength:unarmed" value="8" bonus="die" />
             <stat name="pure strength:attack" value="strength:modifier" bonus="pure strength" />
 			<stat name="pure strength:damage" value="strength:modifier" bonus="pure strength" />
 			<stat name="pure strength:dice" value="4" bonus="pure strength" />
@@ -257,7 +257,7 @@
             <description>You can unleash a wild and deadly haymaker, you can choose to take a -5 penalty to the attack roll. If the attack hits, you add +10 to the strike's damage. When you reduce a creature's hit points to 0 with an unarmed strike using Pure Strength, you regain a single use of Strength Surge. </description>
         </sheet>
         <rules>
-            <stat name="pure strength:unarmed" value="10" bonus="base" level="11" />
+            <stat name="pure strength:unarmed" value="10" bonus="die" level="11" />
         </rules>
     </element>
     <element name="Never Say Die" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_CLASS_FEATURE_NEVER_SAY_DIE">
