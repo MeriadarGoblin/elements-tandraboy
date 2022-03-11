@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Empowered</name>
-		<update version="1.4.52">
+		<update version="1.4.53">
 			<file name="class-empowered.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-tandraboy/main/content/class-tandraboy.xml" />
 		</update>
     </info>
@@ -1136,7 +1136,7 @@
             <description>As an action on your turn, you can force a creature you can see to make a Wisdom saving throw against your power save DC. The creature must be within 60 feet of you and able to see you. On a failed save, the creature is frightened by you for the next minute Once you use this feature to successfully frighten a creature, you must complete a short or long rest before using it again. Additionally, you can use your Sucker Punch against creatures if they are frightened by you and you do not have disadvantage on the attack roll.</description>
         </sheet>
     </element>
-    <element name="No Mercy" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_DREADFUL_STARE">
+    <element name="No Mercy" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_NO_MERCY">
         <description>
             <p>At 17th level, you are absolutely relentless. Once per turn when you successfully grapple or shove a creature, you can immediately target the creature with a single unarmed strike using Pure Strength as part of the grapple or shove. </p>
         </description>
