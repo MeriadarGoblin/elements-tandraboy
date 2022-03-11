@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<element name="/u/Tandraboy" type="Source" source="Core" id="ID_TANDRABOY_SOURCE_CONTENT">
+		<description>
+			<html>&lt;p&gt;A repository to keep /u/Tandraboy's Content up to date!&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="abbreviation">Tandraboy</set>
+			<set name="image">https://cdn.discordapp.com/attachments/747922144926892037/951926243035594792/unknown.png?width=325&amp;height=414</set>
+			<set name="url">https://homebrewery.naturalcrit.com/share/1znb9opjJFdEeS2Q1cgcapqH_kxj3lZ3viWD8XLIvJDHP</set>
+			<set name="author" abbreviation="USI" url="https://www.reddit.com/r/FFXIVxDnD/">u/SilentSoren</set>
+			<set name="release">20220222</set>
+			<set name="homebrew">true</set>
+			<set name="incomplete">true</set>
+		</setters>
+	</element>
+</elements>
