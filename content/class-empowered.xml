@@ -1079,7 +1079,7 @@
             <description>If you are grappling a creature that is your size or smaller, you can use an action on your turn to repeatedly slam the creature into the ground in a fit of rage. When you use this ability, the grappled creature must make a Strength or Dexterity saving throw against your power save DC, the target chooses the ability to use for the throw. On a failed save, the creature takes 10d10 bludgeoning damage, is knocked prone, and is stunned until the end of your next turn. On a successful save, the creature takes half as much damage and is not stunned. You stop grappling the creature after using this ability. Once you use this ability, you must complete a long rest before using it again.</description>
         </sheet>
     </element>
-
+<!--
     <element name="Vigilante" type="Archetype" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_VIGILANTE">
         <supports>Power Manifestation</supports>
         <description>
@@ -1143,7 +1143,7 @@
             <description>Once per turn when you successfully grapple or shove a creature, you can immediately target the creature with a single unarmed strike using Pure Strength as part of the grapple or shove.</description>
         </sheet>
     </element>
-<!--
+
      <element name="Aftershock" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_AFTERSHOCK">
         <supports>Astounding Powers</supports>
         <prerequisite>5th level</prerequisite>
