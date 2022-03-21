@@ -127,11 +127,12 @@
         </description>
         <sheet>
             <description>
-                <p>While you aren't wearing heavy armor or wielding a shield, you gain the following beneifts: You can attemple to grapple or shove creatures as a bonus action, when attacking unarmed using strength, you roll a d{{pure strenght:unarmed}} in place of the strike's normal damage, and deals and additional 1d{{pure strength:dice}}+{{pure strength:damage}} if you are grappling the target or the target is prone.</p>
+                <p>While you aren't wearing heavy armor or wielding a shield, you gain the following beneifts: You can attemple to grapple or shove creatures as a bonus action, when attacking unarmed using strength, you roll a d{{pure strength:unarmed}} in place of the strike's normal damage, and deals and additional 1d{{pure strength:dice}}+{{pure strength:damage}} if you are grappling the target or the target is prone.</p>
             </description>
         </sheet>
         <rules>
-            <stat name="pure strength:unarmed" value="8" bonus="die" />
+            <stat name="pure strength:unarmed" value="8" bonus="pure strength" />
+			<stat name="pure strength:unarmed" value="10" bonus="pure strength" level="11" />
             <stat name="pure strength:attack" value="strength:modifier" bonus="pure strength" />
 			<stat name="pure strength:damage" value="strength:modifier" bonus="pure strength" />
 			<stat name="pure strength:dice" value="4" bonus="pure strength" />
@@ -751,231 +752,229 @@
         <sheet>
             <description>You can benefit from your Pure Strength while you are wielding weapons of war. If an empowered ability applies to unarmed strikes you make using Pure Strength, it also applies to attacks you make using a weapon of war.<strong>Parrying Stance.</strong> You can wield any melee weapon of war with two hands, and you gain +1 AC while doing so. <strong>Power Shot.</strong> You can use Strength instead of Dexterity for the attack and damage rolls of your attacks with ranged weapons of war. You weapons of war are:</description>
         </sheet>
-        <select type="Archetype Feature" name="Weapons of War" supports="Weapons of War" number="2" />
-        <select type="Archetype Feature" name="Weapons of War" supports="Weapons of War" level="7" />
-        <select type="Archetype Feature" name="Weapons of War" supports="Weapons of War" level="13" />
-        <select type="Archetype Feature" name="Weapons of War" supports="Weapons of War" level="17" />
+        <select type="Class Feature" name="Weapons of War" supports="Weapons of War" level="3" number="2" />
+        <select type="Class Feature" name="Weapons of War" supports="Weapons of War" level="7" />
+        <select type="Class Feature" name="Weapons of War" supports="Weapons of War" level="13" />
+        <select type="Class Feature" name="Weapons of War" supports="Weapons of War" level="17" />
     </element>
-    <!-- Weapons of War - SIMPLE -->
-    <element name="Club" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_CLUB">
+    
+    <element name="Club" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_CLUB">
         <supports>Weapons of War</supports>
-        <description />
+        <description display="false" />
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CLUB" />
         </rules>
     </element>
-    <element name="Dagger" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_DAGGER">
+    <element name="Dagger" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_DAGGER">
         <supports>Weapons of War</supports>
-        <description />
+        <description display="false" />
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DAGGER" />
         </rules>
     </element>
-    <element name="Greatclub" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_GREATCLUB">
+    <element name="Greatclub" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_GREATCLUB">
         <supports>Weapons of War</supports>
-        <description />
+        <description display="false" />
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATCLUB" />
         </rules>
     </element>
-    <element name="Handaxe" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_HANDAXE">
+    <element name="Handaxe" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_HANDAXE">
         <supports>Weapons of War</supports>
-        <description />
+        <description display="false" />
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_HANDAXE" />
         </rules>
     </element>
-    <element name="Javelin" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_JAVELIN">
+    <element name="Javelin" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_JAVELIN">
         <supports>Weapons of War</supports>
-        <description />
+        <description display="false" />
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_JAVELIN" />
         </rules>
     </element>
-    <element name="Light Hammer" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_LIGHT_HAMMER">
+    <element name="Light Hammer" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_LIGHT_HAMMER">
         <supports>Weapons of War</supports>
-        <description />
+        <description display="false" />
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LIGHT_HAMMER" />
         </rules>
     </element>
-    <element name="Mace" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_MACE">
+    <element name="Mace" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_MACE">
         <supports>Weapons of War</supports>
-        <description />
+        <description display="false" />
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MACE" />
         </rules>
     </element>
-    <element name="Quarterstaff" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_QUARTERSTAFF">
+    <element name="Quarterstaff" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_QUARTERSTAFF">
         <supports>Weapons of War</supports>
-        <description />
+        <description display="false" />
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_QUARTERSTAFF" />
         </rules>
     </element>
-    <element name="Sickle" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_SICKLE">
+    <element name="Sickle" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_SICKLE">
         <supports>Weapons of War</supports>
-        <description />
+        <description display="false" />
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SICKLE" />
         </rules>
     </element>
-    <element name="Spear" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_SPEAR">
+    <element name="Spear" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_SPEAR">
         <supports>Weapons of War</supports>
-        <description />
+        <description display="false" />
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SPEAR" />
         </rules>
     </element>
-    <element name="Crossbow, Light" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_LIGHT_CROSSBOW">
+    <element name="Crossbow, Light" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_LIGHT_CROSSBOW">
         <supports>Weapons of War</supports>
-        <description />
+        <description display="false" />
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_LIGHT" />
         </rules>
     </element>
-    <element name="Dart" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_DART">
+    <element name="Dart" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_DART">
         <supports>Weapons of War</supports>
-        <description />
+        <description display="false" />
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_DART" />
         </rules>
     </element>
-    <element name="Shortbow" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_SHORTBOW">
+    <element name="Shortbow" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_SHORTBOW">
         <supports>Weapons of War</supports>
-        <description />
+        <description display="false" />
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTBOW" />
         </rules>
     </element>
-    <element name="Sling" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_SLING">
+    <element name="Sling" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_SLING">
         <supports>Weapons of War</supports>
-        <description />
+        <description display="false" />
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SLING" />
         </rules>
     </element>
-    <!-- MARTIAL -->
-    <element name="Battleaxe" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_BATTLEAXE">
+    <element name="Battleaxe" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_BATTLEAXE">
         <supports>Weapons of War</supports>
-        <description />
+        <description display="false" />
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BATTLEAXE" />
         </rules>
     </element>
-    <element name="Flail" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_FLAIL">
+    <element name="Flail" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_FLAIL">
         <supports>Weapons of War</supports>
-        <description />
+        <description display="false" />
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_FLAIL" />
         </rules>
     </element>
-    <element name="Greataxe" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_GREATAXE">
+    <element name="Greataxe" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_GREATAXE">
         <supports>Weapons of War</supports>
-        <description />
+        <description display="false" />
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATAXE" />
         </rules>
     </element>
-    <element name="Greatsword" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_GREATSWORD">
+    <element name="Greatsword" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_GREATSWORD">
         <supports>Weapons of War</supports>
-        <description />
+        <description display="false" />
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GREATSWORD" />
         </rules>
     </element>
-    <element name="Longsword" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_LONGSWORD">
+    <element name="Longsword" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_LONGSWORD">
         <supports>Weapons of War</supports>
-        <description />
+        <description display="false" />
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGSWORD" />
         </rules>
     </element>
-    <element name="Maul" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_MAUL">
+    <element name="Maul" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_MAUL">
         <supports>Weapons of War</supports>
-        <description />
+        <description display="false" />
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MAUL" />
         </rules>
     </element>
-    <element name="Morningstar" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_MORNINGSTAR">
+    <element name="Morningstar" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_MORNINGSTAR">
         <supports>Weapons of War</supports>
-        <description />
+        <description display="false" />
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MORNINGSTAR" />
         </rules>
     </element>
-    <element name="Rapier" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_RAPIER">
+    <element name="Rapier" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_RAPIER">
         <supports>Weapons of War</supports>
-        <description />
+        <description display="false" />
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER" />
         </rules>
     </element>
-    <element name="Scimitar" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_SCIMITAR">
+    <element name="Scimitar" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_SCIMITAR">
         <supports>Weapons of War</supports>
-        <description />
+        <description display="false" />
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SCIMITAR" />
         </rules>
     </element>
-    <element name="Shortsword" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_SHORTSWORD">
+    <element name="Shortsword" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_SHORTSWORD">
         <supports>Weapons of War</supports>
-        <description />
+        <description display="false" />
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SHORTSWORD" />
         </rules>
     </element>
-    <element name="Trident" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_TRIDENT">
+    <element name="Trident" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_TRIDENT">
         <supports>Weapons of War</supports>
-        <description />
+        <description display="false" />
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_TRIDENT" />
         </rules>
     </element>
-    <element name="War Pick" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_PICK">
+    <element name="War Pick" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_PICK">
         <supports>Weapons of War</supports>
-        <description />
+        <description display="false" />
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WAR_PICK" />
         </rules>
     </element>
-    <element name="Warhammer" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WARHAMMER">
+    <element name="Warhammer" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WARHAMMER">
         <supports>Weapons of War</supports>
-        <description />
+        <description display="false" />
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_WARHAMMER" />
         </rules>
     </element>
-    <element name="Blowgun" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_BLOWGUN">
+    <element name="Blowgun" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_BLOWGUN">
         <supports>Weapons of War</supports>
-        <description />
+        <description display="false" />
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_BLOWGUN" />
         </rules>
     </element>
-    <element name="Crossbow, Hand" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_CROSSBOW_HAND">
+    <element name="Crossbow, Hand" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_CROSSBOW_HAND">
         <supports>Weapons of War</supports>
-        <description />
+        <description display="false" />
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HAND" />
         </rules>
     </element>
-    <element name="Crossbow, Heavy" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_CROSSBOW_HEAVY">
+    <element name="Crossbow, Heavy" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_CROSSBOW_HEAVY">
         <supports>Weapons of War</supports>
-        <description />
+        <description display="false" />
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HEAVY" />
         </rules>
     </element>
-    <element name="Longbow" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_LONGBOW">
+    <element name="Longbow" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_WEAPON_OF_WAR_LONGBOW">
         <supports>Weapons of War</supports>
-        <description />
+        <description display="false" />
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_LONGBOW" />
         </rules>
     </element>
-
     <element name="Guardian of Steel" type="Archetype Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_FEATURE_GUARDIAN_OF_STEEL">
         <description>
             <p>Also at 3rd level, you can wear a full suit of armor and still wield the full might of your powers. You gain proficiency with heavy armor. While you are wearing heavy armor, you can gain the benefits of your Pure Strength, and you count as three-quarters cover for creatures that are not hostile to you.</p>
@@ -1014,7 +1013,7 @@
             <description>Whenever a creature within 5 feet of you targets you with a melee attack, you can use a reaction to target them with a melee attack with a weapon of war in response. If your attack hits, the creature's attack misses.</description>
         </sheet>
     </element>
-<!--
+
     <element name="Titan" type="Archetype" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ARCHETYPE_TITAN">
         <supports>Power Manifestation</supports>
         <description>
@@ -1842,6 +1841,7 @@
     <element name="Thousand-Yard Stare" type="Class Feature" source="/u/Tandraboy's Empowered" id="ID_TANDRABOY_ASTOUNDING_POWERS_THOUSAND_YARD_STARE">
         <supports>Astounding Powers</supports>
         <prerequisite>12th level, Super Soldier Manifestation</prerequisite>
+        <requirements>[level:12], ID_TANDRABOY_ARCHETYPE_SUPER_SOLDIER</requirements>
         <description>
             <p>You can't be surprised while you are conscious. Additionally, if a creature knows what you want from them, you can make a Charisma (Intimidation) check against them with advantage simply by maintaining prolonged eye-contact with them.</p>
         </description>
@@ -2239,5 +2239,4 @@
 			<set name="attunement" addition="by an Empowered">true</set>
         </setters>
     </element>
--->
 </elements>
