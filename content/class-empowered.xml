@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Empowered</name>
-		<update version="1.4.4">
+		<update version="1.4.5">
 			<file name="class-empowered.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-tandraboy/main/content/class-tandraboy.xml" />
 		</update>
     </info>
