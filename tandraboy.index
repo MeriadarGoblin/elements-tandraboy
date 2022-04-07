@@ -4,12 +4,11 @@
 		<name>/u/Tandraboy</name>
 		<description>The content by reddit user Tandraboy.</description>
 		<author url="https://www.reddit.com/user/Tandra_Boy/">Tandraboy</author>
-		<update version="0.1.7">
+		<update version="0.1.9">
 			<file name="tandraboy.index" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-tandraboy/main/tandraboy.index" />
 		</update>
 	</info>
 	<files>
-		<file name="source.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-tandraboy/main/content/source.xml" />
 
         <!-- Classes -->
 		<file name="class-empowered.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-tandraboy/main/content/class-empowered.xml" />
