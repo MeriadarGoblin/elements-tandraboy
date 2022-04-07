@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name></name>
-        <update version="1.3.1">
+        <update version="1.3.11">
             <file name="class-buccaneer.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-tandraboy/main/content/class-buccaneer.xml" />
         </update>
     </info>
@@ -110,7 +110,7 @@
             <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" />
             <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" />
             <select type="Proficiency" name="Skills, Buccaneer" supports="ID_PROFICIENCY_SKILL_ACROBATICS|ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_INTIMIDATION|ID_PROFICIENCY_SKILL_PERFORMANCE|ID_PROFICIENCY_SKILL_PERSUASION|ID_PROFICIENCY_SKILL_SLEIGHTOFHAND|ID_PROFICIENCY_SKILL_STEALTH" number="2" />
-            <grant type="Proficiency" name="Tools, Buccaneer" supports="Gaming Set" />
+            <grant type="Proficiency" name="Gaming Set, Buccaneer" supports="ID_PROFICIENCY_GAMING_SET_PROFICIENCY_DICE_SET|ID_PROFICIENCY_GAMING_SET_PROFICIENCY_DRAGONCHESS_SET|ID_PROFICIENCY_GAMING_SET_PROFICIENCY_PLAYING_CARD_SET|ID_PROFICIENCY_GAMING_SET_PROFICIENCY_THREE_DRAGON_ANTE_SET" />
             <grant type="Class Feature" id="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_COUNTER_ATTACK" level="1" />
             <grant type="Class Feature" id="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_MOMENTUM" level="1" />
             <grant type="Class Feature" id="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_BANTER" level="2" />
