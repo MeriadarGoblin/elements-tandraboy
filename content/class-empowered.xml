@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Empowered</name>
-		<update version="1.5.1">
+		<update version="1.5.01">
 			<file name="class-empowered.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-tandraboy/main/content/class-tandraboy.xml" />
 		</update>
     </info>
@@ -994,10 +994,10 @@
     </element>
     <element name="Soldier On" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_SOLDIER_ON">
         <description>
-            <p>At 13th level, you can summon up the strength to keep on fighting. Whenever you receive healing from others, you can add a roll of your Pure Strength die to the number of hit points restored. Additionally, you automatically regain hit points equal to a roll of your Pure Strength die whenever you take a short rest.</p>
+            <p>At 13th level, you can summon up the strength to keep on fighting. Whenever you receive healing from others, you can add a roll of your Pure Strength die to the number of hit points restored. Additionally, you regain a number of hit points equal to a roll of your Pure Strength die whenever you spend a Hit Die as part of a short rest.</p>
         </description>
         <sheet usage="Short Rest">
-            <description>Whenever you receive healing from others, you can add a roll of your Pure Strength die to the number of hit points restored. Additionally, you automatically regain hit points equal to a roll of your Pure Strength die whenever you take a short rest.</description>
+            <description>Whenever you receive healing from others, you can add a roll of your Pure Strength die to the number of hit points restored. Additionally, you regain a number of hit points equal to a roll of your Pure Strength die whenever you spend a Hit Die as part of a short rest.</description>
         </sheet>
     </element>
     <element name="Offensive Parry" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_OFFENSIVE_PARRY">
