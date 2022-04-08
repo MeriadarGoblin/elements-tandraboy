@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Empowered</name>
-		<update version="1.4.7">
+		<update version="1.5.1">
 			<file name="class-empowered.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-tandraboy/main/content/class-tandraboy.xml" />
 		</update>
     </info>
@@ -54,25 +54,25 @@
                     <tr><td class="col-5">Level</td><td class="col-10">Proficiency Bonus</td><td class="col-60 left">Features</td><td class="col-10">Pure Strength</td><td class="col-10">Powers Known</td></tr>
                 </thead>
                 <tr><td> 1st</td><td>+2</td><td class="left">Pure Strength, Vigor</td><td>1d4</td><td>-</td></tr>
-                <tr><td> 2nd</td><td>+2</td><td class="left">Astounding Powers</td><td>1d4</td><td>1</td></tr>
-                <tr><td> 3rd</td><td>+2</td><td class="left">Power Manifestation</td><td>1d4</td><td>1</td></tr>
-                <tr><td> 4th</td><td>+2</td><td class="left">Ability Score Improvement</td><td>1d4</td><td>1d4</td><td>1</td></tr>1
-                <tr><td> 5th</td><td>+3</td><td class="left">Exta Attack, True Potential</td><td>1d6</td><td>2</td></tr>
-                <tr><td> 6th</td><td>+3</td><td class="left">Inner Strength</td><td>1d6</td><td>2</td></tr>
-                <tr><td> 7th</td><td>+3</td><td class="left">Manifestation Feature</td><td>1d6</td><td>3</td></tr>
-                <tr><td> 8th</td><td>+3</td><td class="left">Ability Score Improvement</td><td>1d6</td><td>3</td></tr>
-                <tr><td> 9th</td><td>+4</td><td class="left">-</td><td>1d6</td><td>4</td></tr>
-                <tr><td>10th</td><td>+4</td><td class="left">Stopping Power</td><td>1d6</td><td>4</td></tr>
-                <tr><td>11th</td><td>+4</td><td class="left">Perfected Strength</td><td>1d8</td><td>4</td></tr>
-                <tr><td>12th</td><td>+4</td><td class="left">Ability Score Improvement</td><td>1d8</td><td>5</td></tr>
-                <tr><td>13th</td><td>+5</td><td class="left">Manfestation Feature</td><td>1d8</td><td>5</td></tr>
-                <tr><td>14th</td><td>+5</td><td class="left">Never Say Die</td><td>1d8</td><td>5</td></tr>
-                <tr><td>15th</td><td>+5</td><td class="left">-</td><td>1d8</td><td>6</td></tr>
-                <tr><td>16th</td><td>+5</td><td class="left">Ability Score Improvement</td><td>1d10</td><td>6</td></tr>
-                <tr><td>17th</td><td>+6</td><td class="left">Manifestation Feature</td><td>1d10</td><td>6</td></tr>
-                <tr><td>18th</td><td>+6</td><td class="left">-</td><td>1d10</td><td>7</td></tr>
-                <tr><td>19th</td><td>+6</td><td class="left">Ability Score Improvement</td><td>1d10</td><td>7</td></tr>
-                <tr><td>20th</td><td>+6</td><td class="left">Invincible</td><td>1d10</td><td>7</td></tr>
+                <tr><td> 2nd</td><td>+2</td><td class="left">Astounding Powers</td><td>1d4</td><td>2</td></tr>
+                <tr><td> 3rd</td><td>+2</td><td class="left">Power Manifestation</td><td>1d4</td><td>2</td></tr>
+                <tr><td> 4th</td><td>+2</td><td class="left">Ability Score Improvement</td><td>1d4</td><td>1d4</td><td>2</td></tr>
+                <tr><td> 5th</td><td>+3</td><td class="left">Exta Attack, True Potential</td><td>1d6</td><td>3</td></tr>
+                <tr><td> 6th</td><td>+3</td><td class="left">Inner Strength</td><td>1d6</td><td>3</td></tr>
+                <tr><td> 7th</td><td>+3</td><td class="left">Manifestation Feature</td><td>1d6</td><td>4</td></tr>
+                <tr><td> 8th</td><td>+3</td><td class="left">Ability Score Improvement</td><td>1d6</td><td>4</td></tr>
+                <tr><td> 9th</td><td>+4</td><td class="left">-</td><td>1d6</td><td>5</td></tr>
+                <tr><td>10th</td><td>+4</td><td class="left">Stopping Power</td><td>1d6</td><td>5</td></tr>
+                <tr><td>11th</td><td>+4</td><td class="left">Perfected Strength</td><td>1d8</td><td>5</td></tr>
+                <tr><td>12th</td><td>+4</td><td class="left">Ability Score Improvement</td><td>1d8</td><td>6</td></tr>
+                <tr><td>13th</td><td>+5</td><td class="left">Manfestation Feature</td><td>1d8</td><td>6</td></tr>
+                <tr><td>14th</td><td>+5</td><td class="left">Never Say Die</td><td>1d8</td><td>6</td></tr>
+                <tr><td>15th</td><td>+5</td><td class="left">-</td><td>1d8</td><td>7</td></tr>
+                <tr><td>16th</td><td>+5</td><td class="left">Ability Score Improvement</td><td>1d10</td><td>7</td></tr>
+                <tr><td>17th</td><td>+6</td><td class="left">Manifestation Feature</td><td>1d10</td><td>7</td></tr>
+                <tr><td>18th</td><td>+6</td><td class="left">-</td><td>1d10</td><td>8</td></tr>
+                <tr><td>19th</td><td>+6</td><td class="left">Ability Score Improvement</td><td>1d10</td><td>8</td></tr>
+                <tr><td>20th</td><td>+6</td><td class="left">Invincible</td><td>1d10</td><td>8</td></tr>
             </table>
             <div element="ID_TANDRABOY_CLASS_FEATURE_EMPOWERED_PURE_STRENGTH" />
             <div element="ID_TANDRABOY_CLASS_FEATURE_EMPOWERED_VIGOR" />
@@ -151,7 +151,9 @@
         <description>
             <p>You're a natural when it comes to feats of gymnastic strength. You gain proficiency in Athletics, and your proficiency bonus is doubled for Strength (Athletics) ability checks.</p>
         </description>
-        <sheet display="false" />
+        <sheet>
+            <description>Your proficiency bonus is doubled for any ability check you make using Athletics.</description>
+        </sheet>
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" value="Proficiency" />
         </rules>
@@ -168,7 +170,7 @@
         </description>
         <sheet display="false" />
         <rules>
-            <select type="Class Feature" name="Astounding Powers (level 2)" supports="Astounding Powers" level="2" />
+            <select type="Class Feature" name="Astounding Powers (level 2)" supports="Astounding Powers" level="2" number="2" />
             <select type="Class Feature" name="Astounding Powers (level 5)" supports="Astounding Powers" level="5" />
             <select type="Class Feature" name="Astounding Powers (level 7)" supports="Astounding Powers" level="7" />
             <select type="Class Feature" name="Astounding Powers (level 9)" supports="Astounding Powers" level="9" />
@@ -588,13 +590,13 @@
             <p>When you choose this manifestation at 3rd level, your creature type changes to monstrosity, and you gain the ability to morph your limbs into weapons. As a bonus action, you can grant yourself one of the following benefits:</p>
             <ul>
                 <li><strong>Bio-Sword:</strong> Your unarmed strike deals slashing damage. Once per turn when you roll damage for an unarmed strike using Pure Strength, you can reroll the strike’s damage dice and use either total.</li>
-                <li><strong>Bio-Whip:</strong> Your unarmed strike deals slashing damage and has the reach property. Using this Bio-Weapon increases your movement speed by 10 feet.</li>
+                <li><strong>Bio-Whip:</strong> Your unarmed strike deals slashing damage and its reach is increased by 5 feet. Your movement speed is increased by 10 feet while using this Bio-Weapon.</li>
                 <li><strong>Bio-Shield:</strong> One of your forearms grows into a barrier that grants you +2 AC.</li>
             </ul>
             <p class="indent">You retain the chosen benefit until you use a bonus action to either choose a new benefit or return your body to its normal shape.</p>
         </description>
         <sheet action="Bonus Action">
-            <description>You creature type changes to monstrosity. As a bonus action, choose one of the following properties for your unarmed strike:&#13;(a)Sword, once per turn you can reroll the damage for an unarmed strike using Pure Strength and use either total,&#13; (b)Whip, deals slashing damage and has the reach property. Using this Bio-Weapon increases your movement speed by 10 feet., or &#13;(c)Shield, one of your forearms grows into a barrier that grants you +2 AC. </description>
+            <description>You creature type changes to monstrosity. As a bonus action, choose one of the following properties for your unarmed strike:&#13;(a)Sword, once per turn you can reroll the damage for an unarmed strike using Pure Strength and use either total,&#13; (b)Whip, your unarmed strike deals slashing damage and its reach is increased by 5 feet. Your movement speed is increased by 10 feet while using this Bio-Weapon., or &#13;(c)Shield, one of your forearms grows into a barrier that grants you +2 AC. </description>
         </sheet>
     </element>
     <element name="Chameleon" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_CHAMELEON">
@@ -1013,16 +1015,16 @@
             <p>Your power is so wild and vibrant that you often struggle to contain it. When this energy boils over, you transform dramatically, unleashing your true strength for a short time.</p>
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_TRUE_FORM" />
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_SIMMERING_FURY" />
-            <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_CRUSHING_GRIP" />
-            <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_DEAFENING_ROAR" />
+            <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_LIVING_WEAPON" />
+            <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_THICK_SKIN" />
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_SEISMIC_SLAM" />
         </description>
         <sheet display="false" />
         <rules>
             <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_TRUE_FORM" level="3" />
             <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_SIMMERING_FURY" level="3" />
-            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_CRUSHING_GRIP" level="7" />
-            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_DEAFENING_ROAR" level="13" />
+            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_LIVING_WEAPON" level="7" />
+            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_THICK_SKIN" level="13" />
             <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_SEISMIC_SLAM" level="17" />
         </rules>
     </element>
@@ -1031,13 +1033,13 @@
             <p>When you choose this manifestation at 3rd level, you can use a bonus action to assume your True Form for 1 minute. You exit this form early if you use a bonus action to end it, or if you are charmed or knocked unconscious. You gain the following benefits while in your True Form:</p>
             <ul>
                 <li>You become one size larger, along with anything you are wearing. If you lack the room to grow, your physical size doesn’t change but you are still considered one size larger.</li>
-                <li>When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can make a Strength saving throw instead.</li>
-                <li>While you are grappling a creature that is your size or smaller, you can use them to make an unarmed strike using Pure Strength against another creature. If you hit the target creature, they take the unarmed strike's damage as normal, and the grappled creature takes bludgeoning damage equal to a roll of your Pure Strength die.</li>
+                <li>You gain a +2 bonus to your Armor Class.</li>
+                <li>While you are grappling a creature, they take bludgeoning damage equal to a roll of your Pure Strength die at the start of each of their turns.</li>
             </ul>
             <p class="indent">You can use this feature a number of times equal to your proficiency bonus, and regain any expended uses when you finish a long rest.</p>
         </description>
         <sheet action="Bonus Action" usage="{{proficiency}}/Long Rest">
-            <description>As a Bonus Action, you assume your True Form for 1 minute. You exit this form early if you are charmed, frightened, or knocked unconscious. You gain the following benefits while in your True Form: You are considered one size larger, though you do not physically grow in size, when you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, and while you are grappling a creature that is your size or smaller, you can use them to make an unarmed strike using Pure Strength against another creature. If you hit the target creature, they take the unarmed strike's damage as normal, and the grappled creature takes bludgeoning damage equal to a roll of your Pure Strength die.</description>
+            <description>As a Bonus Action, you assume your True Form for 1 minute. You gain the following benefits while in your True Form: ou become one size larger, along with anything you are wearing. If you lack the room to grow, your physical size doesn’t change but you are still considered one size larger. You gain a +2 bonus to your Armor Class. While you are grappling a creature, they take bludgeoning damage equal to a roll of your Pure Strength die at the start of each of their turns.</description>
         </sheet>
     </element>
     <element name="Simmering Fury" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_SIMMERING_FURY">
@@ -1048,28 +1050,31 @@
             <description>You can add your Strength modifier to any Charisma (Intimidation) check you make.</description>
         </sheet>
     </element>
-    <element name="Crushing Grip" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_CRUSHING_GRIP">
+    <element name="Living Weapon" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_LIVING_WEAPON">
         <description>
-            <p>At 7th level, you can break bones with a firm handshake. If a creature is being grappled by you while you are in your True Form, they take bludgeoning damage equal to a roll of your Pure Strength die at the start of each of its turns.</p>
+            <p>Starting at 7th level, while you are in your True Form, if you are grappling a creature that is your size or smaller, you can use them to make an unarmed strike using Pure Strength against another creature. If you hit the target creature, they take the unarmed strike's damage as normal, and the grappled creature takes bludgeoning damage equal to a roll of your Pure Strength die.</p>
         </description>
         <sheet>
-            <description>If a creature is being grappled by you while you are in your True Form, they take bludgeoning damage equal to a roll of your Pure Strength die at the start of each of its turns.</description>
+            <description>While you are in your True Form, if you are grappling a creature that is your size or smaller, you can use them to make an unarmed strike using Pure Strength against another creature. If you hit the target creature, they take the unarmed strike's damage as normal, and the grappled creature takes bludgeoning damage equal to a roll of your Pure Strength die.</description>
         </sheet>
     </element>
-    <element name="Deafening Roar" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_DEAFENING_ROAR">
+    <element name="Thick Skin" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_THICK_SKIN">
         <description>
-            <p>By 13th level, you can let out an ear-splitting roar as an action on your turn while you are in your True Form. Each creature of your choice within 15 feet of you must make a Constitution saving throw against your power save DC if they can hear you. On a failed save, creatures are deafened until the end of your next turn and knocked prone.</p>
+            <p>By 13th level, while you are in your True Form, if you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can make a Strength saving throw instead.</p>
+            <p class="indent">Additionally, when you make a Strength saving throw this way, you take no damage if you succeed on the saving throw, and only half damage if you fail.</p>
         </description>
         <sheet action="Action">
-            <description>you can let out an ear-splitting roar as an action on your turn while you are in your True Form. Each creature of your choice within 15 feet of you must make a Constitution saving throw against your power save DC if they can hear you. On a failed save, creatures are deafened until the end of your next turn and knocked prone.</description>
+            <description>While you are in your True Form, if you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you can make a Strength saving throw instead. Additionally, when you make a Strength saving throw this way, you take no damage if you succeed on the saving throw, and only half damage if you fail.</description>
         </sheet>
     </element>
     <element name="Seismic Slam" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_SEISMIC_SLAM">
         <description>
-            <p>At 17th level, if you are grappling a creature that is your size or smaller while in your Ture Form, you can use an action on your turn to repeatedly slam the creature into the ground in a fit of rage. When you use this ability, the grappled creature must make either a Strength or Dexterity saving throw against your power save DC (the target chooses which). On a failed save, the creature takes 10d10 bludgeoning damage, is knocked prone, and is stunned until the end of your next turn. On a successful save, the creature takes half as much damage and is not stunned. You stop grappling the creature after using this ability. Once you use this ability, you must complete a long rest before using it again.</p>
+            <p>At 17th level, if you are grappling a creature that is your size or smaller while in your True Form, you can use an action on your turn to repeatedly slam the creature into the ground in a fit of rage. When you use this ability, the grappled creature must make either a Strength or Dexterity saving throw against your power save DC (the target chooses which).</p>
+            <p class="indent">On a failed save, the creature takes 10d10 bludgeoning damage, is knocked prone, and is stunned until the end of your next turn. On a successful save, the creature takes half as much damage and is not stunned. In either case, you stop grappling the creature.</p>
+            <p class="indent">Once you use this feature, you must complete a long rest before using it again.</p>
         </description>
         <sheet action="Action" usage="Long Rest">
-            <description>if you are grappling a creature that is your size or smaller while in your Ture Form, you can use an action on your turn to repeatedly slam the creature into the ground in a fit of rage. When you use this ability, the grappled creature must make either a Strength or Dexterity saving throw against your power save DC (the target chooses which). On a failed save, the creature takes 10d10 bludgeoning damage, is knocked prone, and is stunned until the end of your next turn. On a successful save, the creature takes half as much damage and is not stunned. You stop grappling the creature after using this ability. Once you use this ability, you must complete a long rest before using it again.</description>
+            <description>If you are grappling a creature that is your size or smaller while in your True Form, you can use an action on your turn to repeatedly slam the creature into the ground in a fit of rage. When you use this ability, the grappled creature must make either a Strength or Dexterity saving throw against your power save DC (the target chooses which). On a failed save, the creature takes 10d10 bludgeoning damage, is knocked prone, and is stunned until the end of your next turn. On a successful save, the creature takes half as much damage and is not stunned. In either case, you stop grappling the creature. Once you use this feature, you must complete a long rest before using it again.</description>
         </sheet>
     </element>
 
@@ -1374,7 +1379,7 @@
             <description>While you are not wearing medium or heavy armor, you gain a flying speed equal to your walking speed and can hover. You choose how this flight works when you gain this power. You can grow wings, levitate naturally, shoot energy out of your feet or palms, or any other innate way to fly.</description>
         </sheet>
     </element>
-    <element name="Full Metal Gambeson" type="Class Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ASTOUNDING_POWERS_FULL_METAL_GAMBESON">
+    <element name="Full Metal Cuirass" type="Class Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ASTOUNDING_POWERS_FULL_METAL_CUIRASS">
         <supports>Astounding Powers</supports>
         <prerequisite>9th level, Super Soldier Manifestation</prerequisite>
         <requirements>[level:9], ID_TANDRABOY_ARCHETYPE_SUPER_SOLDIER</requirements>
