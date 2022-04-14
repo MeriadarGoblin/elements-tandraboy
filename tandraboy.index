@@ -9,7 +9,7 @@
 		</update>
 	</info>
 	<files>
-
+		<file name="sources.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-ffxiv/main/FFXIV/sources.xml" />
         <!-- Classes -->
 		<file name="class-empowered.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-tandraboy/main/content/class-empowered.xml" />
 		<file name="class-buccaneer.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-tandraboy/main/content/class-buccaneer.xml" />
