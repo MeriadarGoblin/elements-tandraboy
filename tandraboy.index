@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0.1" encoding="utf-8"?>
 <index>
 	<info>
 		<name>/u/Tandraboy</name>
@@ -9,7 +9,8 @@
 		</update>
 	</info>
 	<files>
-
+		<file name="sources.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-tandraboy/main/content/source.xml" />
+		
         <!-- Classes -->
 		<file name="class-empowered.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-tandraboy/main/content/class-empowered.xml" />
 		<file name="class-buccaneer.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-tandraboy/main/content/class-buccaneer.xml" />
