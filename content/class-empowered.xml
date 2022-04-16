@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Empowered</name>
-		<update version="1.5.01">
+		<update version="1.5.02">
 			<file name="class-empowered.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-tandraboy/main/content/class-tandraboy.xml" />
 		</update>
     </info>
@@ -151,11 +151,12 @@
         <description>
             <p>You're a natural when it comes to feats of gymnastic strength. You gain proficiency in Athletics, and your proficiency bonus is doubled for Strength (Athletics) ability checks.</p>
         </description>
-        <sheet>
+        <sheet display="false">
             <description>Your proficiency bonus is doubled for any ability check you make using Athletics.</description>
         </sheet>
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_ATHLETICS" value="Proficiency" />
+            <stat name="athletics:misc" value="proficiency" bonus="bonus" />
         </rules>
     </element>
     <element name="Astounding Powers" type="Class Feature" source="/u/Tandraboy" id="ID_TANDRABOY_CLASS_FEATURE_EMPOWERED_ASTOUNDING_POWERS">
