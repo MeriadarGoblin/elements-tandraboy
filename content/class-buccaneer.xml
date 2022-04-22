@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Buccaneer</name>
-        <update version="1.4.0">
+        <update version="1.4.01">
             <file name="class-buccaneer.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-tandraboy/main/content/class-buccaneer.xml" />
         </update>
     </info>
@@ -563,7 +563,7 @@
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_SPELLSWORD_RECALL" />
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_SPELLSWORD_ARCANE_ARTISAN" />
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_SPELLSWORD_DYNAMO" />
-            <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_SPELLSWORD_MARTIAL_RESTORATION" />
+            <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_SPELLSWORD_SIGNATURE_MOVE" />
         </description>
         <sheet display="false" />
         <rules>
