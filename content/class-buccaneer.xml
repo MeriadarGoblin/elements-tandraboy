@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Buccaneer</name>
-        <update version="1.3.16">
+        <update version="1.4.0">
             <file name="class-buccaneer.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-tandraboy/main/content/class-buccaneer.xml" />
         </update>
     </info>
@@ -34,7 +34,7 @@
     </ul>
     <h5 class="caption">PROFICIENCIES</h5>
     <ul class="unstyled mb">
-        <li><strong>Armor:</strong> Light armor</li>
+        <li><strong>Armor:</strong> Light armor, Medium armor</li>
         <li><strong>Weapons:</strong> Simple weapons, rapiers, scimitars, shortswords, whips, hand crossbows, heavy crossbows</li>
         <li><strong>Tools:</strong> One gaming set of your choice</li>
     </ul>
@@ -46,8 +46,8 @@
     <p>You start with the following equipment, in addition to the equipment granted by your background:</p>
     <ul>
         <li>(a) a rapier or (b) two scimitars</li>
+        <li>(a)leather armor or (b) scale mail</li>
         <li>(a) a diplomat's pack or (b) an explorer's pack</li>
-        <li>leather armor and two daggers</li>
         <li>one gaming set you are proficient with</li>
         <li>a feathered hat, a fancy doublet, and a shoulder cape</li>
     </ul>
@@ -78,7 +78,7 @@
             <tr><td>20th</td><td>1d10</td><td class="left">Living Legend</td></tr>
         </table>
             <div element="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_COUNTER_ATTACK" />
-            <div element="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_MOMENTUM" />
+            <div element="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_FOOTWORK" />
             <div element="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_BANTER" />
             <div element="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_FIGHTING_STYLE" />
             <div element="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_CODE_OF_VIRTUE" />
@@ -86,13 +86,13 @@
             <div element="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_EXTRA_ATTACK" />
             <div element="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_VENDETTA" />
             <div element="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_EXPERTISE" />
-            <div element="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_FLOURISH" />
-            <div element="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_SIDESTEP" />
+            <div element="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_MOMENTUM" />
+            <div element="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_VEXATION" />
             <div element="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_DARING_BLADE" />
             <div element="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_VAINGLORY" />
             <div element="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_ENRAPTURE" />
             <div element="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_REPRISAL" />
-            <div element="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_LIVING_LEGEND" />
+            <div element="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_FABLED_FENCER" />
         </description>
         <setters>
             <set name="hd">d10</set>
@@ -107,12 +107,13 @@
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HAND" />
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_CROSSBOW_HEAVY" />
             <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_LIGHT_ARMOR" />
+            <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR" />
             <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" />
             <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_CHARISMA" />
             <select type="Proficiency" name="Skills, Buccaneer" supports="ID_PROFICIENCY_SKILL_ACROBATICS|ID_PROFICIENCY_SKILL_DECEPTION|ID_PROFICIENCY_SKILL_INTIMIDATION|ID_PROFICIENCY_SKILL_PERFORMANCE|ID_PROFICIENCY_SKILL_PERSUASION|ID_PROFICIENCY_SKILL_SLEIGHTOFHAND|ID_PROFICIENCY_SKILL_STEALTH" number="2" />
             <select type="Proficiency" name="Gaming Set, Buccaneer" supports="ID_PROFICIENCY_GAMING_SET_PROFICIENCY_DICE_SET|ID_PROFICIENCY_GAMING_SET_PROFICIENCY_DRAGONCHESS_SET|ID_PROFICIENCY_GAMING_SET_PROFICIENCY_PLAYING_CARD_SET|ID_PROFICIENCY_GAMING_SET_PROFICIENCY_THREE_DRAGON_ANTE_SET" />
             <grant type="Class Feature" id="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_COUNTER_ATTACK" level="1" />
-            <grant type="Class Feature" id="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_MOMENTUM" level="1" />
+            <grant type="Class Feature" id="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_FOOTWORK" level="1" />
             <grant type="Class Feature" id="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_BANTER" level="2" />
             <grant type="Class Feature" id="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_FIGHTING_STYLE" level="2" />
             <grant type="Class Feature" id="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_CODE_OF_VIRTUE" level="3" />
@@ -120,33 +121,30 @@
             <grant type="Class Feature" id="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_EXTRA_ATTACK" level="5" />
             <grant type="Class Feature" id="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_VENDETTA" level="5" />
             <grant type="Class Feature" id="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_EXPERTISE" level="6" />
-            <grant type="Class Feature" id="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_FLOURISH" level="7" />
-            <grant type="Class Feature" id="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_SIDESTEP" level="10" />
+            <grant type="Class Feature" id="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_MOMENTUM" level="7" />
+            <grant type="Class Feature" id="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_VEXATION" level="10" />
             <grant type="Class Feature" id="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_DARING_BLADE" level="11" />
             <grant type="Class Feature" id="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_VAINGLORY" level="14" />
             <grant type="Class Feature" id="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_ENRAPTURE" level="15" />
             <grant type="Class Feature" id="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_REPRISAL" level="17" />
-            <grant type="Class Feature" id="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_LIVING_LEGEND" level="20" />
+            <grant type="Class Feature" id="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_FABLED_FENCER" level="20" />
         </rules>
     </element>
     <element name="Counter-Attack" type="Class Feature" source="/u/Tandraboy" id="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_COUNTER_ATTACK">
         <description>
-            <p>Crossing swords with you is like a deadly game of chess. Whenever a creature misses you with a melee attack during their turn, you can use your reaction to target them with a melee attack using a finesse weapon. You cannot make this attack if you are wearing medium or heavy armor or are wielding a shield.</p>
+            <p>Crossing swords with you is like a deadly game of chess. Whenever a creature misses you with a melee attack during their turn, you can use a reaction to target them with a melee attack using a finesse weapon. You cannot make this attack while wearing heavy armor or wielding a shield.</p>
         </description>
         <sheet action="Reaction">
-            <description>Whenever a creature misses you with a melee attack during their turn, you can use your reaction to target them with a melee attack using a finesse weapon. You cannot make this attack if you are wearing medium or heavy armor or are wielding a shield.</description>
+            <description>Whenever a creature misses you with a melee attack during their turn, you can use a reaction to target them with a melee attack using a finesse weapon. You cannot make this attack while wearing heavy armor or wielding a shield.</description>
         </sheet>
     </element>
-    <element name="Momentum" type="Class Feature" source="/u/Tandraboy" id="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_MOMENTUM">
+    <element name="Footwork" type="Class Feature" source="/u/Tandraboy" id="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_FOOTWORK">
         <description>
-            <p>While you are not wearing medium or heavy armor and are not wielding a shield, you gain a +1 bonus to your AC. When you hit a creature with an attack using a finesse weapon, this bonus increases by 1, up to a maximum bonus equal to your Charisma modifier (minimum bonus of +1). This bonus resets to +1 whenever you take damage or roll for initiative.</p>
+            <p>You count on being able to outmaneuver your opponents. During your turn, if you target a creature with a melee attack using a finesse weapon, that creature can’t make opportunity attacks against you for the rest of your turn.</p>
         </description>
         <sheet>
-            <description>While you are not wearing medium or heavy armor and are not wielding a shield, you gain a +1 bonus to your AC. When you hit a creature with an attack using a finesse weapon, this bonus increases by 1, up to a maximum bonus equal to your Charisma modifier (minimum bonus of +1). This bonus resets to +1 whenever you take damage or roll for initiative.</description>
+            <description>You count on being able to outmaneuver your opponents. During your turn, if you target a creature with a melee attack using a finesse weapon, that creature can’t make opportunity attacks against you for the rest of your turn.</description>
         </sheet>
-        <rules>
-            <stat name="ac" value="1" bonus="bonus" requirements="!ID_PROFICIENCY_ARMOR_PROFICIENCY_MEDIUM_ARMOR, !ID_PROFICIENCY_ARMOR_PROFICIENCY_HEAVY_ARMOR" />
-        </rules>
     </element>
     <element name="Banter" type="Class Feature" source="/u/Tandraboy" id="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_BANTER">
         <description>
@@ -229,10 +227,10 @@
     </element>
     <element name="Vendetta" type="Class Feature" source="/u/Tandraboy" id="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_VENDETTA">
         <description>
-            <p>Also at 5th level, creatures provoke a Counter-Attack from you after they target a creature other than you with a melee attack. After you hit a creature with a Counter-Attack, you can use your Banter as part of the same reaction.</p>
+            <p>Also at 5th level, thanks to your vgilante technique, hostile creatures provoke a Counter-Attack from you after they target a creature other than you with a melee attack.</p>
         </description>
         <sheet>
-            <description>Creatures provoke a Counter-Attack from you after they target a creature other than you with a melee attack. After you hit a creature with a Counter-Attack, you can use your Banter as part of the same reaction.</description>
+            <description>Hostile creatures provoke a Counter-Attack from you after they target a creature other than you with a melee attack.</description>
         </sheet>
     </element>
     <element name="Expertise" type="Class Feature" source="/u/Tandraboy" id="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_EXPERTISE">
@@ -245,36 +243,39 @@
 			<select type="Class Feature" name="Expertise (Buccaneer 10)" level="10" number="2" supports="Expertise,Skill"/>
 		</rules>
 	</element>
-    <element name="Flourish" type="Class Feature" source="/u/Tandraboy" id="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_FLOURISH">
+    <element name="Momentum" type="Class Feature" source="/u/Tandraboy" id="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_MOMENTUM">
         <description>
-            <p>By 7th level, sometimes your actions speak louder than your words. You gain advantage on any Charisma check that you make using only your body language to communicate, such as drawing your thumb across your throat to make a Charisma (Intimidation) check, or taking a dramatic bow to make a Charisma (Performance) check.</p>
+            <p>At 7th level, while you are not wearing heavy armor and are not wielding a shield, you gain a +1 bonus to your AC. When you hit a creature with an attack using a finesse weapon, this bonus increases by 1, up to a maximum bonus equal to your Charisma modifier (minimum bonus of +1). This bonus resets to +1 whenever you take damage or roll for initiative.</p>
         </description>
         <sheet>
-            <description>You gain advantage on any Charisma check that you make using only your body language to communicate, such as drawing your thumb across your throat to make a Charisma (Intimidation) check, or taking a dramatic bow to make a Charisma (Performance) check.</description>
+            <description>While you are not wearing heavy armor and are not wielding a shield, you gain a +1 bonus to your AC. When you hit a creature with an attack using a finesse weapon, this bonus increases by 1, up to a maximum bonus equal to your Charisma modifier (minimum bonus of +1). This bonus resets to +1 whenever you take damage or roll for initiative.</description>
         </sheet>
+        <rules>
+            <stat name="ac" value="1" requirements="![armor:heavy],[shield:none]" />
+        </rules>
     </element>
-    <element name="Sidestep" type="Class Feature" source="/u/Tandraboy" id="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_SIDESTEP">
+    <element name="Vexation" type="Class Feature" source="/u/Tandraboy" id="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_VEXATION">
         <description>
-            <p>By 10th level, if you are not wearing medium or heavy armor and are not wielding a shield, you can move 5 feet without provoking opportunity attacks whenever a creature misses you with a melee attack during their turn. You can use this movement before or after making a Counter-Attack.</p>
+            <p>By 10th level, you are rather fond of adding insult to injury. Once per turn after you deal damage to a creature with an attack using a finesse weapon, you can target that creature with your Banter as part of the same attack.</p>
         </description>
         <sheet>
-            <description>If you are not wearing medium or heavy armor and are not wielding a shield, you can move 5 feet without provoking opportunity attacks whenever a creature misses you with a melee attack during their turn. You can use this movement before or after making a Counter-Attack.</description>
+            <description>Once per turn after you deal damage to a creature with an attack using a finesse weapon, you can target that creature with your Banter as part of the same attack.</description>
         </sheet>
     </element>
     <element name="Daring Blade" type="Class Feature" source="/u/Tandraboy" id="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_DARING_BLADE">
         <description>
-            <p>At 11th level, your precision with a blade is so fine-tuned that all of your attacks with finesse weapons deal additional damage equal to a roll of your Fencing die. Additionally, if a finesse melee weapon deals piercing damage, you can deal slashing damage with it instead.</p>
+            <p>At 11th level, your precision with a blade is so fine-tuned that all of your attacks with finesse weapons deal additional damage equal to a roll of your Fencing die. Additionally, you can use your Fencing die in place of the normal damage die for any finesse weapon.</p>
         </description>
         <sheet>
-            <description>Your attacks with finesse weapons deal additional damage equal to a roll of your Fencing die. Additionally, if a finesse melee weapon deals piercing damage, you can deal slashing damage with it instead.</description>
+            <description>Your attacks with finesse weapons deal additional damage equal to a roll of your Fencing die. Additionally, you can use your Fencing die in place of the normal damage die for any finesse weapon.</description>
         </sheet>
     </element>
     <element name="Vainglory" type="Class Feature" source="/u/Tandraboy" id="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_VAINGLORY">
         <description>
-            <p>At 14th level, you never back down from a challenge, even if you probably should. You can walk towards a creature even if you are frightened by them, and you cannot be compelled to run away from the source of your fear.</p>
+            <p>By 14th level, your overbearing confidence in the face of a challenge makes you immune to the frightened condition. Creatures provoke a Counter-Attack from you whenever they attempt to frighten you.</p>
         </description>
         <sheet>
-            <description>You can walk towards a creature even if you are frightened by them, and you cannot be compelled to run away from the source of your fear.</description>
+            <description>Your overbearing confidence in the face of a challenge makes you immune to the frightened condition. Creatures provoke a Counter-Attack from you whenever they attempt to frighten you.</description>
         </sheet>
     </element>
     <element name="Enrapture" type="Class Feature" source="/u/Tandraboy" id="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_ENRAPTURE">
@@ -287,13 +288,13 @@
     </element>
     <element name="Reprisal" type="Class Feature" source="/u/Tandraboy" id="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_REPRISAL">
         <description>
-            <p>By 17th level, you can make the most of any opening. Whenever you score a critical hit against a conscious creature with a melee attack using a finesse weapon, you can target them with another melee attack using that weapon.</p>
+            <p>By 17th level, you can make the most of any opening. If you score a critical hit against a creature that is not incapacitated with a melee attack using a finesse weapon, you can target them with another melee attack using that weapon.</p>
         </description>
         <sheet>
-            <description>Whenever you score a critical hit against a conscious creature with a melee attack using a finesse weapon, you can target them with another melee attack using that weapon.</description>
+            <description>If you score a critical hit against a creature that is not incapacitated with a melee attack using a finesse weapon, you can target them with another melee attack using that weapon.</description>
         </sheet>
     </element>
-    <element name="Living Legend" type="Class Feature" source="/u/Tandraboy" id="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_LIVING_LEGEND">
+    <element name="Fabled Fencer" type="Class Feature" source="/u/Tandraboy" id="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_FABLED_FENCER">
         <description>
             <p>At 20th level, people tell tales and sing songs of your famous duels and your dramatic exploits. Your Dexterity and Charisma scores each increase by 4. Your maximum for those scores is now 24.</p>
         </description>
@@ -308,7 +309,7 @@
             <p>An honorable duelist values courage, respect, and integrity. They will gladly stake their life on their honor, and tend to do so regularly. They are proud and boisterous warriors.</p>
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_DUELIST_CLASSICAL_TECHNIQUE" />
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_DUELIST_POISE" />
-            <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_DUELIST_PIVOTING_STANCE" />
+            <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_DUELIST_PIROUETTE" />
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_DUELIST_EN_GARDE" />
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_DUELIST_PIROUETTE" />
         </description>
@@ -316,7 +317,7 @@
         <rules>
             <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_DUELIST_CLASSICAL_TECHNIQUE" level="3" />
             <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_DUELIST_POISE" level="3" />
-            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_DUELIST_PIVOTING_STANCE" level="9" />
+            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_DUELIST_PIROUETTE" level="9" />
             <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_DUELIST_EN_GARDE" level="13" />
             <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_DUELIST_PIROUETTE" level="18" />
         </rules>
@@ -346,10 +347,10 @@
     <element name="Aegis" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_BATTLE_STANCE_AEGIS">
         <supports>Classical Technique</supports>
         <description>
-            <p>You gain +2 AC, but you gain disadvantage on attack rolls.</p>
+            <p>You gain +2 AC, but you gain disadvantage any attack roll you make that is not a Counter-Attack.</p>
         </description>
         <sheet>
-            <description> You gain +2 AC, but you gain disadvantage on attack rolls.</description>
+            <description>You gain +2 AC, but you gain disadvantage any attack roll you make that is not a Counter-Attack.</description>
         </sheet>
     </element>
     <element name="Blitz" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_BATTLE_STANCE_BLITZ">
@@ -364,28 +365,28 @@
     <element name="Focus" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_BATTLE_STANCE_FOCUS">
         <supports>Classical Technique</supports>
         <description>
-            <p>You gain advantage on Counter-Attacks, but you gain disadvantage on attacks of opportunity.</p>
+            <p>You gain advantage on Counter-Attacks, but your movement speed is halved.</p>
         </description>
         <sheet>
-            <description>You gain advantage on Counter-Attacks, but you gain disadvantage on attacks of opportunity.</description>
+            <description>You gain advantage on Counter-Attacks, but your movement speed is halved.</description>
         </sheet>
     </element>
     <element name="Gash" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_BATTLE_STANCE_GASH">
         <supports>Classical Technique</supports>
         <description>
-            <p>You score a critical hit with melee attacks on a roll of 19 or 20, but you have disadvantage on Strength and Dexterity saving throws.</p>
+            <p>Your melee attacks with finesse weapons score a critical hit on a roll of 19 or 20, but you have disadvantage on Strength and Dexterity saving throws.</p>
         </description>
         <sheet>
-            <description>You score a critical hit with melee attacks on a roll of 19 or 20, but you have disadvantage on Strength and Dexterity saving throws.</description>
+            <description>Your melee attacks with finesse weapons score a critical hit on a roll of 19 or 20, but you have disadvantage on Strength and Dexterity saving throws.</description>
         </sheet>
     </element>
     <element name="Notch" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_BATTLE_STANCE_NOTCH">
         <supports>Classical Technique</supports>
         <description>
-            <p>You add your proficiency bonus to damage rolls for melee attacks with finesse weapons, but you have -2 AC.</p>
+            <p>Your reach for melee attacks with finesse weapons increases by 5 feet, but you can't make opportunity attacks.</p>
         </description>
         <sheet>
-            <description>You add your proficiency bonus to damage rolls for melee attacks with finesse weapons, but you have -2 AC.</description>
+            <description>Your reach for melee attacks with finesse weapons increases by 5 feet, but you can't make opportunity attacks.</description>
         </sheet>
     </element>
     <element name="Poise" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_DUELIST_POISE">
@@ -393,15 +394,15 @@
             <p>Also at 3rd level, you can add your Charisma modifier to any Dexterity (Acrobatics) check you make. Additionally, you do not suffer disadvantage on attack rolls due to being prone. This extends to other unstable positions where you might have disadvantage on attack rolls, such as walking on a tightrope, or backpedaling on a staircase.</p>
         </description>
         <sheet>
-            <description>you can add your Charisma modifier to any Dexterity (Acrobatics) check you make. Additionally, you do not suffer disadvantage on attack rolls due to being prone. This extends to other unstable positions where you might have disadvantage on attack rolls, such as walking on a tightrope, or backpedaling on a staircase.</description>
+            <description>You can add your Charisma modifier to any Dexterity (Acrobatics) check you make. Additionally, you do not suffer disadvantage on attack rolls due to being prone. This extends to other unstable positions where you might have disadvantage on attack rolls, such as walking on a tightrope, or backpedaling on a staircase.</description>
         </sheet>
     </element>
-    <element name="Pivoting Stance" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_DUELIST_PIVOTING_STANCE">
+    <element name="Pirouette" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_DUELIST_PIROUETTE">
         <description>
-            <p>At 9th level, you gain the benefits of the Disengage action whenever you intentionally change your stance, and can use Banter as part of any intentional stance change you make.</p>
+            <p>At 9th level, whenever you change your stance, you can use a finesse melee weapon you are wiedling to deal damage equal to a roll of your Fencing die to a creature within the weapon's reach. That creature cannot target you with opportunity attacks for the rest of the turn.</p>
         </description>
         <sheet>
-            <description>You gain the benefits of the Disengage action whenever you intentionally change your stance, and can use Banter as part of any intentional stance change you make.</description>
+            <description>Whenever you change your stance, you can use a finesse melee weapon you are wiedling to deal damage equal to a roll of your Fencing die to a creature within the weapon's reach. That creature cannot target you with opportunity attacks for the rest of the turn.</description>
         </sheet>
     </element>
     <element name="En Garde!" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_DUELIST_EN_GARDE">
@@ -412,14 +413,15 @@
             <description>At the start of combat when rolling initiative, but before each creature's initiative has been determined, you can choose a hostile creature you can see that is also rolling initiative. Your initiative becomes the creature's initiative +1. You can only target the chosen creature with attacks or spells during your first turn in combat.</description>
         </sheet>
     </element>
-    <element name="Pirouette" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_DUELIST_PIROUETTE">
+    <element name="Offensive Parry" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_DUELIST_OFFENSIVE_PARRY">
         <description>
-            <p>At 18th level, whenever you switch your stance, you can deal slashing damage equal to a roll of your Fencing die to a creature within reach of a finesse weapon you are wielding.</p>
+            <p>Starting at 18th level, you can predict your opponent's attacks before they strike, allowing you to use a reaction to target a creature with a Counter-Attack the moment that they target you with a melee attack. If your Counter-Attack lands, the creature's attack misses automatically.</p>
         </description>
         <sheet>
-            <description>Whenever you switch your stance, you can deal slashing damage equal to a roll of your Fencing die to a creature within reach of a finesse weapon you are wielding.</description>
+            <description>ou can predict your opponent's attacks before they strike, allowing you to use a reaction to target a creature with a Counter-Attack the moment that they target you with a melee attack. If your Counter-Attack lands, the creature's attack misses automatically.</description>
         </sheet>
     </element>
+    
 
     <element name="Officer" type="Archetype" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_BUCCANEER_OFFICER">
         <supports>Code of Virtue</supports>
@@ -427,63 +429,63 @@
             <p>Officers are instilled with the values of trust, discipline, and structure. Before resorting to violence, they will attempt to pacify their foes if possible. They are attentive, efficient, confident, and reliable: all the traits of a natural leader.</p>
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_OFFICER_MODERN_TECHNIQUE" />
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_OFFICER_GRAVITAS" />
+            <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_OFFICER_SIDESTEP" />
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_OFFICER_PERFECT_OPENING" />
-            <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_OFFICER_PACIFY" />
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_OFFICER_FINAL_WARNING" />
         </description>
         <sheet display="false" />
         <rules>
             <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_OFFICER_MODERN_TECHNIQUE" level="3" />
             <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_OFFICER_GRAVITAS" level="3" />
-            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_OFFICER_PERFECT_OPENING" level="9" />
-            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_OFFICER_PACIFY" level="13" />
+            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_OFFICER_SIDESTEP" level="9" />
+            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_OFFICER_PERFECT_OPENING" level="13" />
             <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_OFFICER_FINAL_WARNING" level="18" />
         </rules>
     </element>
     <element name="Modern Technique" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_OFFICER_MODERN_TECHNIQUE">
         <description>
-            <p>When you choose this code at 3rd level, you seek to end combat without bloodshed when you can. Whenever you make a Counter-Attack, you can strike the target using the pommel of your weapon, causing the attack to deal bludgeoning damage. When you hit a creature with this kind of Counter-Attack, they must make a Dexterity saving throw against your fencing save DC. On a failed save, you can impose one of the following effects on the creature:</p>
-            <ul>
-                <li>You knock the creature prone if they are no more than one size larger than you.</li>
-                <li>You disarm the creature, causing them to drop one weapon they are carrying.</li>
-                <li>You push the creature back 5 feet, and prevent them from taking reactions until the start of their next turn.</li>
-            </ul>
+            <p>When you choose this code at 3rd level, you seek to end conflicts without bloodshed when possible. Whenever you make a Counter-Attack, you can strike the target using the pommel of your weapon, causing the attack to deal bludgeoning damage. </p>
+            <p class="indent">When you hit a creature with this kind of Counter-Attack, they must make a Dexterity saving throw against your fencing save DC. On a failed save, the creature becomes stunned until the end of their turn.</p>
+            <p class="indent">You can use this feature a number of times equal to your proficiency bonus, and regain all expended uses of it whenever you complete a short or long rest.</p>
         </description>
-        <sheet>
-            <description>Whenever you make a Counter-Attack, you can strike the target using the pommel of your weapon, causing the attack to deal bludgeoning damage. When you hit a creature with this kind of Counter-Attack, they must make a Dexterity saving throw against your fencing save DC. On a failed save, you can impose one of the following effects on the creature: You knock the creature prone if they are no more than one size larger than you, you disarm the creature, causing them to drop one weapon they are carrying, and ou push the creature back 5 feet, and prevent them from taking reactions until the start of their next turn.</description>
+        <sheet usage="{{proficiency:modifier}}/Short or Long Rest">
+            <description>Whenever you make a Counter-Attack, you can strike the target using the pommel of your weapon, causing the attack to deal bludgeoning damage. When you hit a creature with this kind of Counter-Attack, they must make a Dexterity saving throw against your fencing save DC. When you hit a creature with this kind of Counter-Attack, they must make a Dexterity saving throw against your fencing save DC. On a failed save, the creature becomes stunned until the end of their turn.</description>
         </sheet>
     </element>
     <element name="Grativas" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_OFFICER_GRAVITAS">
         <desription>
-            <p>Also at 3rd level, your stern demeanor makes you rather difficult to read. You can add your Charisma modifier to Wisdom (Insight) checks. Charisma (Deception) and Wisdom (Insight) checks targeting you are made with disadvantage.</p>
+            <p>Also at 3rd level, your stern demeanor makes it very difficult to tell what is really on your mind. Charisma (Deception) and Wisdom (Insight) checks targeting you are made with disadvantage.</p>
+            <p class="indent">Furthermore, you can read others as though they were an open book, allowing you to add your Charisma modifier to any Wisdom (Insight) check you make.</p>
         </desription>
         <sheet>
-            <description>You can add your Charisma modifier to Wisdom (Insight) checks. Charisma (Deception) and Wisdom (Insight) checks targeting you are made with disadvantage.</description>
+            <description>Charisma (Deception) and Wisdom (Insight) checks targeting you are made with disadvantage. Furthermore, you can read others as though they were an open book, allowing you to add your Charisma modifier to any Wisdom (Insight) check you make.</description>
+        </sheet>
+    </element>
+    <element name="Sidestep" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_OFFICER_SIDESTEP">
+        <description>
+            <p>By 9th level, you can maneuver through combat with ease. Whenever a creature misses you with a melee attack during their turn, you can move 5 feet without provoking opportunity attacks from that creature. You can use this movement either become or after making a Counter-Attack.</p>
+        </description>
+        <sheet>
+            <description>Whenever a creature misses you with a melee attack during their turn, you can move 5 feet without provoking opportunity attacks from that creature. You can use this movement either become or after making a Counter-Attack.</description>
         </sheet>
     </element>
     <element name="Perfect Opening" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_OFFICER_PERFECT_OPENING">
         <description>
-            <p>Starting at 9th level, your discipline technique allows you to ruthlessly punish your enemy's mistakes. You automatically score a critical hit with your Counter-Attack if the target rolled a 1 on the triggering attack roll. Furthermore, the creature has disadvantage on the next saving throw it makes before the start of its next turn.</p>
+            <p>Starting at 13th level, your disciplined technique allows you to ruthlessly punish your enemy's mistakes. You automatically score a critical hit with your Counter-Attack if the target rolled a 1 on the triggering attack roll. Furthermore, the creature has disadvantage on the next saving throw it makes before the end of your next turn.</p>
         </description>
         <sheet>
-            <description>You automatically score a critical hit with your Counter-Attack if the target rolled a 1 on the triggering attack roll. Furthermore, the creature has disadvantage on the next saving throw it makes before the start of its next turn.</description>
-        </sheet>
-    </element>
-    <element name="Pacify" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_OFFICER_PACIFY">
-        <description>
-            <p>At 13th level, you can compel creatures to stop fighting amongst each other. Whenever you use Banter on your turn, you can target two creatures at once. If two creatures fail the saving throw against your Banter at once, both creatures gain disadvantage on all attack rolls that do not target you until the start of your next turn.</p>
-        </description>
-        <sheet>
-            <description>Whenever you use Banter on your turn, you can target two creatures at once. If two creatures fail the saving throw against your Banter at once, both creatures gain disadvantage on all attack rolls that do not target you until the start of your next turn.</description>
+            <description>You automatically score a critical hit with your Counter-Attack if the target rolled a 1 on the triggering attack roll. Furthermore, the creature has disadvantage on the next saving throw it makes before the end of your next turn.</description>
         </sheet>
     </element>
     <element name="Final Warning" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_OFFICER_FINAL_WARNING">
         <description>
-            <p>At 18th level, you can give your opponents a chance to back away before things get ugly. When rolling initiative, you can give a number of creatures up to your Charisma modifier that you can see within 60 feet of you a chance to leave combat before it even begins. If a creature cannot hear or understand you, they are unaffected by this ability. You also cannot use this ability if you are surprised.</p>
-            <p class="indent">If a creature refuses to surrender, they must make a Wisdom saving throw against your fencing save DC. On a failed save, the creature rolls its initiative with disadvantage. Once you use this ability, you must complete a short or long rest to use it again.</p>
+            <p>At 18th level, you can give your opponents a chance to back away before things get ugly. Whenever you roll for initiative, you can give a number of creatures up to your Charisma modifier (minimum of 1) that you can see within 60 feet of you a chance to leave combat before it even begins.</p>
+            <p class="indent">You can target each creature that refuses to surrender with your Banter. When you use your Banter this way, creatures that fail the saving throw against it must roll their initiative with disadvantage, and they cannot end the effects of your Banter by damaging you.</p>
+            <p class="indent">Creatures that cannot see or hear you are unaffected by this feature. You also cannot use this feature if you are surprised.</p>
+            <p class="indent">Once you use this feature, you cannot use it again until you complete a short or long rest.</p>
         </description>
-        <sheet>
-            <description>When rolling initiative, you can give a number of creatures up to your Charisma modifier that you can see within 60 feet of you a chance to leave combat before it even begins. If a creature cannot hear or understand you, they are unaffected by this ability. You also cannot use this ability if you are surprised. If a creature refuses to surrender, they must make a Wisdom saving throw against your fencing save DC. On a failed save, the creature rolls its initiative with disadvantage. Once you use this ability, you must complete a short or long rest to use it again.</description>
+        <sheet usage="Short/Long Rest">
+            <description>Whenever you roll for initiative, you can give a number of creatures up to your Charisma modifier (minimum of 1) that you can see within 60 feet of you a chance to leave combat before it even begins. You can target each creature that refuses to surrender with your Banter. When you use your Banter this way, creatures that fail the saving throw against it must roll their initiative with disadvantage, and they cannot end the effects of your Banter by damaging you. Creatures that cannot see or hear you are unaffected by this feature. You also cannot use this feature if you are surprised.</description>
         </sheet>
     </element>
     
@@ -508,15 +510,10 @@
     </element>
     <element name="Bloodthirsty Technique" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_PIRATE_BLOODTHIRSTY_TECHNIQUE">
         <description>
-            <p>When you choose this code at 3rd level, you rush into combat like a shark to blood in the water. If you are not wearing medium or heavy armor and are not wielding a shield, you gain the following benefits:</p>
-            <ul>
-                <li><strong>Backlash.</strong> If you score a critical hit with a Counter-Attack, you deal slashing damage equal to a roll of your Fencing die to all hostile creatures within 5 feet of you, not including the target of your Counter-Attack.</li>
-                <li><strong>Bloodlust.</strong> You can give yourself a bonus to your initiative rolls equal to your Charisma modifier.</li>
-                <li><strong>Full Sail.</strong> Your movement speed is increased by 10 feet while you are wielding a finesse weapon in each hand.</li>
-            </ul>
+            <p>When you choose this manifestation at 3rd level, you take to combat like a shark to blood in the water. Whenever you hit a creature with a melee attack using a finesse weapon, you can attempt to damage another creature with the same attack. Choose another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to a roll of your Fencing die. The damage is of the same type dealt by the original attack. </p>
         </description>
         <sheet>
-            <description>If you are not wearing medium or heavy armor and are not wielding a shield, you gain the following benefits: Backlash, If you score a critical hit with a Counter-Attack, you deal slashing damage equal to a roll of your Fencing die to all hostile creatures within 5 feet of you, not including the target of your Counter-Attack; Bloodlust, You can give yourself a bonus to your initiative rolls equal to your Charisma modifier; Full Sail, Your movement speed is increased by 10 feet while you are wielding a finesse weapon in each hand.</description>
+            <description>Whenever you hit a creature with a melee attack using a finesse weapon, you can attempt to damage another creature with the same attack. Choose another creature within 5 feet of the original target and within your reach. If the original attack roll would hit the second creature, it takes damage equal to a roll of your Fencing die. The damage is of the same type dealt by the original attack.</description>
         </sheet>
     </element>
     <element name="Seafarer" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_PIRATE_SEAFARER">
@@ -533,8 +530,7 @@
     </element>
     <element name="Pet Parrot" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_PIRATE_PET_PARROT">
         <description>
-            <p>At 9th level, you can cast Find Familiar at will to summon a parrot. The parrot's stats are the same as those of a raven, but the parrot has a superior form of the raven's Mimicry, as it can perfectly mimic any sound it has heard, including voices. A creature that hears the sounds of your parrot can tell they are imitations if they succeed a Wisdom saving throw against your fencing save DC.</p>
-            <p class="indent">The parrot has also been trained as a lookout, giving it a passive perception of 15 plus your Charisma modifier (minimum of 16 passive perception).</p>
+            <p>At 9th level, you can cast Find Familiar at will to summon a parrot. The parrot's stats are the same as those of a raven, but the parrot has a superior form of the raven's Mimicry, as it can perfectly mimic any sound it has heard, including voices. A creature that hears the sounds of your parrot can tell they are imitations if they succeed a Wisdom saving throw against your fencing save DC. The parrot has also been trained as a lookout, giving it a passive perception of 15 plus your Charisma modifier (minimum of 16 passive perception). </p>
         </description>
         <sheet>
             <description>You can cast Find Familiar at will to summon a parrot. The parrot's stats are the same as those of a raven, but the parrot has a superior form of the raven's Mimicry, as it can perfectly mimic any sound it has heard, including voices. A creature that hears the sounds of your parrot can tell they are imitations if they succeed a Wisdom saving throw against your fencing save DC. The parrot has also been trained as a lookout, giving it a passive perception of 15 plus your Charisma modifier (minimum of 16 passive perception).</description>
@@ -542,19 +538,20 @@
     </element>
     <element name="Armed to the Teeth" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_PIRATE_ARMED_TO_THE_TEETH">
         <description>
-            <p>At 13th level, you're never so foolish as to be caught unarmed. In combat, if you are wearing light armor and have at least one free hand, you can use a bonus action to draw a dagger from a hidden compartment in your armor, such as your boot or up your sleeve. When you draw a dagger this way, it deals extra damage equal to a roll of your Fencing die until the start of your next turn. Daggers drawn this way are lost at the end of combat.</p>
+            <p>At 13th level, you're never so foolish as to be caught unarmed. Whenever you roll initiative while wearing armor, you gain a number of daggers equal to your Charisma modifier (minimum of 1). These daggers are stowed on your person in hidden compartments throughout your armor, such as up your sleave or in your boot. You can draw one of these daggers as part of a Counter-Attack you make with it, causing the Counter-Attack to be made with advantage. These daggers are lost at the end of combat.</p>
         </description>
         <sheet>
-            <description>In combat, if you are wearing light armor and have at least one free hand, you can use a bonus action to draw a dagger from a hidden compartment in your armor, such as your boot or up your sleeve. When you draw a dagger this way, it deals extra damage equal to a roll of your Fencing die until the start of your next turn. Daggers drawn this way are lost at the end of combat.</description>
+            <description>Whenever you roll initiative while wearing armor, you gain a number of daggers equal to your Charisma modifier (minimum of 1). These daggers are stowed on your person in hidden compartments throughout your armor, such as up your sleave or in your boot. You can draw one of these daggers as part of a Counter-Attack you make with it, causing the Counter-Attack to be made with advantage. These daggers are lost at the end of combat.</description>
         </sheet>
     </element>
     <element name="Knifepoint" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_PIRATE_KNIFEPOINT">
         <description>
-            <p>At 18th level, whenever you hit a creature with a Counter-Attack, you can force them to make a Dexterity saving throw against your fencing save DC if they are within 5 feet of you and no more than one size larger than you.</p>
-            <p class="indent">On a failed save, you hold your weapon within an inch of the creature's vitals, causing them to be grappled by you until the end of your next turn. Your movement speed is not halved due to this grapple, allowing you to easily force the creature into hazards they would normally avoid, such as off of a high ledge or into a blazing inferno. You can stop holding the creature at knifepoint at any time during your turn.</p>
+            <p>At 18th level, whenever you hit a creature with a Counter-Attack, you can force them to make a Dexterity saving throw against your fencing save DC if they are within 5 feet of you and no more than one size larger than you. On a failed save, you hold your weapon within an inch of the creature's vitals, causing them to be grappled by you. </p>
+            <p class="indent">To escape this grapple, the creature must make another Dexterity saving throw against your fencing save DC as an action on their turn. On a successful save, the creature escapes the grapple. On a failed save, you can target the creature with a Counter-Attack without expending a reaction.</p>
+            <p class="indent">Your movement speed is not halved due to this grapple, allowing you to easily force the creature into hazards they would normally avoid, such as off of a high ledge or into a blazing inferno.</p>
         </description>
         <sheet>
-            <description>Whenever you hit a creature with a Counter-Attack, you can force them to make a Dexterity saving throw against your fencing save DC if they are within 5 feet of you and no more than one size larger than you. On a failed save, you hold your weapon within an inch of the creature's vitals, causing them to be grappled by you until the end of your next turn. Your movement speed is not halved due to this grapple, allowing you to easily force the creature into hazards they would normally avoid, such as off of a high ledge or into a blazing inferno. You can stop holding the creature at knifepoint at any time during your turn.</description>
+            <description>Whenever you hit a creature with a Counter-Attack, you can force them to make a Dexterity saving throw against your fencing save DC if they are within 5 feet of you and no more than one size larger than you. On a failed save, you hold your weapon within an inch of the creature's vitals, causing them to be grappled by you. To escape this grapple, the creature must make another Dexterity saving throw against your fencing save DC as an action on their turn. On a successful save, the creature escapes the grapple. On a failed save, you can target the creature with a Counter-Attack without expending a reaction. Your movement speed is not halved due to this grapple, allowing you to easily force the creature into hazards they would normally avoid, such as off of a high ledge or into a blazing inferno.</description>
         </sheet>
     </element>
 
@@ -565,7 +562,7 @@
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_SPELLSWORD_SORCEROUS_TECHNIQUE" />
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_SPELLSWORD_RECALL" />
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_SPELLSWORD_ARCANE_ARTISAN" />
-            <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_SPELLSWORD_ATTUNEMENT_AGILITY" />
+            <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_SPELLSWORD_DYNAMO" />
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_SPELLSWORD_MARTIAL_RESTORATION" />
         </description>
         <sheet display="false" />
@@ -573,25 +570,24 @@
             <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_SPELLSWORD_SORCEROUS_TECHNIQUE" level="3" />
             <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_SPELLSWORD_RECALL" level="3" />
             <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_SPELLSWORD_ARCANE_ARTISAN" level="9" />
-            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_SPELLSWORD_ATTUNEMENT_AGILITY" level="13" />
-            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_SPELLSWORD_MARTIAL_RESTORATION" level="18" />
+            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_SPELLSWORD_DYNAMO" level="13" />
+            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_SPELLSWORD_SIGNATURE_MOVE" level="18" />
         </rules>
     </element>
     <element name="Sorcerous Technique" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_SPELLSWORD_SORCEROUS_TECHNIQUE">
         <description>
-            <p>When you choose this code at 3rd level, you have innate magical abilities that you use to enhance your combat techniques. You can use Charisma as your ability modifier for attack rolls with finesse weapons.</p>
-            <p class="indent">You have a number of spellsword points equal to half of your buccaneer level, rounded up. These points can be spent to perform martial metamagic. You regain all expended spellsword points once you complete a short or long rest. You learn 2 martial metamagic options, detailed under "Martial Metamagic" below. You learn an additional option at 9th, 13th, and 18th buccaneer level.</p>
+            <p>When you choose this code at 3rd level, you unlock innate magical abilities that you use to enhance your combat techniques. You have a number of spellsword points equal to half of your buccaneer level, rounded up. These points can be spent to perform martial metamagic. You regain all expended spellsword points once you complete a short or long rest. You learn 2 martial metamagic options, detailed under "Martial Metamagic" below. You learn an additional option at 9th, 13th, and 18th buccaneer level.</p>
             <p class="indent">When you gain a level in this class, you can choose one of the martial metamagic options you know and replace it with another martial metamagic option.</p>
         </description>
-        <sheet>
+        <sheet usage="{{spellsword points}}/Short or Long Rest">
             <description>You have {{spellsword points}} spellsword points. These points can be spent to perform martial metamagic. You regain all expended spellsword points once you complete a short or long rest.</description>
         </sheet>
         <rules>
             <stat name="spellsword points" value="level:buccaneer:half:up" />
-            <select type="Archetype Feature" name="Marital Metamagic" supports="Martial Metamagic" number="2" />
-            <select type="Archetype Feature" name="Marital Metamagic" supports="Martial Metamagic" level="9" />
-            <select type="Archetype Feature" name="Marital Metamagic" supports="Martial Metamagic" level="13" />
-            <select type="Archetype Feature" name="Marital Metamagic" supports="Martial Metamagic" level="18" />
+            <select type="Archetype Feature" name="Martial Metamagic (level 3)" supports="Martial Metamagic" number="2" />
+            <select type="Archetype Feature" name="Martial Metamagic (level 9)" supports="Martial Metamagic" level="9" />
+            <select type="Archetype Feature" name="Martial Metamagic (level 13)" supports="Martial Metamagic" level="13" />
+            <select type="Archetype Feature" name="Martial Metamagic (level 18)" supports="Martial Metamagic" level="18" />
         </rules>
     </element>
     <element name="Recall" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_SPELLSWORD_RECALL">
@@ -610,22 +606,47 @@
             <description>You can use an action to enchant a set of artisan's tools, granting you proficiency with them for 10 minutes. Regardless of what set of tools you choose, you use Charisma as your ability modifier when performing checks with tools affected by this ability. Once you use this ability, you must complete a short or long rest to use it again.</description>
         </sheet>
     </element>
-    <element name="Attunement Agility" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_SPELLSWORD_ATTUNEMENT_AGILITY">
+    <element name="Dynamo" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_SPELLSWORD_DYNAMO">
         <description>
-            <p>Starting at 13th level, magical energy propels you forward. Your movement speed and jumping distance each increase by 5 feet while you are attuned to at least one magic item.</p>
+            <p>At 13th level, your magic propels you forward. Whenever you spend a spellsword point on your turn, your movement speed increases by 10 feet until the end of the turn.</p>
         </description>
         <sheet>
-            <description>Your movement speed and jumping distance each increase by 5 feet while you are attuned to at least one magic item.</description>
+            <description>Whenever you spend a spellsword point on your turn, your movement speed increases by 10 feet until the end of the turn.</description>
         </sheet>
     </element>
-    <element name="Martial Restoration" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_SPELLSWORD_MARTIAL_RESTORATION">
+    <element name="Signature Move" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_SPELLSWORD_SIGNATURE_MOVE">
         <description>
-            <p>At 18th level, you regain a single spellsword point when you reduce a creature's hit points to zero.</p>
+            <p>At 18th level, you have mastered your arcane abilities, allowing you to use them regularly and reliably. Choose one martial metamagic you know. That martial metamagic no longer costs you any spellsword points to use.</p>
         </description>
         <sheet>
-            <description>At 18th level, you regain a single spellsword point when you reduce a creature's hit points to zero.</description>
+            <description>This martial metamagic no longer costs you any spellsword points to use:</description>
         </sheet>
+        <rules>
+            <select type="Archetype Feature" name="Signature Move" supports="Signature Move" />
+        </rules>
     </element>
+    <element name="Afterimage" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_SIGNATURE_METAMAGIC_AFTERIMAGE">
+        <supports>Signature Move</supports>
+    </element>
+    <element name="Blue Blade" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_SIGNATURE_METAMAGIC_BLUE_BLADE">
+        <supports>Signature Move</supports>
+    </element>
+    <element name="Homebound" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_SIGNATURE_METAMAGIC_HOMEBOUND">
+        <supports>Signature Move</supports>
+    </element>
+    <element name="Homing Throw" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_SIGNATURE_METAMAGIC_HOMING_THROW">
+        <supports>Signature Move</supports>
+    </element>
+    <element name="Invisible Staircase" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_SIGNATURE_METAMAGIC_INVISIBLE_STAIRCASE">
+        <supports>Signature Move</supports>
+    </element>
+    <element name="Moonlight Slice" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_SIGNATURE_METAMAGIC_MOONLIGHT_SLICE">
+        <supports>Signature Move</supports>
+    </element>
+    <element name="Shift" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_SIGNATURE_METAMAGIC_SHIFT">
+        <supports>Signature Move</supports>
+    </element>
+
     <!-- Metamagic Martial -->
     <element name="Afterimage" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_BUCCANEER_MARTIAL_METAMAGIC_AFTERIMAGE">
         <supports>Martial Metamagic</supports>
@@ -696,7 +717,7 @@
         <description>
             <p>In a line of business where it's easy to get double-crossed, treasure hunters live by the code of honor amongst thieves. Ancient artifacts, lost expeditions, and hidden troves fascinate them. Just don't cut them out of a deal.</p>
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_TREASURE_HUNTER_LUCKY_TECHNIQUE" />
-            <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_TREASURE_HUNTER_GLOBE_TROTTER" />
+            <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_TREASURE_HUNTER_GLOBETROTTER" />
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_TREASURE_HUNTER_DELVER_AND_DISCOVER" />
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_TREASURE_HUNTER_UNDERHANDED_TACTICS" />
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_TREASURE_HUNTER_GAMBIT" />
@@ -704,7 +725,7 @@
         <sheet display="false" />
         <rules>
             <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_TREASURE_HUNTER_LUCKY_TECHNIQUE" level="3" />
-            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_TREASURE_HUNTER_GLOBE_TROTTER" level="3" />
+            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_TREASURE_HUNTER_GLOBETROTTER" level="3" />
             <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_TREASURE_HUNTER_DELVER_AND_DISCOVER" level="9" />
             <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_TREASURE_HUNTER_UNDERHANDED_TACTICS" level="13" />
             <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_TREASURE_HUNTER_GAMBIT" level="18" />
@@ -712,53 +733,52 @@
     </element>
     <element name="Lucky Technique" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_TREASURE_HUNTER_LUCKY_TECHNIQUE">
         <description>
-            <p>When you choose this code at 3rd level, by all rights, something definitely should have killed you by now. If you are not wearing medium or heavy armor and are not wielding a shield, you gain the following benefits:</p>
-            <ul>
-                <li><strong>Lucky Miss.</strong> When you roll a 1 on a melee attack roll with a finesse weapon, you can deal slashing damage equal to a roll of your Fencing die to the target.</li>
-                <li><strong>Not Today.</strong> Whenever you end your turn without having attacked a creature or cast a spell, you automatically gain the benefits of the Dodge action.</li>
-                <li><strong>Trailblazer.</strong> Whenever you end your turn without having attacked a creature or cast a spell, you automatically gain the benefits of the Dodge action.</li>
-            </ul>
+            <p>When you choose this code at 3rd level, by all rights, something ought to have killed you by now. Whenever you end your turn without having targeted any creatures with attacks, spells, or harmful effects, you automatically gain the benefits of the Dodge action, and gain advantage on any Counter-Attack you make before the start of your next turn.</p>
+            <p class="indent">Additionally, you have a knack for making the best of a bad situation. Whenever you roll a 1 on a melee attack roll with a finesse weapon, you can still deal damage equal to a roll of your Fencing die to the target.</p>
         </description>
         <sheet>
-            <description>If you are not wearing medium or heavy armor and are not wielding a shield, you gain the following benefits: Lucky Miss, When you roll a 1 on a melee attack roll with a finesse weapon, you can deal slashing damage equal to a roll of your Fencing die to the target; Not Today, Whenever you end your turn without having attacked a creature or cast a spell, you automatically gain the benefits of the Dodge action; Trailblazer, Whenever you end your turn without having attacked a creature or cast a spell, you automatically gain the benefits of the Dodge action.</description>
+            <description>Whenever you end your turn without having targeted any creatures with attacks, spells, or harmful effects, you automatically gain the benefits of the Dodge action, and gain advantage on any Counter-Attack you make before the start of your next turn. Additionally, you have a knack for making the best of a bad situation. Whenever you roll a 1 on a melee attack roll with a finesse weapon, you can still deal damage equal to a roll of your Fencing die to the target.</description>
         </sheet>
     </element>
-    <element name="Globe Trotter" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_TREASURE_HUNTER_GLOBE_TROTTER">
+    <element name="Globetrotter" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_TREASURE_HUNTER_GLOBETROTTER">
         <description>
-            <p>Also at 3rd level, you gain proficiency with Cartographer's Tools if you did not have it already. You can use an action to determine the worth of a valuable item you can see, such as a gemstone, an artifact, or a piece of precious metal.</p>
+            <p>Also at 3rd level, exploring the far corners of the world requires you to be ready for anything. You gain proficiency with Cartographer's Tools if you did not have it already. Additionally, while you are not wearing heavy armor, you gain a climbing and swimming speed of 20 feet.</p>
         </description>
         <sheet action="Action">
-            <description>You can use an action to determine the worth of a valuable item you can see, such as a gemstone, an artifact, or a piece of precious metal.</description>
+            <description>While you are not wearing heavy armor, you gain a climbing and swimming speed of 20 feet.</description>
         </sheet>
         <rules>
             <grant type="Proficiency" id="ID_PROFICIENCY_TOOL_PROFICIENCY_CARTOGRAPHERS_TOOLS" />
+            <stat name="innate speed:climb" value="20" requirements="![armor:heavy],[shield:none]" />
+            <stat name="innate speed:swim" value="20" requirements="![armor:heavy],[shield:none]" />
         </rules>
     </element>
     <element name="Delver and Discover" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_TREASURE_HUNTER_DELVER_AND_DISCOVER">
         <description>
-            <p>At 9th level, you excel at unearthing secrets and mysteries considered lost to the sands of time. You can add your Charisma modifier to any Intelligence (Investigation) or Intelligence (History) check you make.</p>
+            <p>At 9th level, you excel at unearthing secrets and mysteries considered lost to the sands of time. You can add your Charisma modifier to any Intelligence (Investigation) or Intelligence (History) check you make. </p>
             <p class="indent">Additionally, you are familiar with most languages, even if you haven't studied them extensively. You can identify what language a piece of writing is in, even if you do not know how to read or speak that language.</p>
-            <p class="indent">If you rack your brain, you can come up with translations for languages on the fly. You can make a DC 10 Intelligence (History) check to become proficient with a language of your choice for 1 minute. Each time you use this feature after the first, the DC increases by 5. Once you complete a short or long rest, the DC resets to 10.</p>
+            <p class="indent">If you rack your brain, you can come up with translations for languages on the fly. You can make a DC 10 Intelligence (History) check to become proficient with a language of your choice for 1 minute.</p>
+            <p class="indent">Each time that you attempt this Intelligence check after the first, the DC for the check increases by 5. Once you complete a short or long rest, the DC resets to 10.</p>
         </description>
         <sheet>
-            <description>You can add your Charisma modifier to any Intelligence (Investigation) or Intelligence (History) check you make. You can identify what language a piece of writing is in, even if you do not know how to read or speak that language. If you rack your brain, you can come up with translations for languages on the fly. You can make a DC 10 Intelligence (History) check to become proficient with a language of your choice for 1 minute. Each time you use this feature after the first, the DC increases by 5. Once you complete a short or long rest, the DC resets to 10.</description>
+            <description>You can add your Charisma modifier to any Intelligence (Investigation) or Intelligence (History) check you make. Additionally, you are familiar with most languages, even if you haven't studied them extensively. You can identify what language a piece of writing is in, even if you do not know how to read or speak that language. If you rack your brain, you can come up with translations for languages on the fly. You can make a DC 10 Intelligence (History) check to become proficient with a language of your choice for 1 minute. Each time that you attempt this Intelligence check after the first, the DC for the check increases by 5. Once you complete a short or long rest, the DC resets to 10.</description>
         </sheet>
     </element>
     <element name="Underhanded Tactics" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_TREASURE_HUNTER_UNDERHANDED_TACTICS">
         <description>
             <p>At 13th level, you aren't afraid to fight dirty when you have to. You can make a Dexterity (Acrobatics) check instead of a Strength (Athletics) check when attempting to grapple or shove a creature. This represents moves that deftly throw the target off balance without overpowering them, such as knocking a creature prone by tripping them with your foot or grappling a creature by twisting their arm behind their back.</p>
-            <p class="indent">Additionally, you can use a reaction when a creature misses you with a melee attack to attempt to grapple or shove the creature if they are within 5 feet of you.</p>
+            <p class="indent">Additionally, after you hit a creature with a Counter-Attack, you attempt to grapple or shove the creature as part of the same reaction if they are within 5 feet of you.</p>
         </description>
         <sheet>
-            <description>You can make a Dexterity (Acrobatics) check instead of a Strength (Athletics) check when attempting to grapple or shove a creature. This represents moves that deftly throw the target off balance without overpowering them, such as knocking a creature prone by tripping them with your foot or grappling a creature by twisting their arm behind their back. Additionally, you can use a reaction when a creature misses you with a melee attack to attempt to grapple or shove the creature if they are within 5 feet of you.</description>
+            <description>You can make a Dexterity (Acrobatics) check instead of a Strength (Athletics) check when attempting to grapple or shove a creature. This represents moves that deftly throw the target off balance without overpowering them, such as knocking a creature prone by tripping them with your foot or grappling a creature by twisting their arm behind their back. Additionally, after you hit a creature with a Counter-Attack, you attempt to grapple or shove the creature as part of the same reaction if they are within 5 feet of you.</description>
         </sheet>
     </element>
     <element name="Gambit" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_TREASURE_HUNTER_GAMBIT">
         <description>
-            <p>Starting at 18th level, you know that it's all in the timing. Whenever you end your turn without having attacked a creature or cast a spell, then you can regain your reaction whenever you successfully land a Counter-Attack until the start of your next turn.</p>
+            <p>Starting at 18th level, you know that it's all in the timing. If you end your turn without having targeted any creatures with attacks, spells, or harmful effects, then you can regain your reaction whenever you successfully land a Counter-Attack until the start of your next turn.</p>
         </description>
         <sheet>
-            <description> Whenever you end your turn without having attacked a creature or cast a spell, then you can regain your reaction whenever you successfully land a Counter-Attack until the start of your next turn.</description>
+            <description>If you end your turn without having targeted any creatures with attacks, spells, or harmful effects, then you can regain your reaction whenever you successfully land a Counter-Attack until the start of your next turn.</description>
         </sheet>
     </element>
 
@@ -767,29 +787,40 @@
         <description>
             <p>For a musketeer, a sword is just a side-arm. Their code demands that they be polite, efficient, and have a plan to kill everyone they meet... just in case.</p>
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_MUSKETEER_MARKSMANS_TECHNIQUE" />
-            <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_MUSKETEER_BACKUP_PLAN" />
+            <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_MUSKETEER_GUNSMITHING" />
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_MUSKETEER_TRICKSHOT" />
             <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_MUSKETEER_RETURN_FIRE" />
-            <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_MUSKETEER_GUNPOWDER_AND_STEEL" />
+            <div element="ID_TANDRABOY_ARCHETYPE_FEATURE_MUSKETEER_BLUNDERBUSS" />
         </description>
         <sheet display="false" />
         <rules>
             <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_MUSKETEER_MARKSMANS_TECHNIQUE" level="3" />
-            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_MUSKETEER_BACKUP_PLAN" level="3" />
+            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_MUSKETEER_GUNSMITHING" level="3" />
             <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_MUSKETEER_TRICKSHOT" level="9" />
             <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_MUSKETEER_RETURN_FIRE" level="13" />
-            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_MUSKETEER_GUNPOWDER_AND_STEEL" level="18" />
+            <grant type="Archetype Feature" id="ID_TANDRABOY_ARCHETYPE_FEATURE_MUSKETEER_BLUNDERBUSS" level="18" />
         </rules>
     </element>
     <element name="Marksman's Technique" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_MUSKETEER_MARKSMANS_TECHNIQUE">
         <description>
-            <p>When you choose this code at 3rd level, you have been trained in the use of ballistic weapons. You gain proficiency with the renaissance firearms described in chapter 9 of the Dungeon Master's Guide. If you are not wearing medium or heavy armor and are not wielding a shield, you gain the following benefits:</p>
+            <p>When you choose this code at 3rd level, your experience with ballistic weapons grants you proficiency with the renaissance firearms described in chapter 9 of the Dungeon Master's Guide. Additionally, you gain the following benefits:</p>
             <ul>
                 <li><strong>Bayonet.</strong> You can treat renaissance firearms as finesse melee weapons that deal 1d6 piercing damage. When used as melee weapons, pistols have the light property, and muskets have the reach property.</li>
                 <li><strong>One-Liner.</strong> If a creature fails the saving throw against your Banter, you gain advantage on the next ranged attack you make against them before the end of your next turn.</li>
                 <li><strong>Quickdraw.</strong> Whenever you draw or stow a weapon, you can draw or stow a renaissance firearm as well.</li>
             </ul>
-            <p class="indent">You gain proficiency with Tinkerer's Tools if you didn't have it already. By investing time and money, you can use Tinkerer's Tools to craft firearms.</p>
+        </description>
+        <sheet>
+            <description>You gain proficiency with renaissance firearms. You gain the following benefits: Bayonet, You can treat renaissance firearms as finesse melee weapons that deal 1d6 piercing damage. When used as melee weapons, pistols have the light property, and muskets have the reach property; One-Liner, If a creature fails the saving throw against your Banter, you gain advantage on the next ranged attack you make against them before the end of your next turn; Quickdraw, Whenever you draw or stow a weapon, you can draw or stow a renaissance firearm as well. If a creature fails the saving throw against your Banter, you gain advantage on the next ranged attack you make against them before the end of your next turn.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_RENAISSANCE_FIREARMS_PISTOL" />
+            <grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_RENAISSANCE_FIREARMS_MUSKET" />
+        </rules>
+    </element>
+    <element name="Gunsmithing" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_MUSKETEER_GUNSMITHING">
+        <description>
+            <p class="indent">Also at 3rd level, you gain proficiency with Tinkerer's Tools if you didn't have it already. By investing time and money, you can use Tinkerer's Tools to craft firearms.</p>
             <table>
                 <thead>
                     <tr><td>Firearm/Ammo</td><td>Crafting Time</td><td>Materials Cost</td></tr>
@@ -804,28 +835,15 @@
             </div>
         </description>
         <sheet>
-            <description>You gain proficiency with renaissance firearms. If you are not wearing medium or heavy armor and are not wielding a shield, you gain the following benefits: Bayonet, You can treat renaissance firearms as finesse melee weapons that deal 1d6 piercing damage. When used as melee weapons, pistols have the light property, and muskets have the reach property; One-Liner, If a creature fails the saving throw against your Banter, you gain advantage on the next ranged attack you make against them before the end of your next turn; Quickdraw, Whenever you draw or stow a weapon, you can draw or stow a renaissance firearm as well. If a creature fails the saving throw against your Banter, you gain advantage on the next ranged attack you make against them before the end of your next turn.</description>
-        </sheet>
-        <rules>
-            <grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_RENAISSANCE_FIREARMS_PISTOL" />
-            <grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_RENAISSANCE_FIREARMS_MUSKET" />
-        </rules>
-    </element>
-    <element name="Backup Plan" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_MUSKETEER_BACKUP_PLAN">
-        <description>
-            <p>Also at 3rd level, you always have a contingency for when things go wrong. When you finish a long rest, roll a d20 and record the value rolled. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with this roll. You can use this ability after making the initial roll, but before the outcome of the roll is determined.</p>
-            <p class="indent">Your backup plan roll can only be used once. When you finish a long rest, you lose your previous backup plan roll.</p>
-        </description>
-        <sheet>
-            <description>When you finish a long rest, roll a d20 and record the value rolled. You can replace any attack roll, saving throw, or ability check made by you or a creature that you can see with this roll. You can use this ability after making the initial roll, but before the outcome of the roll is determined. Your backup plan roll can only be used once. When you finish a long rest, you lose your previous backup plan roll.</description>
+            <description>You can use Tinkerer's Tools to craft firearms.</description>
         </sheet>
     </element>
     <element name="Trickshot" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_MUSKETEER_TRICKSHOT">
         <description>
-            <p>At 9th level, you can ricochet bullets between your enemies. Once per turn when you score a critical hit against a creature with a ranged attack using a renaissance firearm, you can immediately make another attack roll with the same weapon against a creature within 30 feet of your initial target.</p>
+            <p>At 9th level, you can ricochet bullets between your enemies. If you have advantage on a ranged attack you make with a renaissance firearm, you can choose to forgo that advantage. If you still hit your target, you can make another ranged attack with the same weapon against a new target within 30 feet of the initial target. You can ignore the weapon's loading property for this secondary attack.</p>
         </description>
         <sheet>
-            <description>Once per turn when you score a critical hit against a creature with a ranged attack using a renaissance firearm, you can immediately make another attack roll with the same weapon against a creature within 30 feet of your initial target.</description>
+            <description>If you have advantage on a ranged attack you make with a renaissance firearm, you can choose to forgo that advantage. If you still hit your target, you can make another ranged attack with the same weapon against a new target within 30 feet of the initial target. You can ignore the weapon's loading property for this secondary attack.</description>
         </sheet>
     </element>
     <element name="Return Fire" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_MUSKETEER_RETURN_FIRE">
@@ -836,13 +854,12 @@
             <description>You can fire back at your enemies with ranged Counter-Attacks using renaissance firearms. Creatures provoke a ranged Counter-Attack from you when they miss you with a ranged attack.</description>
         </sheet>
     </element>
-    <element name="Gunpowder and Steel" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_MUSKETEER_GUNPOWDER_AND_STEEL">
+    <element name="Blunderbuss" type="Archetype Feature" source="/u/Tandraboy" id="ID_TANDRABOY_ARCHETYPE_FEATURE_MUSKETEER_BLUNDERBUSS">
         <description>
-            <p>At 18th level, near or far, you're always deadly. If you make a ranged attack with a renaissance firearm as part of the Attack action on your turn, you can make one melee weapon attack with a renaissance firearm as a bonus action.</p>
-            <p class="indent">Additionally, your Trickshot ability can now be used twice on each of your turns instead of once.</p>
+            <p>At 18th level, you can pack your firearms full of deadly shrapnel. As an action on your turn, you can target each creature within a 20 foot cone in front of you with an attack using a renaissance firearm you are wielding. You can ignore the weapons's loading property for each attack after the first. </p>
         </description>
-        <sheet action="Bonus Action">
-            <description>If you make a ranged attack with a renaissance firearm as part of the Attack action on your turn, you can make one melee weapon attack with a renaissance firearm as a bonus action. Additionally, your Trickshot ability can now be used twice on each of your turns instead of once.</description>
+        <sheet action="Action">
+            <description>As an action on your turn, you can target each creature within a 20 foot cone in front of you with an attack using a renaissance firearm you are wielding. You can ignore the weapons's loading property for each attack after the first.</description>
         </sheet>
     </element>
 </elements>
