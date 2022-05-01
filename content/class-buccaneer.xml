@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Buccaneer</name>
-        <update version="1.4.01">
+        <update version="1.4.02">
             <file name="class-buccaneer.xml" url="https://raw.githubusercontent.com/MeriadarGoblin/elements-tandraboy/main/content/class-buccaneer.xml" />
         </update>
     </info>
@@ -94,6 +94,18 @@
             <div element="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_REPRISAL" />
             <div element="ID_TANDRABOY_CLASS_FEATURE_BUCCANEER_FABLED_FENCER" />
         </description>
+        <multiclass id="ID_TANDRABOY_MULTICLASS_BUCCANEER">
+			<prerequisite>Dexterity 13, Charisma 13</prerequisite>
+			<requirements>[dex:13],[cha:13]</requirements>
+			<setters>
+				<set name="multiclass proficiencies">Simple weapons, rapiers</set>
+			</setters>
+            <rules>
+				<grant type="Grants" id="ID_INTERNAL_GRANT_MULTICLASS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
+				<grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_RAPIER" />
+			</rules>
+        </multiclass>
         <setters>
             <set name="hd">d10</set>
         </setters>
